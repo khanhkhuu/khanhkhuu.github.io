@@ -1,0 +1,61 @@
+/* ----------------------------- */
+/*          Custom CSS           */
+/* ----------------------------- */
+
+main.login .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    min-height: 65vh;
+    background-color: white;
+    box-shadow: var(--boxshadow);
+    border-radius: .4rem;
+    padding: 10px;
+    line-height: 2rem;
+    grid-gap: 1px;
+}
+
+main.login .container .loginform{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "title title" "l_username username" "l_password password" "button button" "error-message error-message";
+    height: fit-content;
+    grid-column-gap: 1rem;
+    grid-row-gap: 3.4rem;
+    justify-items: stretch;
+}
+
+.loginform .title{
+    grid-area: title;
+    justify-self: center;
+    padding-top: 2rem;
+}
+
+main.login .btn{
+    grid-area: button;
+}
+
+main.login .error-message{
+    grid-area: error-message;
+    justify-self: center;
+    padding-bottom: 2rem;
+}
+
+.frm-control{
+    justify-self: stretch;
+    align-self: stretch;
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+
+
+@media (max-width: 858px)
+{
+    main.login .container{
+        grid-template-columns: 1fr;
+        grid-template-areas: "sidebar";
+        grid-gap: 10px;
+    }
+}

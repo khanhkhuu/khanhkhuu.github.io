@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KStudio</title>
+    <link data-cfasync="false" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <div class="menubar"></div>
+                <div class="menubar"></div>
+                <div class="menubar"></div>
+            </label>
+            <div class="logo">KStudio</div>
+            <ul>
+                <li><a class="active">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Login</a></li>
+            </ul>
+        </div>
+    </nav>   
+    
+
+    <main class="login">
+        <div class="container">
+            <div class="loginform">
+                <h1 class="title">Login form</h1>
+                <label>Username</label>
+                <!-- <div>
+                    <input type="text" class="frm-control" spellcheck="false" placeholder="Username">
+                    <p class="invalid">There is a error occurred</p>
+                </div> -->
+                <input type="text" class="frm-control" spellcheck="false" placeholder="Username">
+                <label>Password</label>
+                <div>
+                 <input type="password" class="frm-control" spellcheck="false" placeholder="Password">
+                 <p class="invalid">There is a error occurred</p>
+                </div>
+                <input type="button" class="btn" value="Login">
+                <div class="error-message">
+                    <p class="invalid">There is a error occurred</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            All Rights Reserved.
+            Powered by Khanh Khuu.
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script data-cfasync="false" src="script.js"></script>
+</body>
+</html>
