@@ -203,7 +203,7 @@ nav .checkbtn{
     }
     #check:checked ~ label > .menubar:nth-child(1){
         transform-origin: center top;
-        transform: rotate(-405deg) translateY(50%);
+        transform: translateY(.9rem) rotate(-405deg);
     }
     #check:checked ~ label > .menubar:nth-child(2){
         transform:  scaleX(1.2) translateX(-40vw);
@@ -211,7 +211,7 @@ nav .checkbtn{
     }
     #check:checked ~ label > .menubar:nth-child(3){
         transform-origin: center bottom;
-        transform: rotate(405deg) translateY(-50%);
+        transform: translateY(.9rem) rotate(405deg);
     }
 }
 
