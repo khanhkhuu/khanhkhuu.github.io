@@ -1,14 +1,3 @@
-// =========================================================================
-// CẤU HÌNH GITHUB REPO
-// Nếu để trống '', code sẽ tự nhận diện từ URL <username>.github.io/<repo>
-// Nếu bạn dùng tên miền riêng hoặc test ở máy cá nhân (localhost), hãy điền vào đây:
-// =========================================================================
-const CONFIG = {
-  githubUser: 'khanhkhuu', // Ví dụ: 'nguyenvana'
-  githubRepo: 'khanhkhuu.github.io', // Ví dụ: 'trac-nghiem-online'
-  branch: 'main'  // Nhánh mặc định trên GitHub (thường là 'main' hoặc 'master')
-};
-
 function getRepoInfo() {
   if (CONFIG.githubUser && CONFIG.githubRepo) {
     return { owner: CONFIG.githubUser, repo: CONFIG.githubRepo };
@@ -156,7 +145,8 @@ let state = {
   maxStreak: 0,
   correctCount: 0,
   wrongHistory: [],
-  answered: false
+  answered: false,
+  autoNextTimer: null
 };
 
 function showScreen(id) {
@@ -179,7 +169,7 @@ async function fetchGitHubContents(subPath = '') {
   const repoInfo = getRepoInfo();
   if (!repoInfo) {
     throw new Error(
-      'Không tự nhận diện được GitHub Repo. Hãy mở file app.js và điền githubUser + githubRepo vào mục CONFIG.'
+      'Không tự nhận diện được GitHub Repo. Hãy mở file config.js và điền githubUser + githubRepo vào mục CONFIG.'
     );
   }
   const encodedPath = subPath
@@ -340,7 +330,24 @@ function setupQuizRun() {
   renderQuestion();
 }
 
+function clearAutoNext() {
+  if (state.autoNextTimer) {
+    clearTimeout(state.autoNextTimer);
+    state.autoNextTimer = null;
+  }
+}
+
+function scheduleAutoNext(isCorrect) {
+  clearAutoNext();
+  const delay = isCorrect ? CONFIG.autoNextCorrectMs : CONFIG.autoNextWrongMs;
+  state.autoNextTimer = setTimeout(() => {
+    state.autoNextTimer = null;
+    nextQuestion();
+  }, delay);
+}
+
 function renderQuestion() {
+  clearAutoNext();
   state.answered = false;
   document.getElementById('feedbackBanner').classList.add('hidden');
 
@@ -431,9 +438,12 @@ function handleAnswer(selectedIdx, selectedBtn) {
 
   const isLast = state.currentIndex === state.questions.length - 1;
   document.getElementById('nextBtn').textContent = isLast ? 'Xem kết quả 🏆' : 'Câu tiếp theo ➔';
+
+  scheduleAutoNext(chosenOption.isCorrect);
 }
 
 function nextQuestion() {
+  clearAutoNext();
   if (state.currentIndex < state.questions.length - 1) {
     state.currentIndex += 1;
     renderQuestion();
