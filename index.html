@@ -1,1 +1,139 @@
-Index
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WayQuiz - Trắc Nghiệm Trực Tuyến</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Thanh điều hướng trên cùng -->
+  <header class="topbar">
+    <div class="brand" onclick="goHome()">
+      <span class="logo-badge">W</span>
+      <span class="brand-name">WayQuiz</span>
+    </div>
+    <div class="top-actions">
+      <button id="soundToggle" class="icon-btn" title="Bật/Tắt âm thanh">🔊 Âm thanh: Bật</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- MÀN HÌNH 1: CHỌN MÔN HỌC & ĐỀ THI -->
+    <section id="homeScreen" class="screen active">
+      <div class="hero-box">
+        <h1>Chọn môn học & đề luyện tập</h1>
+        <p>Dữ liệu tự động đồng bộ từ thư mục <code>/content</code> trên GitHub</p>
+      </div>
+
+      <div class="breadcrumb" id="breadcrumb">
+        <span class="crumb active" onclick="loadSubjects()">📚 Danh sách môn học</span>
+      </div>
+
+      <!-- Tùy chọn trước khi vào thi -->
+      <div id="quizOptionsBar" class="options-bar hidden">
+        <label class="toggle-chip">
+          <input type="checkbox" id="shuffleQuestions" />
+          <span>🔀 Trộn câu hỏi</span>
+        </label>
+        <label class="toggle-chip">
+          <input type="checkbox" id="shuffleAnswers" />
+          <span>🎲 Trộn đáp án</span>
+        </label>
+      </div>
+
+      <div id="loader" class="loader hidden">Đang tải dữ liệu từ GitHub...</div>
+      <div id="errorBox" class="error-box hidden"></div>
+      <div id="gridList" class="card-grid"></div>
+    </section>
+
+    <!-- MÀN HÌNH 2: LÀM BÀI TRẮC NGHIỆM (PHONG CÁCH WAYGROUND) -->
+    <section id="quizScreen" class="screen">
+      <div class="quiz-hud">
+        <div class="hud-left">
+          <button class="btn-exit" onclick="confirmExit()">✕ Thoát</button>
+          <span class="q-counter" id="qCounter">1 / 10</span>
+        </div>
+
+        <div class="hud-center">
+          <div class="streak-pill" id="streakBadge">🔥 Chuỗi: 0</div>
+        </div>
+
+        <div class="hud-right">
+          <div class="score-pill" id="scoreBadge">Điểm: 0</div>
+        </div>
+      </div>
+
+      <!-- Thanh tiến độ -->
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+
+      <!-- Khung câu hỏi -->
+      <div class="question-stage">
+        <div class="question-card">
+          <div class="question-text" id="questionText">Đang tải câu hỏi...</div>
+        </div>
+
+        <!-- 4 ô đáp án 4 màu đặc trưng -->
+        <div class="answers-grid" id="answersGrid"></div>
+      </div>
+
+      <!-- Thanh phản hồi đúng/sai dưới đáy -->
+      <div id="feedbackBanner" class="feedback-banner hidden">
+        <div class="feedback-content">
+          <span id="feedbackIcon" class="feedback-icon"></span>
+          <div>
+            <strong id="feedbackTitle">Chính xác!</strong>
+            <p id="feedbackSub">+100 điểm</p>
+          </div>
+        </div>
+        <button id="nextBtn" class="btn-next" onclick="nextQuestion()">Câu tiếp theo ➔</button>
+      </div>
+    </section>
+
+    <!-- MÀN HÌNH 3: KẾT QUẢ TỔNG KẾT -->
+    <section id="resultScreen" class="screen">
+      <div class="result-card">
+        <div class="trophy">🏆</div>
+        <h2>Hoàn thành bài thi!</h2>
+        <p id="resultExamName" class="exam-subtitle"></p>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-label">Tổng điểm</span>
+            <span class="stat-value highlight-gold" id="finalScore">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Độ chính xác</span>
+            <span class="stat-value highlight-green" id="finalAccuracy">0%</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Số câu đúng</span>
+            <span class="stat-value" id="finalCorrect">0/0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Chuỗi cao nhất</span>
+            <span class="stat-value highlight-fire" id="finalStreak">0</span>
+          </div>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn-primary" onclick="restartQuiz()">🔄 Làm lại đề này</button>
+          <button class="btn-secondary" onclick="goHome()">📚 Chọn đề khác</button>
+        </div>
+
+        <!-- Xem lại các câu làm sai -->
+        <div id="reviewSection" class="review-section hidden">
+          <h3>📝 Xem lại các câu trả lời sai</h3>
+          <div id="reviewList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
