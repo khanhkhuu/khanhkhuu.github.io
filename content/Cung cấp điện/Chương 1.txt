@@ -65,7 +65,7 @@ c. Từ -5Hz đến +5Hz
 *d. Từ -0.5Hz đến +0.5Hz
 
 Theo tiêu chuẩn IEC, độ sụt áp cho phép trong mạng hạ áp là?	
-*a. _Từ -5% đến +5%	
+*a. Từ -5% đến +5%	
 b. Từ -0% đến +5%	
 c. Từ +3% đến +5%	
 d. Từ -10% đến +10%
