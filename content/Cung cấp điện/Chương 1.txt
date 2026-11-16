@@ -1,0 +1,119 @@
+Cụm phát điện Phú Mỹ thuộc loại	
+a. Nhiệt điện
+*b. Khí điện đạm
+c. Dầu Diesel
+d.Thủy điện
+
+Nhà máy Thủy điện đóng góp sản lượng điện trung bình hàng năm lớn nhất là
+a. Nhà máy thủy điện Trị An	
+*b. Nhà máy thủy điện Sơn La	
+c. Nhà máy thủy điện Thác Bà	
+d. Nhà máy thủy điện Hòa Bình
+
+Loại nhà máy điện nào chưa có kế hoạch xây dựng tại Việt Nam?	
+a. Điện nguyên tử	
+b. Nhiệt điện	
+c. Thủy điện	
+*d. Điện thủy triều
+
+Lưới hệ thống là lưới có cấp điện áp	
+*a. Từ 220kV trở lên	
+b. Từ 66kV đến 220kV	
+c. Từ 500kV trở lên	
+d. Từ 35kV trở lên
+
+Loại nhà máy điện nào chiếm tỉ lệ công suất lớn nhất trong các loại nhà máy điện tại Việt Nam?	
+*a. Nhiệt điện	
+b. Thủy điện	
+c. Khí điện đạm	
+d. Nguyên tử
+
+Khu vực nào ở Việt Nam cần ưu tiên xây dựng các nhà máy năng lượng mặt trời?	
+a. Bình Thuận	
+b. Quảng Trị	
+*c. Ninh Thuận	
+d. Quảng Bình
+
+Lưới điện phân phối là lưới điện có cấp điện áp nào?	
+a. Từ 1kV đến 25kV	
+b. Từ 0.4kV đến 22kV	
+*c. Từ 35kV trở xuống	
+d. Từ 15kV đến 35kV
+
+Đặc điểm chính xác nhất của hộ phụ tải loại 1 là	
+a. Cho phép mất điện khi sửa chữa thay thế	
+b. Có thể có hoặc không cần nguồn dự phòng	
+c. Có thể mất điện, nhưng không quá một ngày đêm	
+*d. Yêu cầu độ liên tục 100% khi cung cấp điện
+
+Lưới điện hạ áp (hạ thế) là lưới có cấp điện áp	
+*a. Nhỏ hơn 1kV	
+b. Từ 6kV đến 35kV	
+c. Nhỏ hơn 35 kV	
+d. Từ 0.1kV đến 6kV
+
+Chế độ làm việc của hệ thống điện được đánh giá bằng các yếu tố nào?	
+a. Tính linh hoạt, dễ phát triển, độ tin cậy cung cấp điện	
+b. Chất lượng điện năng, dễ phát triển, độ tin cậy cung cấp điện	
+c. Tính linh hoạt, chất lượng điện năng, tính kinh tế	
+*d. Chất lượng điện năng, tính kinh tế, độ tin cậy cung cấp điện
+
+Theo tiêu chuẩn Việt Nam, quy định về độ lệch tần số cho phép là	
+a. Từ -0.1Hz đến +0.1Hz	
+b. Từ -1Hz đến +1Hz	
+c. Từ -5Hz đến +5Hz	
+*d. Từ -0.5Hz đến +0.5Hz
+
+Theo tiêu chuẩn IEC, độ sụt áp cho phép trong mạng hạ áp là?	
+*a. _Từ -5% đến +5%	
+b. Từ -0% đến +5%	
+c. Từ +3% đến +5%	
+d. Từ -10% đến +10%
+
+Theo yêu cầu liên tục cung cấp điện thì hộ tiêu thụ điện được chia thành loại nào?	
+*a. Hộ tiêu thụ loại 1, hộ tiêu thụ loại 2, hộ tiêu thụ loại 3	
+b. Hộ tiêu thụ loại A, hộ tiêu thụ loại B, hộ tiêu thụ loại C	
+c. Hộ tiêu thụ loại A, hộ tiêu thụ loại B, hộ tiêu thụ loại C, hộ tiêu thụ loại D	
+d. Hộ tiêu thụ ưu tiên cao, hộ tiêu thụ ưu tiên trung bình, hộ tiêu thụ ưu tiên thấp
+
+Chỉ tiêu nào quan trọng nhất trong mạng hạ áp?	
+a. Độ lệch tần số cho phép	
+b. Khả năng cập nhật công nghệ trong tương lai	
+c. Khả năng tăng tải trong tương lai	
+*d. Độ sụt áp cho phép
+
+Các cấp điều độ gồm có các cấp?	
+*a. Tất cả đều đúng	
+b. Điều độ của các công ty Điện lực	
+c. Điều độ cấp quốc gia	
+d.Điều độ miền
+
+Quy trình điều độ hệ thống điện quốc gia có mấy cấp?	
+a. 4 cấp	
+b. 5 cấp	
+*c. 3 cấp	
+d. 2 cấp
+
+Ưu điểm chính của nhà máy thủy điện là	
+a. Đơn giản trong vận hành và sửa chữa	
+b. Có thể phát điện không hạn chế theo yêu cầu của trung tâm điều độ điện	
+*c. Chi phí phát điện thấp	
+d.Thân thiện với môi trường
+
+Hiện nay trên thế giới, loại nhà máy nào chiếm tỉ trọng lớn nhất trong tổng sản lượng điện năng sản xuất ra?	
+*a. Nhiệt điện	
+b. Điện nguyên tử	
+c. Năng lượng mặt trời	
+d.Thủy điện
+
+Lưới phân phối trung áp tại Việt Nam có điện áp chuẩn hóa là	
+*a. 22kV	
+b. 66kV	
+c. 35kV	
+d.15kV
+
+Tập đoàn điện lực Việt Nam được viết tắt	
+a. EPVN	
+*b. EVN	
+c. PCVN	
+d.EPN

@@ -35,13 +35,28 @@
       <!-- Tùy chọn trước khi vào thi -->
       <div id="quizOptionsBar" class="options-bar hidden">
         <label class="toggle-chip">
-          <input type="checkbox" id="shuffleQuestions" />
+          <input type="checkbox" id="shuffleQuestions" checked />
           <span>🔀 Trộn câu hỏi</span>
         </label>
         <label class="toggle-chip">
-          <input type="checkbox" id="shuffleAnswers" />
+          <input type="checkbox" id="shuffleAnswers" checked />
           <span>🎲 Trộn đáp án</span>
         </label>
+        <label class="toggle-chip">
+          <input type="checkbox" id="retryWrong" checked />
+          <span>🔁 Làm lại câu sai</span>
+        </label>
+      </div>
+
+      <div id="examActionsBar" class="exam-actions-bar hidden">
+        <div class="exam-actions-left">
+          <button type="button" class="btn-chip" onclick="selectAllExams()">Chọn tất cả</button>
+          <button type="button" class="btn-chip" onclick="deselectAllExams()">Bỏ chọn tất cả</button>
+          <span id="examSelectedCount" class="exam-selected-count">Đã chọn: 0</span>
+        </div>
+        <button type="button" id="startSelectedBtn" class="btn-primary btn-start-exams" onclick="startSelectedExams()" disabled>
+          ▶ Bắt đầu làm bài
+        </button>
       </div>
 
       <div id="loader" class="loader hidden">Đang tải dữ liệu từ GitHub...</div>
@@ -127,7 +142,7 @@
 
         <!-- Xem lại các câu làm sai -->
         <div id="reviewSection" class="review-section hidden">
-          <h3>📝 Xem lại các câu trả lời sai</h3>
+          <h3>📝 Xem lại các câu trả lời sai lần đầu</h3>
           <div id="reviewList"></div>
         </div>
       </div>

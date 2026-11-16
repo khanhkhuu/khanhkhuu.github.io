@@ -136,7 +136,9 @@ function parseQuizTxt(rawText) {
 // =========================================================================
 let state = {
   currentSubject: '',
-  currentExamFile: '',
+  currentExamFiles: [],
+  availableExams: [],
+  selectedExams: new Set(),
   rawQuestions: [],
   questions: [],
   currentIndex: 0,
@@ -144,9 +146,14 @@ let state = {
   streak: 0,
   maxStreak: 0,
   correctCount: 0,
+  firstPassTotal: 0,
+  retryWrong: true,
+  pendingRetries: [],
+  recordedWrongUids: new Set(),
   wrongHistory: [],
   answered: false,
-  autoNextTimer: null
+  autoNextTimer: null,
+  nextUid: 0
 };
 
 function showScreen(id) {
@@ -193,10 +200,43 @@ async function fetchGitHubContents(subPath = '') {
   return data;
 }
 
+function updateExamSelectionUI() {
+  const count = state.selectedExams.size;
+  document.getElementById('examSelectedCount').textContent = `Đã chọn: ${count}`;
+  document.getElementById('startSelectedBtn').disabled = count === 0;
+
+  document.querySelectorAll('.folder-card[data-exam]').forEach(card => {
+    const fileName = card.dataset.exam;
+    card.classList.toggle('is-selected', state.selectedExams.has(fileName));
+  });
+}
+
+function toggleExamSelection(fileName) {
+  if (state.selectedExams.has(fileName)) {
+    state.selectedExams.delete(fileName);
+  } else {
+    state.selectedExams.add(fileName);
+  }
+  updateExamSelectionUI();
+}
+
+function selectAllExams() {
+  state.availableExams.forEach(file => state.selectedExams.add(file.name));
+  updateExamSelectionUI();
+}
+
+function deselectAllExams() {
+  state.selectedExams.clear();
+  updateExamSelectionUI();
+}
+
 // Bước 1: Tải danh sách thư mục môn học trong /content
 async function loadSubjects() {
   state.currentSubject = '';
+  state.availableExams = [];
+  state.selectedExams.clear();
   document.getElementById('quizOptionsBar').classList.add('hidden');
+  document.getElementById('examActionsBar').classList.add('hidden');
   document.getElementById('breadcrumb').innerHTML =
     `<span class="crumb active" onclick="loadSubjects()">📚 Danh sách môn học</span>`;
 
@@ -233,7 +273,9 @@ async function loadSubjects() {
 // Bước 2: Tải danh sách file de_xxx.txt trong môn học đã chọn
 async function loadExams(subjectName) {
   state.currentSubject = subjectName;
+  state.selectedExams.clear();
   document.getElementById('quizOptionsBar').classList.remove('hidden');
+  document.getElementById('examActionsBar').classList.remove('hidden');
   document.getElementById('breadcrumb').innerHTML = `
     <span class="crumb" onclick="loadSubjects()">📚 Môn học</span>
     <span>›</span>
@@ -247,10 +289,12 @@ async function loadExams(subjectName) {
   try {
     const items = await fetchGitHubContents(subjectName);
     const txtFiles = items.filter(item => item.type === 'file' && item.name.endsWith('.txt'));
+    state.availableExams = txtFiles;
     setLoader(false);
 
     if (txtFiles.length === 0) {
       setLoader(false, `Thư mục "${subjectName}" chưa có file .txt nào.`);
+      updateExamSelectionUI();
       return;
     }
 
@@ -258,39 +302,59 @@ async function loadExams(subjectName) {
       const displayName = file.name.replace(/\.txt$/i, '').replace(/_/g, ' ').toUpperCase();
       const card = document.createElement('div');
       card.className = 'folder-card';
+      card.dataset.exam = file.name;
       card.innerHTML = `
+        <div class="select-mark">✓</div>
         <div class="folder-icon">📝</div>
         <div class="folder-title">${displayName}</div>
         <div class="folder-meta">File: ${file.name}</div>
       `;
-      card.onclick = () => startExam(subjectName, file.name);
+      card.onclick = () => toggleExamSelection(file.name);
       grid.appendChild(card);
     });
+    updateExamSelectionUI();
   } catch (err) {
     setLoader(false, err.message);
   }
 }
 
-// Bước 3: Tải nội dung file .txt và bắt đầu thi
-async function startExam(subjectName, fileName) {
+async function loadExamQuestions(subjectName, fileName) {
+  const fileUrl = `./content/${encodeURIComponent(subjectName)}/${encodeURIComponent(fileName)}?t=${Date.now()}`;
+  const res = await fetch(fileUrl);
+  if (!res.ok) throw new Error(`Không đọc được đề: ${fileName}`);
+  const rawText = await res.text();
+  return parseQuizTxt(rawText);
+}
+
+// Bước 3: Tải các đề đã chọn và bắt đầu thi
+async function startSelectedExams() {
+  const selected = [...state.selectedExams];
+  if (selected.length === 0) {
+    alert('Hãy chọn ít nhất 1 đề để bắt đầu.');
+    return;
+  }
+
   setLoader(true);
   try {
-    // Tải trực tiếp file tĩnh từ GitHub Pages (không tốn quota API)
-    const fileUrl = `./content/${encodeURIComponent(subjectName)}/${encodeURIComponent(fileName)}?t=${Date.now()}`;
-    const res = await fetch(fileUrl);
-    if (!res.ok) throw new Error('Không đọc được nội dung file đề thi.');
-
-    const rawText = await res.text();
-    const parsed = parseQuizTxt(rawText);
+    const allQuestions = [];
+    for (const fileName of selected) {
+      const parsed = await loadExamQuestions(state.currentSubject, fileName);
+      parsed.forEach(q => {
+        allQuestions.push({
+          ...q,
+          sourceExam: fileName
+        });
+      });
+    }
     setLoader(false);
 
-    if (parsed.length === 0) {
-      alert('File đề không có câu hỏi hợp lệ. Hãy kiểm tra lại định dạng *a. b. c. d.');
+    if (allQuestions.length === 0) {
+      alert('Các đề đã chọn không có câu hỏi hợp lệ. Hãy kiểm tra lại định dạng *a. b. c. d.');
       return;
     }
 
-    state.currentExamFile = fileName;
-    state.rawQuestions = parsed;
+    state.currentExamFiles = selected;
+    state.rawQuestions = allQuestions;
     setupQuizRun();
   } catch (err) {
     setLoader(false, err.message);
@@ -306,11 +370,11 @@ function shuffleArray(arr) {
   return copy;
 }
 
-function setupQuizRun() {
+function prepareQuestionList(sourceList, { asRetry = false } = {}) {
   const shouldShuffleQ = document.getElementById('shuffleQuestions').checked;
   const shouldShuffleA = document.getElementById('shuffleAnswers').checked;
 
-  let qList = JSON.parse(JSON.stringify(state.rawQuestions));
+  let qList = JSON.parse(JSON.stringify(sourceList));
   if (shouldShuffleQ) qList = shuffleArray(qList);
   if (shouldShuffleA) {
     qList.forEach(q => {
@@ -318,13 +382,38 @@ function setupQuizRun() {
     });
   }
 
+  return qList.map(q => ({
+    ...q,
+    _uid: asRetry ? q._uid : state.nextUid++,
+    _isRetry: asRetry
+  }));
+}
+
+function queueRetryRound() {
+  if (!state.retryWrong || state.pendingRetries.length === 0) return false;
+
+  const retries = prepareQuestionList(state.pendingRetries, { asRetry: true });
+  state.pendingRetries = [];
+  state.questions = state.questions.concat(retries);
+  return true;
+}
+
+function setupQuizRun() {
+  state.nextUid = 0;
+  state.retryWrong = document.getElementById('retryWrong').checked;
+
+  const qList = prepareQuestionList(state.rawQuestions);
+
   state.questions = qList;
+  state.firstPassTotal = qList.length;
   state.currentIndex = 0;
   state.score = 0;
   state.streak = 0;
   state.maxStreak = 0;
   state.correctCount = 0;
   state.wrongHistory = [];
+  state.pendingRetries = [];
+  state.recordedWrongUids = new Set();
 
   showScreen('quizScreen');
   renderQuestion();
@@ -403,28 +492,48 @@ function handleAnswer(selectedIdx, selectedBtn) {
     sound.playCorrect();
     state.streak += 1;
     if (state.streak > state.maxStreak) state.maxStreak = state.streak;
-    state.correctCount += 1;
+
+    // Chỉ tính đúng lần đầu vào thống kê độ chính xác
+    if (!qObj._isRetry) {
+      state.correctCount += 1;
+    }
 
     // Cộng điểm cơ bản + thưởng chuỗi đúng liên tiếp
     const streakBonus = Math.min((state.streak - 1) * 20, 100);
-    const earned = 100 + streakBonus;
+    const earned = qObj._isRetry ? 50 : 100 + streakBonus;
     state.score += earned;
 
     banner.classList.add('correct');
-    document.getElementById('feedbackIcon').textContent = '🎉';
-    document.getElementById('feedbackTitle').textContent = 'Chính xác!';
-    document.getElementById('feedbackSub').textContent =
-      streakBonus > 0 ? `+${earned} điểm (Thưởng chuỗi 🔥 +${streakBonus})` : `+100 điểm`;
+    document.getElementById('feedbackIcon').textContent = qObj._isRetry ? '🔁' : '🎉';
+    document.getElementById('feedbackTitle').textContent =
+      qObj._isRetry ? 'Đúng rồi (làm lại)!' : 'Chính xác!';
+    document.getElementById('feedbackSub').textContent = qObj._isRetry
+      ? `+${earned} điểm (câu làm lại)`
+      : (streakBonus > 0 ? `+${earned} điểm (Thưởng chuỗi 🔥 +${streakBonus})` : `+100 điểm`);
   } else {
     sound.playWrong();
     state.streak = 0;
 
     const rightOpt = qObj.options.find(o => o.isCorrect);
-    state.wrongHistory.push({
-      question: qObj.question,
-      chosen: chosenOption.text,
-      correct: rightOpt ? rightOpt.text : '(Chưa đánh dấu * đáp án đúng)'
-    });
+
+    // Chỉ ghi nhận câu sai lần đầu để hiện ở màn kết quả
+    if (!state.recordedWrongUids.has(qObj._uid)) {
+      state.recordedWrongUids.add(qObj._uid);
+      state.wrongHistory.push({
+        question: qObj.question,
+        chosen: chosenOption.text,
+        correct: rightOpt ? rightOpt.text : '(Chưa đánh dấu * đáp án đúng)'
+      });
+    }
+
+    if (state.retryWrong) {
+      state.pendingRetries.push({
+        question: qObj.question,
+        options: JSON.parse(JSON.stringify(qObj.options)),
+        sourceExam: qObj.sourceExam,
+        _uid: qObj._uid
+      });
+    }
 
     banner.classList.add('wrong');
     document.getElementById('feedbackIcon').textContent = '💥';
@@ -436,7 +545,9 @@ function handleAnswer(selectedIdx, selectedBtn) {
   document.getElementById('streakBadge').textContent = `🔥 Chuỗi: ${state.streak}`;
   document.getElementById('scoreBadge').textContent = `Điểm: ${state.score}`;
 
-  const isLast = state.currentIndex === state.questions.length - 1;
+  const hasMoreInQueue = state.currentIndex < state.questions.length - 1;
+  const willRetryMore = state.retryWrong && state.pendingRetries.length > 0;
+  const isLast = !hasMoreInQueue && !willRetryMore;
   document.getElementById('nextBtn').textContent = isLast ? 'Xem kết quả 🏆' : 'Câu tiếp theo ➔';
 
   scheduleAutoNext(chosenOption.isCorrect);
@@ -447,9 +558,16 @@ function nextQuestion() {
   if (state.currentIndex < state.questions.length - 1) {
     state.currentIndex += 1;
     renderQuestion();
-  } else {
-    finishQuiz();
+    return;
   }
+
+  if (queueRetryRound()) {
+    state.currentIndex += 1;
+    renderQuestion();
+    return;
+  }
+
+  finishQuiz();
 }
 
 function finishQuiz() {
@@ -457,11 +575,14 @@ function finishQuiz() {
   document.getElementById('progressFill').style.width = '100%';
   showScreen('resultScreen');
 
-  const total = state.questions.length;
-  const accuracy = Math.round((state.correctCount / total) * 100);
+  const total = state.firstPassTotal || state.questions.length;
+  const accuracy = total > 0 ? Math.round((state.correctCount / total) * 100) : 0;
+  const examLabel = state.currentExamFiles.length > 1
+    ? `${state.currentExamFiles.length} đề đã chọn`
+    : (state.currentExamFiles[0] || '');
 
   document.getElementById('resultExamName').textContent =
-    `${state.currentSubject} — ${state.currentExamFile}`;
+    `${state.currentSubject} — ${examLabel}`;
   document.getElementById('finalScore').textContent = state.score;
   document.getElementById('finalAccuracy').textContent = `${accuracy}%`;
   document.getElementById('finalCorrect').textContent = `${state.correctCount} / ${total}`;
