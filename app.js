@@ -4,8 +4,8 @@
 // Nếu bạn dùng tên miền riêng hoặc test ở máy cá nhân (localhost), hãy điền vào đây:
 // =========================================================================
 const CONFIG = {
-  githubUser: '', // Ví dụ: 'nguyenvana'
-  githubRepo: '', // Ví dụ: 'trac-nghiem-online'
+  githubUser: 'khanhkhuu', // Ví dụ: 'nguyenvana'
+  githubRepo: 'khanhkhuu.github.io', // Ví dụ: 'trac-nghiem-online'
   branch: 'main'  // Nhánh mặc định trên GitHub (thường là 'main' hoặc 'master')
 };
 
