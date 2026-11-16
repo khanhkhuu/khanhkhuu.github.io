@@ -132,7 +132,7 @@ function parseQuizTxt(rawText) {
 }
 
 // =========================================================================
-// QUẢN LÝ TRẠNG THÁI & TẢI DỮ LIỆU TỪ GITHUB
+// QUẢN LÝ TRẠNG THÁI & TẢI DỮ LIỆU
 // =========================================================================
 let state = {
   currentSubject: '',
