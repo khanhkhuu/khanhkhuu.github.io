@@ -452,18 +452,36 @@ function renderQuestion() {
   const grid = document.getElementById('answersGrid');
   grid.innerHTML = '';
 
-  const labels = ['A', 'B', 'C', 'D'];
+  const labels = ['1', '2', '3', '4'];
   qObj.options.forEach((opt, idx) => {
     const btn = document.createElement('button');
     btn.className = `answer-tile tile-${idx % 4}`;
     btn.innerHTML = `
-      <span class="opt-badge">${labels[idx] || opt.label}</span>
+      <span class="opt-badge">${labels[idx] || idx + 1}</span>
       <span>${opt.text}</span>
     `;
     btn.onclick = () => handleAnswer(idx, btn);
     grid.appendChild(btn);
   });
 }
+
+function selectAnswerByHotkey(key) {
+  const quizActive = document.getElementById('quizScreen').classList.contains('active');
+  if (!quizActive || state.answered) return;
+
+  const idx = Number(key) - 1;
+  const tiles = document.querySelectorAll('.answer-tile');
+  if (idx < 0 || idx >= tiles.length) return;
+
+  handleAnswer(idx, tiles[idx]);
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (!/^[1-4]$/.test(e.key)) return;
+  e.preventDefault();
+  selectAnswerByHotkey(e.key);
+});
 
 function handleAnswer(selectedIdx, selectedBtn) {
   if (state.answered) return;
