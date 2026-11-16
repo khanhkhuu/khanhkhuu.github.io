@@ -1,0 +1,59 @@
+Hai phương án cung cấp điện được coi là tương đương về chỉ tiêu kinh tế khi	
+a. Có cùng chi phí vận hành	
+b. Có cùng vốn đầu tư	
+*c. Chi phí tính toán hàng năm không lệch quá 5%	
+d. Có cùng thời gian xây dựng và khai thác
+
+Phương pháp bộ lọc ngang được sử dụng để làm gì?	
+*a. Khắc phục hài bậc cao trong mạng điện	
+b. Giảm độ độ lệch tần số trong mạng điện	
+c. Giảm độ lệch điện áp trong mạng điện	
+d. Tăng độ tin cậy cung cấp điện
+
+Điều nào không phải chỉ tiêu kĩ thuật của một phương án cung cấp điện?	
+a. An toàn cho người và thiết bị	
+b. Chất lượng điện năng	
+c. Đáp ứng mức liên tục của cung cấp điện theo yêu cầu phụ tải	
+*d. Công nghệ phải phù hợp với công nhân vận hành
+
+Độ lệch tần số cho phép theo tiêu chuẩn GOCT-13109-87 là	
+a. Từ -0.3Hz đến +0.3Hz	
+b. Từ -0.5Hz đến +0.5Hz	
+*c. Từ -0.2Hz đến +0.2Hz	
+d. Từ -0.4Hz đến +0.4Hz
+
+Tác động của sóng hài đến hệ thống điện	
+*a. Gây nóng thiết bị, nổ tụ và cáp	
+b. Giảm tổn thất trong lưới điện	
+c. Tất cả đáp án đều đúng	
+d. Giảm nhiệt độ thiết bị
+
+Độ lệch tần số cho phép theo tiêu chuẩn Việt Nam là	Từ 
+a. -0.2Hz đến +0.2Hz	
+b. Từ -0.3Hz đến +0.3Hz	
+c. Từ -0.4Hz đến +0.4Hz	
+*d. Từ -0.5Hz đến +0.5Hz
+
+Nguyên nhân cơ bản gây nên độ lệch và độ dao động điện áp quá mức cho phép là	
+a. Mạng hạ áp bị quá tải	
+b. Trình độ quản lý và khai thác lưới điện thấp	
+*c. Tất cả các đáp án	
+d. Không có các thiết bị điều chỉnh điện áp tại chỗ
+
+Khi thời gian hoàn vốn lớn thì ưu thế về mặt kinh tế sẽ nghiêng về phương án cung cấp điện có chỉ tiêu	
+a. Có vốn đầu tư không đổi	
+b. Có vốn đầu tư lớn và chi phí vận hành lớn	
+c. Có vốn đầu tư nhỏ và chi phí vận hành lớn	
+*d. Có vốn đầu tư lớn và chi phí vận hành nhỏ
+
+Khi phân bố tải trên các pha, mức độ chênh lệch giữa các pha chấp nhận được ở mức	
+*a. Nhỏ hơn hoặc bằng 15%	
+b. Nhỏ hơn hoặc bằng 20%	
+c. Nhỏ hơn hoặc bằng 5%	
+d. Nhỏ hơn hoặc bằng 10%
+
+Độ sụt áp cho phép tính từ thanh cái máy biến áp đến tải tối đa là	
+a. Từ -3% đến +3%	
+b. Từ -4% đến +4%	
+*c. Từ -5% đến +5%	
+d. Từ -6% đến +6%
