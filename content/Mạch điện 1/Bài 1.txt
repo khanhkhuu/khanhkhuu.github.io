@@ -1,0 +1,5 @@
+Công thức điện trở tương đương là
+a. $R = R_1 + R_2$
+*b. $R = \dfrac{R_1 R_2}{R_1 + R_2}$
+c. $R = \sqrt{R_1^2 + R_2^2}$
+d. $R = R_1 - R_2$

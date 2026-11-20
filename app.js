@@ -1,3 +1,20 @@
+const KATEX_OPTIONS = {
+  delimiters: [
+    { left: '$$', right: '$$', display: true },
+    { left: '$', right: '$', display: false },
+    { left: '\\(', right: '\\)', display: false },
+    { left: '\\[', right: '\\]', display: true }
+  ],
+  throwOnError: false
+};
+
+function renderMathText(el, text) {
+  el.textContent = text == null ? '' : String(text);
+  if (typeof renderMathInElement === 'function') {
+    renderMathInElement(el, KATEX_OPTIONS);
+  }
+}
+
 function getRepoInfo() {
   if (CONFIG.githubUser && CONFIG.githubRepo) {
     return { owner: CONFIG.githubUser, repo: CONFIG.githubRepo };
@@ -447,7 +464,7 @@ function renderQuestion() {
   document.getElementById('streakBadge').textContent = `🔥 Chuỗi: ${state.streak}`;
   document.getElementById('scoreBadge').textContent = `Điểm: ${state.score}`;
   document.getElementById('progressFill').style.width = `${(state.currentIndex / total) * 100}%`;
-  document.getElementById('questionText').textContent = qObj.question;
+  renderMathText(document.getElementById('questionText'), qObj.question);
 
   const grid = document.getElementById('answersGrid');
   grid.innerHTML = '';
@@ -456,10 +473,17 @@ function renderQuestion() {
   qObj.options.forEach((opt, idx) => {
     const btn = document.createElement('button');
     btn.className = `answer-tile tile-${idx % 4}`;
-    btn.innerHTML = `
-      <span class="opt-badge">${labels[idx] || idx + 1}</span>
-      <span>${opt.text}</span>
-    `;
+
+    const badge = document.createElement('span');
+    badge.className = 'opt-badge';
+    badge.textContent = labels[idx] || String(idx + 1);
+
+    const textSpan = document.createElement('span');
+    textSpan.className = 'opt-text';
+    renderMathText(textSpan, opt.text);
+
+    btn.appendChild(badge);
+    btn.appendChild(textSpan);
     btn.onclick = () => handleAnswer(idx, btn);
     grid.appendChild(btn);
   });
@@ -556,8 +580,10 @@ function handleAnswer(selectedIdx, selectedBtn) {
     banner.classList.add('wrong');
     document.getElementById('feedbackIcon').textContent = '💥';
     document.getElementById('feedbackTitle').textContent = 'Chưa chính xác!';
-    document.getElementById('feedbackSub').textContent =
-      `Đáp án đúng: ${rightOpt ? rightOpt.text : ''}`;
+    renderMathText(
+      document.getElementById('feedbackSub'),
+      `Đáp án đúng: ${rightOpt ? rightOpt.text : ''}`
+    );
   }
 
   document.getElementById('streakBadge').textContent = `🔥 Chuỗi: ${state.streak}`;
@@ -615,11 +641,22 @@ function finishQuiz() {
     state.wrongHistory.forEach((item, i) => {
       const div = document.createElement('div');
       div.className = 'review-item';
-      div.innerHTML = `
-        <div class="review-q">Câu ${i + 1}: ${item.question}</div>
-        <div class="review-wrong">✘ Bạn chọn: ${item.chosen}</div>
-        <div class="review-right">✔ Đáp án đúng: ${item.correct}</div>
-      `;
+
+      const qEl = document.createElement('div');
+      qEl.className = 'review-q';
+      renderMathText(qEl, `Câu ${i + 1}: ${item.question}`);
+
+      const wrongEl = document.createElement('div');
+      wrongEl.className = 'review-wrong';
+      renderMathText(wrongEl, `✘ Bạn chọn: ${item.chosen}`);
+
+      const rightEl = document.createElement('div');
+      rightEl.className = 'review-right';
+      renderMathText(rightEl, `✔ Đáp án đúng: ${item.correct}`);
+
+      div.appendChild(qEl);
+      div.appendChild(wrongEl);
+      div.appendChild(rightEl);
       reviewList.appendChild(div);
     });
   } else {
