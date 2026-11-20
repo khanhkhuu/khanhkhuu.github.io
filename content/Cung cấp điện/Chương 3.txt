@@ -11,10 +11,10 @@ c. 160 kW/ha
 d. 350 kW/ha
 
 Tỉ số giữa công suất trung bình với công suất với công suất cực đại là
-a. $k_{pt}$
-b. $k_{sd}$
-c. $k_{đt}$
-*d. $k_{đk}$
+a. $\text{k}_\text{pt}$
+b. $\text{k}_\text{sd}$
+c. $\text{k}_\text{đt}$
+*d. $\text{k}_\text{đk}$
 
 Dự báo phụ tải tầm ngắn cho phép sai số trong khoảng bao nhiêu %?
 a. 10 - 15%
@@ -34,14 +34,14 @@ a. 3kW/hộ
 c. 2kW/hộ
 d. 5kW/hộ
 
-Tìm giá trị $T_{max}$ là
+Tìm giá trị $\text{T}_{max}$ là
 @img images/chuong-3-gia-tri-t-max.png
 a. 6500 giờ
 b. 6605 giờ
 *c. 6570 giờ
 d. 6535 giờ
 
-Hệ số đồng thời $k_{s}$ khi có từ 20 đến 24 hộ tiêu thụ là
+Hệ số đồng thời $\text{k}_{s}$ khi có từ 20 đến 24 hộ tiêu thụ là
 a. 0.46
 b. 0.63
 c. 0.53

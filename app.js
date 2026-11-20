@@ -392,7 +392,6 @@ async function loadExams(subjectName) {
         <div class="select-mark">✓</div>
         <div class="folder-icon">📝</div>
         <div class="folder-title">${displayName}</div>
-        <div class="folder-meta">File: ${file.name}</div>
       `;
       card.onclick = () => toggleExamSelection(file.name);
       grid.appendChild(card);
