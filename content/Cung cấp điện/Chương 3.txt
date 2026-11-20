@@ -1,0 +1,134 @@
+Hệ số $k_{sd}$ là tỉ số giữa
+a. Thời gian đóng điện trong chu trình và toàn bộ thời gian của chu trình
+b. Tổng công suất cực đại của một nhóm phụ tải và công suất cực đại của hệ thống
+c. Công suất tác dụng và công suất định mức
+*d. Công suất tính toán và công suất định mức
+
+Chỉ tiêu cấp điện cho công nghiệp vật liệu xây dựng, cơ khí là
+*a. 250 kW/ha
+b. 200 kW/ha
+c. 160 kW/ha
+d. 350 kW/ha
+
+Tỉ số giữa công suất trung bình với công suất với công suất cực đại là
+a. $k_{pt}$
+b. $k_{sd}$
+c. $k_{đt}$
+*d. $k_{đk}$
+
+Dự báo phụ tải tầm ngắn cho phép sai số trong khoảng bao nhiêu %?
+a. 10 - 15%
+b. 15 - 20%
+*c. 5 - 10%
+d. 20 - 25%
+
+Đặc trưng của chế độ làm việc ngắn hạn lặp lại của phụ tải
+*a. Đặc trưng bằng hệ thống đóng điện ε%
+b. Nhiệt độ của thiết bị tăng đến giá trị xác lập và là hằng số
+c. Nhiệt độ của thiết bị giảm xuống bằng nhiệt độ môi trường xung quanh trong thời gian nghỉ
+d. Nhiệt độ của thiết bị tăng lên đến giá trị cho phép trong thời gian làm việc
+
+Chỉ tiêu cấp điện cho khu nhà chung cư cao tầng trên 9 tầng làm
+a. 3kW/hộ
+*b. 4kW/hộ
+c. 2kW/hộ
+d. 5kW/hộ
+
+Tìm giá trị $T_{max}$ là
+@img images/chuong-3-gia-tri-t-max.png
+a. 6500 giờ
+b. 6605 giờ
+*c. 6570 giờ
+d. 6535 giờ
+
+Hệ số đồng thời $k_{s}$ khi có từ 20 đến 24 hộ tiêu thụ là
+a. 0.46
+b. 0.63
+c. 0.53
+*d. 0.49
+
+Suất phụ tải cho mạch động lực xưởng chế tạo máy là bao nhiêu (VA/$\text{m}^2$)?
+a. 350
+b. 700
+*c. 300
+d. 400
+
+Hệ số đồng thời cho tủ phân phối theo IEC khi có 4 và 5 mạch là bao nhiêu?
+a. 0.7
+*b. 0.8
+c. 0.6
+d. 0.9
+
+Thời gian sử dụng công suất cực đại phụ thuộc vào yếu tố nào?
+*a. Tính chất của phụ tải
+b. Công suất định mức của phụ tải
+c. Công suất trung bình của phụ tải
+d. Thời gian tiêu thụ công suất của phụ tải
+
+Khuyết điểm của lưới điện hở làm
+a. Không đảm bảo an toàn
+b. Tốn kém chi phí
+*c. Các phụ tải (hộ tiêu thụ) bị mất điện khi có sự cố khi cần sửa chữa ngầm
+d. Tải không được cung cấp điện liên tục
+
+Mức yêu cầu chiếu sáng trung bình cho công việc hành chính (văn phòng) là bao nhiêu Lux?
+a. 400
+*b. 500
+c. 700
+d. 600
+
+Hệ số sử dụng đồng thời của thiết bị điện và ổ cắm lần lượt là
+a. 0.9 và 0.2
+b. 0.9 và 0.3
+c. 0.8 và 0.3
+*d. 0.8 và 0.2
+
+Đồ thị phụ tải là đồ thị biểu thị
+a. Điện áp của phụ tải theo thời gian
+*b. Công suất phụ tải theo thời gian
+c. Dòng điện của phụ tải theo thời gian
+d. Công suất tính toán của phụ tải
+
+Cho đồ thị phụ tải ngày dưới đây, tính hệ số điện kín của đồ thị phụ Tải
+@img images/chuong-3-cho-do-thi-phu-tai.png
+a. 0.74
+b. 0.72
+c. 0.73
+*d. 0.75
+
+Trong mạng điện có các thiết bị một pha công suất không cân bằng lớn hơn 15% tổng công suất các thiết bị tại thời điểm đang xét đến. Phải quy đổi về phụ tải định mức 3 pha theo công thức nào?
+*a. $P_{đm3pha} = \sum_i P_{tb3pha} + 3P_{đm1pha(max)}$
+b. $P_{đm.điện} = \frac{P_{đm.cơ}}{\eta}$
+c. $P_{đm} = \sum_{i=1}^n p_{đmi}$
+d. $P_{đm3pha} = \sum_i P_{tb3pha.i} + \sum_j P_{tb1pha.j}$
+
+Lưới điện kín có đặc điểm
+a. Chỉ được dùng cho đường dây truyền tải
+b. Phụ tải trong lưới được cung cấp từ 3 nguồn  
+c. Phụ tải trong lưới được cung cấp từ một nguồn
+*d. Phụ tải trong lưới được cung cấp ít nhất từ 2 nguồn trở lên
+
+Phương pháp công suất tính toán theo suất phụ tải trên một đơn vị diện tích sản xuất áp dụng cho trường hợp nào?  
+a. Các phân xưởng sản xuất có thiết bị phân bố tự do trên diện tích sản xuất
+b. Các phân xưởng sản xuất dùng chung mốt cấp điện áp sử dụng
+*c. Các phân xưởng sản xuất có thiết bị phân bố đều trên diện tích sản xuất
+d. Các phân xưởng sản xuất dùng chung một máy phát 
+
+Hệ số điền kín đồ thị phụ tải đặc trưng cho   
+*a. Mức độ bằng phẳng của đồ thị phụ tải
+b. Mức độ ổn định của đồ thị phụ tải
+c. Mức độ sử dụng đồng thời của nhóm phụ tải
+d. Mức độ tin cậy của đồ thị phụ tải
+
+Cho biết hình dưới đây là dạng đồ thị phụ tải gì
+@img images/chuong-3-cho-biet-hinh-duoi-day.png
+a. Đồ thị phụ tải hàng tháng
+*b. Đồ thị phụ tải hàng ngày dạng bậc thang
+c. Đồ thị phụ tải hàng năm
+d. Đồ thị phụ tải hàng ngày dạng thực tế
+
+Lưới điện hở thường dùng cung cấp cho   
+a. Hộ tiêu thụ loại 1 và 2
+b. Hộ tiêu thụ loại 2
+*c. Hộ tiêu thụ loại 3
+d. Hộ tiêu thụ loại 1

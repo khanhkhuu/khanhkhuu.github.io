@@ -100,6 +100,70 @@ document.getElementById('soundToggle').addEventListener('click', (e) => {
 // =========================================================================
 // BỘ PHÂN TÍCH ĐỊNH DẠNG FILE ĐỀ .TXT
 // =========================================================================
+// Hình ảnh trong câu hỏi:
+//   ![mô tả](images/ten-anh.png)
+//   @img images/ten-anh.png
+const atImgRegex = /^@img\s*:?\s*(.+)$/i;
+
+function extractImagesFromBuffer(lines) {
+  const images = [];
+  const textLines = [];
+
+  lines.forEach(line => {
+    const atMatch = line.match(atImgRegex);
+    if (atMatch) {
+      images.push({ alt: '', src: atMatch[1].trim() });
+      return;
+    }
+
+    const mdImages = [...line.matchAll(/!\[([^\]]*)\]\(([^)]+)\)/g)];
+    mdImages.forEach(m => {
+      images.push({ alt: (m[1] || '').trim(), src: m[2].trim() });
+    });
+
+    const cleaned = line.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '').trim();
+    if (cleaned) textLines.push(cleaned);
+  });
+
+  return {
+    question: textLines.join('\n').trim(),
+    images
+  };
+}
+
+function resolveMediaUrl(relativePath) {
+  if (!relativePath) return '';
+  if (/^(https?:|data:|blob:)/i.test(relativePath)) return relativePath;
+
+  const clean = relativePath.replace(/^\.?\//, '');
+  const encoded = clean.split('/').filter(Boolean).map(encodeURIComponent).join('/');
+  return `./content/${encodeURIComponent(state.currentSubject)}/${encoded}`;
+}
+
+function renderQuestionImages(container, images = []) {
+  container.innerHTML = '';
+  container.classList.toggle('hidden', !images.length);
+
+  images.forEach(imgInfo => {
+    const figure = document.createElement('figure');
+    figure.className = 'question-figure';
+
+    const img = document.createElement('img');
+    img.className = 'question-image';
+    img.src = resolveMediaUrl(imgInfo.src);
+    img.alt = imgInfo.alt || 'Hình minh họa câu hỏi';
+    img.loading = 'lazy';
+
+    figure.appendChild(img);
+    if (imgInfo.alt) {
+      const caption = document.createElement('figcaption');
+      caption.textContent = imgInfo.alt;
+      figure.appendChild(caption);
+    }
+    container.appendChild(figure);
+  });
+}
+
 function parseQuizTxt(rawText) {
   const lines = rawText.replace(/\r\n/g, '\n').split('\n');
   const questions = [];
@@ -125,8 +189,10 @@ function parseQuizTxt(rawText) {
     const match = line.match(optionRegex);
     if (match) {
       if (!currentQ) {
+        const parsed = extractImagesFromBuffer(questionBuffer);
         currentQ = {
-          question: questionBuffer.join('\n').trim(),
+          question: parsed.question,
+          images: parsed.images,
           options: []
         };
       }
@@ -189,32 +255,34 @@ function setLoader(show, errorMsg = '') {
   }
 }
 
-async function fetchGitHubContents(subPath = '') {
-  const repoInfo = getRepoInfo();
-  if (!repoInfo) {
+let contentManifest = null;
+
+async function loadContentManifest() {
+  if (contentManifest) return contentManifest;
+  const res = await fetch(`./content/manifest.json?t=${Date.now()}`);
+  if (!res.ok) {
     throw new Error(
-      'Không tự nhận diện được GitHub Repo. Hãy mở file config.js và điền githubUser + githubRepo vào mục CONFIG.'
+      'Không đọc được content/manifest.json. Hãy tạo file này để liệt kê môn học và đề thi.'
     );
   }
-  const encodedPath = subPath
-    .split('/')
-    .filter(Boolean)
-    .map(encodeURIComponent)
-    .join('/');
+  contentManifest = await res.json();
+  return contentManifest;
+}
 
-  const apiPath = encodedPath ? `content/${encodedPath}` : 'content';
-  const cacheKey = `gh_cache_${repoInfo.owner}_${repoInfo.repo}_${apiPath}`;
-  const cached = sessionStorage.getItem(cacheKey);
-  if (cached) return JSON.parse(cached);
+async function listSubjects() {
+  const manifest = await loadContentManifest();
+  return Object.keys(manifest).sort((a, b) => a.localeCompare(b, 'vi'));
+}
 
-  const url = `https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/${apiPath}?ref=${CONFIG.branch}`;
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Không thể tải thư mục /${apiPath} (Mã lỗi ${res.status}). Kiểm tra lại thư mục content trên GitHub.`);
+async function listExamFiles(subjectName) {
+  const manifest = await loadContentManifest();
+  const files = manifest[subjectName];
+  if (!Array.isArray(files)) {
+    throw new Error(`Môn "${subjectName}" chưa được khai báo trong content/manifest.json.`);
   }
-  const data = await res.json();
-  sessionStorage.setItem(cacheKey, JSON.stringify(data));
-  return data;
+  return files
+    .filter(name => typeof name === 'string' && name.toLowerCase().endsWith('.txt'))
+    .map(name => ({ name, type: 'file' }));
 }
 
 function updateExamSelectionUI() {
@@ -262,24 +330,24 @@ async function loadSubjects() {
   setLoader(true);
 
   try {
-    const items = await fetchGitHubContents('');
-    const folders = items.filter(item => item.type === 'dir');
+    contentManifest = null; // luôn đọc lại manifest khi về trang môn học
+    const subjects = await listSubjects();
     setLoader(false);
 
-    if (folders.length === 0) {
-      setLoader(false, 'Chưa có thư mục môn học nào trong /content.');
+    if (subjects.length === 0) {
+      setLoader(false, 'Chưa có thư mục môn học nào trong content/manifest.json.');
       return;
     }
 
-    folders.forEach(folder => {
+    subjects.forEach(subjectName => {
       const card = document.createElement('div');
       card.className = 'folder-card';
       card.innerHTML = `
         <div class="folder-icon">📁</div>
-        <div class="folder-title">${folder.name}</div>
+        <div class="folder-title">${subjectName}</div>
         <div class="folder-meta">Nhấn để xem danh sách đề</div>
       `;
-      card.onclick = () => loadExams(folder.name);
+      card.onclick = () => loadExams(subjectName);
       grid.appendChild(card);
     });
   } catch (err) {
@@ -304,8 +372,8 @@ async function loadExams(subjectName) {
   setLoader(true);
 
   try {
-    const items = await fetchGitHubContents(subjectName);
-    const txtFiles = items.filter(item => item.type === 'file' && item.name.endsWith('.txt'));
+    contentManifest = null;
+    const txtFiles = await listExamFiles(subjectName);
     state.availableExams = txtFiles;
     setLoader(false);
 
@@ -465,6 +533,7 @@ function renderQuestion() {
   document.getElementById('scoreBadge').textContent = `Điểm: ${state.score}`;
   document.getElementById('progressFill').style.width = `${(state.currentIndex / total) * 100}%`;
   renderMathText(document.getElementById('questionText'), qObj.question);
+  renderQuestionImages(document.getElementById('questionMedia'), qObj.images || []);
 
   const grid = document.getElementById('answersGrid');
   grid.innerHTML = '';
@@ -563,6 +632,7 @@ function handleAnswer(selectedIdx, selectedBtn) {
       state.recordedWrongUids.add(qObj._uid);
       state.wrongHistory.push({
         question: qObj.question,
+        images: qObj.images || [],
         chosen: chosenOption.text,
         correct: rightOpt ? rightOpt.text : '(Chưa đánh dấu * đáp án đúng)'
       });
@@ -571,6 +641,7 @@ function handleAnswer(selectedIdx, selectedBtn) {
     if (state.retryWrong) {
       state.pendingRetries.push({
         question: qObj.question,
+        images: JSON.parse(JSON.stringify(qObj.images || [])),
         options: JSON.parse(JSON.stringify(qObj.options)),
         sourceExam: qObj.sourceExam,
         _uid: qObj._uid
@@ -655,6 +726,12 @@ function finishQuiz() {
       renderMathText(rightEl, `✔ Đáp án đúng: ${item.correct}`);
 
       div.appendChild(qEl);
+      if (item.images && item.images.length) {
+        const media = document.createElement('div');
+        media.className = 'review-media';
+        renderQuestionImages(media, item.images);
+        div.appendChild(media);
+      }
       div.appendChild(wrongEl);
       div.appendChild(rightEl);
       reviewList.appendChild(div);
