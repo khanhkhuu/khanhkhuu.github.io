@@ -230,8 +230,12 @@ let state = {
   maxStreak: 0,
   correctCount: 0,
   firstPassTotal: 0,
+  roundStart: 0,
+  roundTotal: 0,
+  roundLabel: '',
   retryWrong: true,
   pendingRetries: [],
+  pendingSkips: [],
   recordedWrongUids: new Set(),
   wrongHistory: [],
   answered: false,
@@ -473,13 +477,51 @@ function prepareQuestionList(sourceList, { asRetry = false } = {}) {
   }));
 }
 
+function beginExtraRound(qList, label) {
+  state.roundStart = state.questions.length;
+  state.roundTotal = qList.length;
+  state.roundLabel = label;
+  state.questions = state.questions.concat(qList);
+}
+
 function queueRetryRound() {
   if (!state.retryWrong || state.pendingRetries.length === 0) return false;
 
   const retries = prepareQuestionList(state.pendingRetries, { asRetry: true });
   state.pendingRetries = [];
-  state.questions = state.questions.concat(retries);
+  beginExtraRound(retries, 'Làm lại');
   return true;
+}
+
+function queueSkipRound() {
+  if (state.pendingSkips.length === 0) return false;
+
+  const shouldShuffleQ = document.getElementById('shuffleQuestions').checked;
+  const shouldShuffleA = document.getElementById('shuffleAnswers').checked;
+
+  let qList = JSON.parse(JSON.stringify(state.pendingSkips));
+  state.pendingSkips = [];
+
+  if (shouldShuffleQ) qList = shuffleArray(qList);
+  if (shouldShuffleA) {
+    qList.forEach(q => {
+      q.options = shuffleArray(q.options);
+    });
+  }
+
+  beginExtraRound(qList, 'Bỏ qua');
+  return true;
+}
+
+function cloneQuestionForQueue(qObj) {
+  return {
+    question: qObj.question,
+    images: JSON.parse(JSON.stringify(qObj.images || [])),
+    options: JSON.parse(JSON.stringify(qObj.options)),
+    sourceExam: qObj.sourceExam,
+    _uid: qObj._uid,
+    _isRetry: Boolean(qObj._isRetry)
+  };
 }
 
 function setupQuizRun() {
@@ -490,6 +532,9 @@ function setupQuizRun() {
 
   state.questions = qList;
   state.firstPassTotal = qList.length;
+  state.roundStart = 0;
+  state.roundTotal = qList.length;
+  state.roundLabel = '';
   state.currentIndex = 0;
   state.score = 0;
   state.streak = 0;
@@ -497,6 +542,7 @@ function setupQuizRun() {
   state.correctCount = 0;
   state.wrongHistory = [];
   state.pendingRetries = [];
+  state.pendingSkips = [];
   state.recordedWrongUids = new Set();
 
   showScreen('quizScreen');
@@ -523,14 +569,24 @@ function renderQuestion() {
   clearAutoNext();
   state.answered = false;
   document.getElementById('feedbackBanner').classList.add('hidden');
+  document.getElementById('skipBtn').classList.remove('hidden');
 
-  const total = state.questions.length;
   const qObj = state.questions[state.currentIndex];
+  const posInRound = state.currentIndex - state.roundStart + 1;
+  const roundTotal = state.roundTotal || state.firstPassTotal;
+  const isExtraRound = state.roundStart > 0;
 
-  document.getElementById('qCounter').textContent = `${state.currentIndex + 1} / ${total}`;
+  document.getElementById('qCounter').textContent = isExtraRound
+    ? `${state.roundLabel} ${posInRound} / ${roundTotal}`
+    : `${posInRound} / ${state.firstPassTotal}`;
   document.getElementById('streakBadge').textContent = `🔥 Chuỗi: ${state.streak}`;
   document.getElementById('scoreBadge').textContent = `Điểm: ${state.score}`;
-  document.getElementById('progressFill').style.width = `${(state.currentIndex / total) * 100}%`;
+
+  // Thanh tiến độ theo đề gốc; vòng bỏ qua / làm lại hiện tiến độ riêng
+  const progressRatio = isExtraRound
+    ? (posInRound - 1) / Math.max(roundTotal, 1)
+    : state.currentIndex / Math.max(state.firstPassTotal, 1);
+  document.getElementById('progressFill').style.width = `${progressRatio * 100}%`;
   renderMathText(document.getElementById('questionText'), qObj.question);
   renderQuestionImages(document.getElementById('questionMedia'), qObj.images || []);
 
@@ -578,6 +634,7 @@ document.addEventListener('keydown', (e) => {
 function handleAnswer(selectedIdx, selectedBtn) {
   if (state.answered) return;
   state.answered = true;
+  document.getElementById('skipBtn').classList.add('hidden');
 
   const qObj = state.questions[state.currentIndex];
   const chosenOption = qObj.options[selectedIdx];
@@ -638,13 +695,7 @@ function handleAnswer(selectedIdx, selectedBtn) {
     }
 
     if (state.retryWrong) {
-      state.pendingRetries.push({
-        question: qObj.question,
-        images: JSON.parse(JSON.stringify(qObj.images || [])),
-        options: JSON.parse(JSON.stringify(qObj.options)),
-        sourceExam: qObj.sourceExam,
-        _uid: qObj._uid
-      });
+      state.pendingRetries.push(cloneQuestionForQueue(qObj));
     }
 
     banner.classList.add('wrong');
@@ -660,16 +711,32 @@ function handleAnswer(selectedIdx, selectedBtn) {
   document.getElementById('scoreBadge').textContent = `Điểm: ${state.score}`;
 
   const hasMoreInQueue = state.currentIndex < state.questions.length - 1;
+  const willSkipMore = state.pendingSkips.length > 0;
   const willRetryMore = state.retryWrong && state.pendingRetries.length > 0;
-  const isLast = !hasMoreInQueue && !willRetryMore;
+  const isLast = !hasMoreInQueue && !willSkipMore && !willRetryMore;
   document.getElementById('nextBtn').textContent = isLast ? 'Xem kết quả 🏆' : 'Câu tiếp theo ➔';
 
   scheduleAutoNext(chosenOption.isCorrect);
 }
 
+function skipQuestion() {
+  if (state.answered) return;
+
+  const qObj = state.questions[state.currentIndex];
+  state.pendingSkips.push(cloneQuestionForQueue(qObj));
+  nextQuestion();
+}
+
 function nextQuestion() {
   clearAutoNext();
   if (state.currentIndex < state.questions.length - 1) {
+    state.currentIndex += 1;
+    renderQuestion();
+    return;
+  }
+
+  // Câu bỏ qua quay lại trước, rồi đến câu sai cần làm lại
+  if (queueSkipRound()) {
     state.currentIndex += 1;
     renderQuestion();
     return;
