@@ -1,0 +1,180 @@
+Việc chuẩn hóa thiết bị đo thường được xác định theo:
+a. 5 cấp
+*b. 4 cấp
+c. 3 cấp
+d. 2 cấp
+
+Một Ampere kế có giới hạn đo là 20A, cấp chính xác 1,5%. Tìm khoảng giá trị thực của dòng điện cần đo khi Ampere kế chỉ 12A.
+*a. 11,7 ÷ 12,3A
+b. 11,6 ÷ 12,4A
+c. 11,5 ÷ 12,5A
+d. 11,8 ÷ 12,2A
+
+Một Volt kế có sai số tầm đo ±2%, ở tầm đo 300V, giới hạn sai số ở 150V là:
+a. 5%
+b. 3%
+*c. 4%
+d. 2,5%
+
+Khi đo điện áp xoay chiều 220V với dụng cụ đo có sai số tương đối 1,5% thì sai số tuyệt đối lớn nhất có thể có với dụng cụ đo là:
+*a. 3,3V
+b. 2,2V
+c. 10V
+d. 1,1V
+
+Một điện trở có thông số R = 330Ω ± 5%. Khoảng giá trị của điện trở này là:
+a. 325 ÷ 335A
+b. 323,5 ÷ 337,5A
+c. 328,5 ÷ 331,5A
+*d. 313,5 ÷ 346,5A 
+
+Một Volt kế có giới hạn đo 250V, dùng Volt kế này đo điện áp 150V thì Volt kế chỉ 156V. Tính sai số tương đối của phép đo.
+a. 5%
+b. 8%
+*c. 4% 
+d. 10%
+
+Sau nhiều lần đo điện trở, kết quả đo nằm trong khoảng 466,7 ÷ 473,3Ω. Kết quả phép đo này có thể viết lại là:
+a. R = 473,3 Ω ± 3,3%
+*b. R = 470 Ω ± 0,7% 
+c. R = 466,7 Ω ± 3,3%
+d. R = 470 Ω ± 3,3%
+
+Ưu điểm của mạch điện tử trong đo lường là:
+a. Độ linh hoạt cao, dễ tương thích truyền tín hiệu
+b. Độ nhạy thích hợp, độ tin cậy cao
+*c. Tất cả đều đúng 
+d. Tiêu thụ năng lượng ít, tốc độ đáp ứng nhanh
+
+Để giảm nhỏ sai số ngẫu nhiên thường dùng phương pháp:
+a. Cải tiến phương pháp đo
+b. Tất cả đều sai
+c. Kiểm định thiết bị đo thường xuyên
+*d. Thực hiện phép đo nhiều lần 
+
+Cấp chính xác của thiết bị đo là:
+a. Sai số giới hạn tính theo giá trị đo được
+*b. Sai số giới hạn tính theo giá trị định mức của thiết bị đo 
+c. Sai số giới hạn tính theo giá trị trung bình cộng số đo
+d. Sai số giới hạn tính theo giá trị thực của đại lượng cần đo
+
+Một vôn kế có sai số tầm đo ±1% ở tầm đo 300V, giới
+hạn sai số ở 120V là:
+a. 1%
+b. 10%
+c. 5%
+*d. 2,5% 
+
+Một nguồn điện áp có điện áp định mức là 50V. Dùng Volt kế có tầm đo cực đại là 100V để đo điện áp này.Kết quả đo được là 50,2V. Tìm sai số tương đối của kết quả đo trên.
+*a. 0,4% 
+b. 0,1%
+c. 0,2%
+d. 0,3%
+
+Sai số tuyệt đối là:
+a. Tỉ số giữa giá trị thực với giá trị định mức
+b. Tỉ số giữa giá trị thực với giá trị đo được
+c. Hiệu số giữa giá trị thực với giá trị định mức
+*d. Hiệu số giữa giá trị thực với giá trị đo được 
+
+Một Ampere kế có giới hạn đo là 20A, cấp chính xác 1%. Tìm giới hạn sai số khi đo dòng điện 5A.
+a. 5%
+b. 3%
+c. 2%
+*d. 4% 
+
+Sử dụng một Volt kế để đo điện áp, các kết quả thu được lần lượt là: 17,46V; 17,42V; 17,44V; 17,43V. Kết quả đo này được viết lại là:
+a. U = 17,42 ± 0,02V
+b. U = 17,44V ± 2%
+*c. U = 17,44 ± 0,02V 
+d. U = 17,43 ± 0,02V
+
+Một thiết bị đo có độ nhạy càng lớn thì sai số do thiết bị đo gây ra:
+*a. Càng bé 
+b. Càng lớn
+c. Tùy thuộc phương pháp đo
+d. Không thay đổi
+
+Trong đo lường, sai số ngẫu nhiên thường được gây ra bởi:
+a. Môi trường
+b. Người thực hiện phép đo
+c. Đại lượng cần đo
+*d. Tất cả đều đúng 
+
+Độ nhạy của volt kế là 20KΩ/VDC nghĩa là:
+a. Tổng trở tối đa của volt kế là 20KΩ nếu đo điện áp DC
+b. Tổng trở bé nhất của volt kế là 20KΩ
+*c. Tổng trở vào của volt kế là 20KΩ với mỗi Volt DC 
+d. Tổng trở lớn nhất của volt kế là 20KΩ
+
+Đại lượng điện tác động là những đại lượng điện ở trạng thái bình thường:
+*a. Có mang năng lượng điện 
+b. Không mang năng lượng điện
+c. Có điện áp
+d. Có dòng điện
+
+Một nguồn điện áp có điện áp định mức là 50V. Dùng Volt kế có tầm đo cực đại là 100V để đo điện áp này. Kết quả đo được là 50,2V. Tìm cấp chính xác của đồng hồ đo trên biết sai số tuyệt đối cực đại là 0,2V.
+a. 0,1%
+*b. 0,2% 
+c. 0,4%
+d. 0,3%
+
+Trong đo lường, sai số hệ thống thường được gây ra bởi:
+a. Môi trường
+*b. Dụng cụ đo 
+c. Đại lượng cần đo
+d. Người thực hiện phép đo
+
+Một Volt kế có sai số tầm đo ±1%, ở tầm đo 250V, giới hạn sai số ở 172V là:
+*a. 1,45% 
+b. 1,40%
+c. 1,50%
+d. 1,55%
+
+Sau nhiều lần đo điện áp, kết quả đo nằm trong khoảng 156 ÷ 160V. Kết quả phép đo này có thể viết lại là:
+a. U = 156 ± 4V
+b. U = 158 ± 4V
+*c. U = 158 ± 2V 
+d. U = 156 ± 2V
+
+Nếu các thiết bị đo có cùng cấp chính xác, thì phép đo trực tiếp có sai số:
+*a. Lớn hơn phép đo gián tiếp 
+b. Tất cả đều sai
+c. Nhỏ hơn phép đo gián tiếp
+d. Bằng với phép đo gián tiếp
+
+Độ tin cậy của một thiết bị đo phụ thuộc vào:
+a. Chất lượng các linh kiện cấu thành thiết bị đo
+*b. Tất cả đều đúng 
+c. Độ phức tạp của thiết bị đo
+d. Tính ổn định
+
+Sai số tương đối là:
+a. Tỉ số giữa giá trị đo được với giá trị định mức
+*b. Tỉ số giữa sai số tuyệt đối với giá trị thực 
+c. Tỉ số giữa sai số tuyệt đối với giá trị đo được
+d. Tỉ số giữa sai số tuyệt đối với giá trị định mức
+
+Một vôn kế có giới hạn đo 250V, dùng vôn kế này đo điện áp 200V thì vôn kế chỉ 210V. Sai số tương đối của phép đo là:
+a. 10V
+*b. 5% 
+c. 4%
+d. 4,7%
+
+Đại lượng điện thụ động là những đại lượng điện ở trạng thái bình thường:
+a. Có điện áp
+b. Có mang năng lượng điện
+c. Có dòng điện
+*d. Không mang năng lượng điện 
+
+Một Ampere kế có giới hạn đo là 30A, cấp chính xác 1%, khi đo đồng hồ chỉ 10A thì giá trị thực của dòng điện cần đo là:
+*a. 9,7÷10,3A 
+b. 9,3÷10,3A
+c. 9,7÷10,7A
+d. 9,7÷11A
+
+Độ nhạy của volt kế là 20KΩ/VDC, thang đo là 100VDC thì tổng đầu vào của volt kế là:
+a. 200KΩ
+b. 2KΩ
+c. 20KΩ
+*d. 2MΩ 
