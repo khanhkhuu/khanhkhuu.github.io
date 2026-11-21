@@ -1,0 +1,119 @@
+Cơ cấu đo chủ lực dùng để chế tạo dụng cụ đo dòng điện DC là:
+a. Điện từ
+b. Điện động
+c. Cảm ứng
+*d. Từ điện
+
+Nhược điểm của cơ cấu chỉ thị từ điện là:
+*a. Tất cả đều đúng
+b. Dễ hư hỏng
+c. Chỉ sử dụng dòng một chiều
+d. Khả năng chịu quá tải kém
+
+Nhược điểm của cơ cấu chỉ thị điện từ là:
+a. Kém chính xác, thang đo không đều
+b. Ảnh hưởng của từ trường bên ngoài lớn
+c. Tiêu thụ công suất lớn
+*d. Tất cả đều đúng
+
+Cơ cấu chỉ thị từ điện hoạt động đối với dòng:
+a. Tất cả đều đúng
+b. Dạng bất kỳ
+c. Xoay chiều
+*d. Một chiều
+
+Ưu điểm của cơ cấu chỉ thị điện động là:
+*a. Có độ chính xác cao
+b. Độ nhạy cao
+c. Ảnh hưởng của từ trường bên ngoài bé
+d. Tiêu thụ công suất bé
+
+Quan hệ ngõ vào và ra của cơ cấu chỉ thị điện từ là một hàm:
+*a. Phi tuyến
+b. Tất cả đều sai
+c. Tuyến tính
+d. Parabol
+
+Quan hệ ngõ vào và ra của cơ cấu chỉ thị điện động là một hàm:
+*a. Parabol
+b. Phi tuyến
+c. Tuyến tính
+d. Tất cả đều sai
+
+Độ nhạy điện áp ($S_{v}$) của cơ cấu từ điện được xác định từ độ nhạy dòng điện ($S_{I}$) theo công thức:
+a. $S_{v} = R_{m}/S_{I}$
+*b. $S_{v} = S_{I}/R_{m}$
+c. Tất cả đều sai
+d. $S_{v} = S_{I}.R_{m}$
+
+Dụng cụ để đo hệ số công suất đọc thẳng là:
+a. Volt kế
+*b. Cos phi kế
+c. Ampere kế
+d. Điện năng kế
+
+Cơ cấu chỉ thị điện từ hoạt động đối với dòng:
+a. Không đổi
+b. Một chiều
+c. Xoay chiều
+*d. Cả một chiều và xoay chiều
+
+Điện kế 1 pha thường được chế tạo với cơ cấu đo kiểu:
+*a. Cảm ứng
+b. Từ điện
+c. Điện từ
+d. Điện động
+
+Cơ cấu chỉ thị điện động hoạt động đối với dòng:
+a. Một chiều
+b. Thay đổi
+*c. Cả một chiều và xoay chiều
+d. Xoay chiều
+
+Đối với cơ cấu từ điện, khi dòng điện ngõ vào tăng gấp đôi thì góc quay:
+a. Giảm
+*b. Tăng gấp đôi
+c. Tăng 4 lần
+d. Giảm
+
+Nhược điểm của cơ cấu chỉ thị điện động là:
+a. Ảnh hưởng của từ trường bên ngoài lớn
+b. Tiêu thụ công suất lớn, độ nhạy thấp
+*c. Tất cả đều đúng
+d. Thang đo không đều
+
+Ứng dụng của cơ cấu đo điện từ được dùng trong:
+a. Công nghiệp
+b. Phòng thí nghiệm
+*c. Sản xuất và phòng thí nghiệm
+d. Sản xuất
+
+Đối với cơ cấu điện từ, khi dòng điện ngõ vào tăng gấp đôi thì góc quay:
+a. Giảm
+b. Giảm
+*c. Tăng 4 lần
+d. Tăng gấp đôi
+
+Đối với cơ cấu cảm ứng, để moment quay đạt giá trị cực đại thì góc lệch pha giữa hai từ thông là:
+*a. 90°
+b. 45°
+c. 0°
+d. 60°
+
+Cơ cấu chỉ thị nào hoạt động đối với dòng xoay chiều:
+a. Từ điện, điện động
+b. Tất cả đều đúng
+c. Từ điện, điện từ
+*d. Điện từ, điện động
+
+Ưu điểm của cơ cấu chỉ thị từ điện là:
+a. Ít bị ảnh hưởng của từ trường nhiễu bên ngoài
+*b. Tất cả đều đúng
+c. Độ chính xác cao, công suất tiêu thụ bé
+d. Thang đo chia đều
+
+Ưu điểm của cơ cấu chỉ thị điện từ là:
+*a. Chịu sự quá tải cao, dễ chế tạo
+b. Tất cả đều sai
+c. Tiêu thụ công suất bé, độ chính xác cao
+d. Ảnh hưởng của từ trường bên ngoài bé
