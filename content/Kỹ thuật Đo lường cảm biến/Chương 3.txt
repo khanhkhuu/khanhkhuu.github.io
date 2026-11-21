@@ -1,0 +1,419 @@
+Một máy biến dòng điện có thông số $100/5\text{A}$, được dùng để đo trong mạch. Biết khi luồn trực tiếp dây dẫn qua biến dòng thì dòng điện đầu ra đo được là $1,2\text{A}$. Cường độ dòng điện trong dây dẫn là:
+a. $12\text{A}$
+b. $2,4\text{A}$
+c. $60\text{A}$
+*d. $24\text{A}$
+
+Một cơ cấu từ điện chịu được dòng điện có cường độ là $1\text{mA}$, nếu dùng cơ cấu trên kết hợp với mạch chỉnh lưu bán kỳ để đo dòng điện xoay chiều thì dòng điện đo được là:
+*a. $2,22\text{ mA}$
+b. $1,11\text{ mA}$
+c. $1,41\text{ mA}$
+d. $1\text{ mA}$
+
+Để đo điện áp xoay chiều có thể dùng cơ cấu chỉ thị nào kết hợp với điện trở hạn dòng:
+a. Điện từ, từ điện
+b. Điện từ, từ điện, điện động
+*c. Điện từ, điện động
+d. Điện động, từ điện
+
+Điện áp hai đầu cơ cấu từ điện có $I_{m} = 100\mu\text{A}$, $R_{m} = 1\text{K}\Omega$ khi kim lệch $1/2$ thang đo là:
+a. $100\text{mV}$
+b. $200\text{mV}$
+*c. $50\text{mV}$
+d. $300\text{mV}$
+
+Đo điện áp DC bằng phương pháp biến trở và nguồn mẫu có ưu điểm:
+*a. Không bị ảnh hưởng nội trở của nguồn điện áp đo
+b. Có sai số nhỏ
+c. Dùng volt kế không chính xác
+d. Không phụ thuộc vào dạng tín hiệu
+
+Một cơ cấu đo kiểu từ điện có $R_{m} = 1,1\Omega$ và dòng điện làm kim lệch tối đa là $0,1\text{mA}$. Dùng điện trở Shunt $R_{s} = 0,22\Omega$ để mở rộng thang đo. Tính giá trị dòng điện qua mạch khi kim lệch tối đa:
+*a. $0,6\text{mA}$
+b. $0,5\text{mA}$
+c. $0,1\text{mA}$
+d. $0,2\text{mA}$
+
+Một cơ cấu từ điện có $I_{fs} = 100\mu\text{A}$, $R_{m} = 1\text{K}\Omega$, khi trở thành volt kế có tầm đo $100\text{V}$ thì độ nhạy điện áp một chiều của volt kế là:
+*a. $10\text{K}\Omega/\text{V}$
+b. $1000\text{K}\Omega/\text{V}$
+c. $100\text{K}\Omega/\text{V}$
+d. $1\text{K}\Omega/\text{V}$
+
+Máy biến dòng điện ($BI$) có công dụng:
+a. Biến điện áp nhỏ thành điện áp lớn phù hợp với điện áp của thiết bị
+*b. Biến dòng điện lớn thành dòng điện nhỏ phù hợp với dụng cụ đo tiêu chuẩn
+c. Biến dòng điện nhỏ thành dòng điện lớn phù hợp với công suất tải
+d. Biến điện áp lớn thành điện áp nhỏ phù hợp với dụng cụ đo tiêu chuẩn
+
+Mở rộng tầm đo dòng điện cho ampere kế AC dùng:
+*a. Thay đổi đường kính dây (cơ cấu điện từ)
+b. Tất cả đều đúng
+c. Điện trở shunt mắc song song với cuộn dây di động (cơ cấu điện động)
+d. Dùng điện trở Shunt (cơ cấu từ điện)
+
+Với $R_{s}$ là điện trở Shunt, $R_{m}$ là điện trở cơ cấu, $R_{t}$ là điện trở tải. Giới hạn đo dòng điện càng được mở rộng khi:
+a. $R_{s}$ càng nhỏ so với $R_{t}$
+b. $R_{s}$ càng lớn so với $R_{m}$
+*c. $R_{s}$ càng nhỏ so với $R_{m}$
+d. $R_{s}$ càng lớn so với $R_{t}$
+
+Để mở rộng giới hạn đo dòng điện một chiều, cơ cấu đo phải dùng điện trở mắc:
+a. Nối tiếp với phụ tải
+b. Song song với phụ tải
+*c. Song song với cơ cấu đo
+d. Nối tiếp với cơ cấu đo
+
+Phát biểu nào sau đây sai khi nói về máy biến dòng:
+a. Dòng điện đầu vào và ra tỉ lệ thuận với nhau
+b. Khi số vòng dây sơ cấp tăng gấp đôi thì tỉ số biến dòng giảm một nửa
+*c. Khi số vòng dây sơ cấp tăng gấp đôi thì tỉ số biến dòng tăng gấp đôi
+d. Dòng điện đầu ra tỉ lệ nghịch với số vòng dây thứ cấp
+
+Hệ số dạng sóng là tỉ số giữa:
+a. Trị hiệu dụng / Trị đỉnh
+*b. Trị hiệu dụng / Trị chỉnh lưu trung bình
+c. Trị chỉnh lưu trung bình / Trị hiệu dụng
+d. Trị đỉnh / Trị hiệu dụng
+
+Nguồn pin trong đồng hồ VOM kim dùng để:
+a. Đo các đại lượng điện thụ động
+b. Đo các đại lượng điện tác động
+*c. Đo điện trở
+d. Đo điện dung của tụ điện
+
+Điện trở $R$ mắc song song với ampere kế thì gọi là:
+a. Điện trở phụ
+*b. Điện trở Shunt
+c. Điện trở bảo vệ
+d. Điện trở hạn dòng
+
+Hai volt kế A và B có cùng tầm đo, có độ nhạy $S_{A} > S_{B}$, nếu hai volt kế trên đặt vào đo cùng một nguồn điện áp thì volt kế nào có nội trở gây ra sai số phép đo lớn hơn:
+*a. Volt kế B
+b. Cả hai volt kế có sai số như nhau
+c. Cả hai volt kế đều không gây ra sai số
+d. Volt kế A
+
+Cơ cấu từ điện có độ nhạy $20\text{K}\Omega/\text{V}$, khi kim lệch $1/4$ độ lệch tối đa thì dòng điện đi qua cơ cấu là:
+a. $25\mu\text{A}$
+*b. $12,5\mu\text{A}$
+c. $100\mu\text{A}$
+d. $50\mu\text{A}$
+
+Để phép đo dòng điện được chính xác, nội trở của ampere kế so với điện trở tải phải:
+*a. Nhỏ hơn rất nhiều
+b. Lớn hơn rất nhiều
+c. Lớn hơn
+d. Nhỏ hơn
+
+Để đo điện áp $3$ pha trị số lớn thường dùng vôn kế kết hợp với:
+a. $1$ máy biến điện áp $1$ pha
+b. $3$ máy biến điện áp $1$ pha
+c. $1$ máy biến điện áp $3$ pha
+*d. Tất cả đều đúng
+
+Một cơ cấu đo kiểu từ điện có $I_{fs} = 75\mu\text{A}$, $R_{m} = 1\text{K}\Omega$. Để cơ cấu này trở thành Ampere kế có thang đo $2,5\text{mA}$. Giá trị điện trở Shunt là:
+a. $3,93\Omega$
+b. $39,30\Omega$
+*c. $30,93\Omega$
+d. $33,39\Omega$
+
+Cơ cấu từ điện có $I_{fs} = 100\mu\text{A}$, $R_{m} = 1\text{K}\Omega$, nếu dùng cơ cấu trên để đo được dòng điện có cường độ $1\text{mA}$ thì phải dùng điện trở Shunt có trị số:
+a. $9\Omega$
+b. $90\Omega$
+*c. $1/9\text{K}\Omega$
+d. $9\text{K}\Omega$
+
+Khi đo điện áp, nội trở của Volt kế:
+a. Ảnh hưởng nhiều đến sai số phép đo
+b. Ảnh hưởng ít đến sai số phép đo
+c. Không ảnh hưởng đến sai số phép đo
+*d. Có ảnh hưởng đến sai số phép đo
+
+Cơ cấu từ điện có độ nhạy $20\text{K}\Omega/\text{V}$, khi kim lệch $75\%$ độ lệch tối đa thì dòng điện đi qua cơ cấu là:
+*a. $37,5\mu\text{A}$
+b. $25\mu\text{A}$
+c. $12,5\mu\text{A}$
+d. $50\mu\text{A}$
+
+Nội trở của Volt kế chỉ thị kim:
+*a. Thay đổi theo tầm đo
+b. Không thay đổi theo dạng tín hiệu
+c. Thay đổi theo dạng tín hiệu
+d. Không thay đổi theo tầm đo
+
+Khi sử dụng ampere kế để đo dòng điện trong mạch. Nếu điện trở cần đo khá nhỏ so với điện trở nội của ampere kế thì:
+a. Sai số được giảm thiểu
+b. Độ nhạy của máy cao hơn
+*c. Sai số lớn hơn, không chính xác
+d. Dễ tính toán kết quả đo
+
+Nguyên lý đo dòng DC trong ampere kế điện tử là:
+a. Chuyển dòng điện cần đo thành điện trở
+b. Cho dòng điện cần đo vào mạch đo
+*c. Chuyển dòng điện cần đo thành điện áp
+d. Dùng điện trở Shunt
+
+Một máy biến dòng điện có tỉ số biến dòng là $25$, giá trị dòng điện thứ cấp đọc được là $2,5\text{A}$ thì giá trị thực tế của dòng điện trong mạch là:
+*a. $62,5\text{A}$
+b. $0,1\text{A}$
+c. $26,5\text{A}$
+d. $75\text{A}$
+
+Cùng một cơ cấu, cùng tầm đo, tổng trở vào của Volt kế AC sẽ:
+a. Bằng tổng trở vào của volt kế DC
+b. Lớn hơn tổng trở vào của volt kế DC
+*c. Nhỏ hơn tổng trở vào của volt kế DC
+d. Tất cả đều sai
+
+Đo điện áp nhỏ ($\mu\text{V}$ hoặc $\text{mV}$) DC dùng phương pháp chopper vì:
+a. Tất cả đều sai
+b. Cần có hệ số khuếch đại lớn
+c. Có độ chính xác cao
+*d. Không bị phụ thuộc điện áp phân cực DC của mạch khuếch đại
+
+Khuyết điểm của volt kế AC dùng diode chỉnh lưu là:
+a. Tần số cao có ảnh hưởng đến tổng trở
+b. Phụ thuộc vào dạng tín hiệu
+*c. Tất cả đều đúng
+d. Tần số cao có ảnh hưởng đến điện dung ký sinh của diode
+
+Cơ cấu từ điện có $I_{fs} = 100\mu\text{A}$, $R_{m} = 1\text{K}\Omega$, để cơ cấu này trở thành volt kế có tầm đo $100\text{V}$ thì điện trở tầm đo là:
+a. $99\text{K}\Omega$
+*b. $999\text{K}\Omega$
+c. $9999\text{K}\Omega$
+d. $9\text{K}\Omega$
+
+Để mở rộng tầm đo của thang đo điện áp bằng cách mắc điện trở:
+a. Song song với cơ cấu chỉ thị
+b. Tất cả đều sai
+c. Cả nối tiếp và song song
+*d. Nối tiếp với cơ cấu chỉ thị
+
+Mạch khuếch đại thuật toán dùng đo điện áp phải có:
+a. Độ ổn định cho hệ số khuếch đại đối với sự thay đổi nhiệt độ
+*b. Tất cả đều đúng
+c. Ngõ vào vi sai có khả năng tốt
+d. Hệ số khuếch đại phải có độ tuyến tính cao
+
+Mở rộng tầm đo dòng điện cho ampere kế DC dùng:
+a. Điện trở shunt mắc song song với cuộn dây di động (cơ cấu điện động)
+b. Thay đổi đường kính dây (cơ cấu điện từ)
+*c. Dùng điện trở Shunt (cơ cấu từ điện)
+d. Tất cả đều đúng
+
+Ưu điểm của volt kế có bộ biến đổi nhiệt là:
+a. Tất cả đều đúng
+*b. Không phụ thuộc vào dạng và tần số tín hiệu
+c. Tổng trở vào không thay đổi theo tầm đo
+d. Không gây ra sai số do nội trở của volt kế
+
+Khi đo dòng điện, nếu nội trở ampere kế rất nhỏ so với điện trở tải thì sai số do ảnh hưởng của ampere kế:
+a. Tùy theo cơ cấu chỉ thị
+b. Đáng kể
+c. Còn phụ thuộc vào độ lớn dòng điện cần đo
+*d. Không đáng kể
+
+Một cơ cấu đo kiểu từ điện có $R_{m} = 1,2\text{K}\Omega$. Biết khi kim lệch $60\%\text{ FSD}$ thì dòng điện qua cơ cấu là $I_{m} = 30\mu\text{A}$. Tính điện trở Shunt $R_{s}$ để cơ cấu đo được dòng điện là $1,5\text{A}$:
+a. $0,06\Omega$
+b. $0,08\Omega$
+c. $0,02\Omega$
+*d. $0,04\Omega$
+
+Để đo điện áp một chiều có thể dùng cơ cấu chỉ thị nào kết hợp với điện trở hạn dòng:
+*a. Điện từ, từ điện, điện động
+b. Điện động, từ điện
+c. Điện từ, điện động
+d. Điện tử, từ điện
+
+Một cơ cấu từ điện có $I_{fs} = 75\mu\text{A}$, $R_{m} = 800\Omega$, $R_{p} = 20\text{K}\Omega$. Điện áp lớn nhất mà volt kế này có thể đo được là:
+a. $1,56\text{KV}$
+*b. $1,56\text{V}$
+c. $156\text{mV}$
+d. $156\text{V}$
+
+Một cơ cấu đo kiểu từ điện có giá trị giới hạn đo là $I_{fs}$, nội trở của cơ cấu đo là $R_{m}$. Để cơ cấu đo trở thành Ampere kế DC có thang đo $I$, cần mắc một điện trở Shunt $R_{S}$ song song với cơ cấu đo. Giá trị của điện trở Shunt là:
+a. $R_{S} = (I - I_{fs}) / R_{m}$
+*b. $R_{S} = I_{fs}R_{m} / (I - I_{fs})$
+c. $R_{S} = IR_{m} / (I - I_{fs})$
+d. $R_{S} = I_{m} / (I - I_{m})$
+
+Đo dòng điện dùng phương pháp biến đổi nhiệt có ưu điểm:
+a. Không phụ thuộc vào sự thay đổi của nhiệt độ môi trường
+*b. Không phụ thuộc vào dạng tín hiệu và tần số
+c. Tất cả đều đúng
+d. Không phụ thuộc vào sự gia tăng nhiệt lượng
+
+Giới hạn đo của ampere kế từ điện càng được mở rộng khi:
+a. Điện trở Shunt ($R_{s}$) càng nhỏ hơn điện trở tải cần đo
+b. Điện trở Shunt ($R_{s}$) càng lớn hơn điện trở tải cần đo
+*c. Điện trở Shunt ($R_{s}$) càng nhỏ hơn nội trở của cơ cấu từ điện ($R_{m}$)
+d. Điện trở Shunt ($R_{s}$) càng lớn hơn nội trở của cơ cấu từ điện ($R_{m}$)
+
+Một Ampere kế từ điện có $I_{fs} = 50\mu\text{A}$, $R_{m} = 500\Omega$, $R_{s} = 0,2\Omega$. Dòng điện lớn nhất mà Ampere kế này đo được là:
+*a. $125,05\text{mA}$
+b. $1,25\text{A}$
+c. $125,05\text{A}$
+d. $125,5\text{A}$
+
+Khi đo điện áp, nếu nội trở của volt kế càng lớn thì sai số phép đo:
+a. Càng lớn
+b. Tùy thuộc vào giá trị điện áp cần đo
+c. Không thay đổi
+*d. Càng nhỏ
+
+Để phép đo dòng điện được chính xác, điện trở cơ cấu đo so với điện trở tải phải:
+*a. Nhỏ hơn nhiều lần
+b. Lớn hơn nhiều lần
+c. Không thể so sánh
+d. Bằng nhau
+
+Khi đo cường độ dòng điện và điện áp DC qua tải, cách đấu đồng hồ đo chính xác:
+a. Ampere kế mắc song song và volt kế mắc song song với tải cần đo
+*b. Ampere kế mắc nối tiếp và volt kế mắc song song với tải cần đo
+c. Ampere kế mắc song song và volt kế mắc nối tiếp với tải cần đo
+d. Ampere kế mắc nối tiếp và volt kế mắc nối tiếp với tải cần đo
+
+Khi đo dòng điện xoay chiều có trị số lớn, thường kết hợp:
+a. Biến dòng + cơ cấu điện từ
+b. Biến dòng + cơ cấu từ điện + bộ chỉnh lưu
+c. Biến dòng + cơ cấu điện động
+*d. Tất cả đều đúng
+
+Để đo dòng điện xoay chiều có thể dùng cơ cấu chỉ thị:
+a. Điện từ, từ điện, điện động
+*b. Điện từ, điện động
+c. Điện từ, từ điện
+d. Điện động, từ điện
+
+Độ nhạy của Volt kế:
+a. Thay đổi theo dạng tín hiệu
+*b. Không thay đổi theo tầm đo
+c. Không thay đổi theo dạng tín hiệu
+d. Thay đổi theo tầm đo
+
+Một Volt kế có độ nhạy AC là $9\text{K}\Omega/\text{V}$, nếu volt kế dùng mạch chỉnh lưu bán kỳ thì độ nhạy DC của volt kế là:
+*a. $20\text{K}\Omega/\text{V}$
+b. $5\text{K}\Omega/\text{V}$
+c. $40\text{K}\Omega/\text{V}$
+d. $10\text{K}\Omega/\text{V}$
+
+Để đo dòng điện $3$ pha trị số lớn thường dùng ampere kế kết hợp với:
+*a. $3$ biến dòng $1$ pha
+b. $1$ biến dòng $3$ pha
+c. $1$ biến dòng $1$ pha
+d. Tất cả đều đúng
+
+Nguyên lý đo dòng điện là:
+a. Dùng điện trở Shunt
+*b. Mắc ampere kế nối tiếp với nhánh cần đo
+c. Mắc cơ cấu chỉ thị nối tiếp với mạch
+d. Tất cả đều sai
+
+Nội trở của ampere kế:
+a. Không thay đổi theo tầm đo
+b. Thay đổi theo giá trị dòng điện cần đo
+c. Thay đổi theo dạng tín hiệu
+*d. Thay đổi theo tầm đo
+
+Mở rộng tầm đo điện áp cho volt kế DC và AC dùng:
+a. Thay đổi số vòng dây (cơ cấu điện từ)
+b. Điện trở nối tiếp
+c. Biến áp đo lường (biến điện áp)
+*d. Tất cả đều đúng
+
+Máy biến điện áp ($BU$) có công dụng là:
+a. Mở rộng thang đo cho cơ cấu khi đo điện áp DC
+*b. Mở rộng thang đo cho cơ cấu khi đo điện áp AC
+c. Giảm điện áp cho tải
+d. Tăng điện áp cho tải
+
+Một cơ cấu từ điện có $I_{fs} = 50\mu\text{A}$, $R_{m} = 1200\Omega$, khi trở thành volt kế DC có thang đo $250\text{V}$ thì giá trị điện trở phụ là:
+a. $4,99\text{K}\Omega$
+b. $499\text{K}\Omega$
+*c. $4,99\text{M}\Omega$
+d. $499\Omega$
+
+Để mở rộng giới hạn đo cho volt kế để đo điện áp xoay chiều trên $1000\text{V}$ phải dùng:
+a. Biến dòng đo lường
+b. Điện trở phụ mắc song song
+c. Điện trở phụ mắc nối tiếp
+*d. Biến áp đo lường
+
+Một cơ cấu từ điện có $I_{fs} = 100\mu\text{A}$, $R_{m} = 1\text{K}\Omega$, khi trở thành volt kế có tầm đo $100\text{V}$ thì độ nhạy điện áp một chiều của volt kế là:
+a. $S_{AC} = 1\text{K}\Omega/\text{V}; S_{DC} = 450\text{K}\Omega/\text{V}$
+*b. $S_{AC} = 450\text{K}\Omega/\text{V}; S_{DC} = 1\text{K}\Omega/\text{V}$
+c. $S_{AC} = 900\text{K}\Omega/\text{V}; S_{DC} = 1\text{K}\Omega/\text{V}$
+d. $S_{AC} = 450\text{K}\Omega/\text{V}; S_{DC} = 900\text{K}\Omega/\text{V}$
+
+Mở rộng tầm đo dòng điện cho ampere kế điện tử dùng:
+a. Dùng điện trở Shunt (cơ cấu từ điện)
+*b. Thay đổi hệ số khuếch đại
+c. Điện trở chuyển thành áp
+d. Tất cả đều sai
+
+Điện áp $22\text{kV}$ có thể đo bằng phương pháp:
+a. Thống kê
+b. Hợp bộ
+*c. Gián tiếp
+d. Trực tiếp
+
+Một cơ cấu từ điện có $I_{fs} = 100\mu\text{A}$, $R_{m} = 1000\Omega$, khi trở thành volt kế DC có thang đo $100\text{V}$ thì độ nhạy của volt kế là:
+*a. $10\text{K}\Omega/\text{V}$
+b. $100\text{K}\Omega/\text{V}$
+c. $1000\text{K}\Omega/\text{V}$
+d. $1\text{K}\Omega/\text{V}$
+
+Khi sử dụng volt kế để đo điện áp trong mạch. Nếu điện trở cần đo khá nhỏ so với điện trở nội của volt kế thì:
+a. Dễ tính toán kết quả đo
+b. Sai số lớn hơn, không chính xác
+c. Độ nhạy của máy cao hơn
+*d. Sai số được giảm thiểu
+
+Số vòng dây sơ cấp trong cấu tạo ampere kẹp là:
+*a. $1\text{ vòng}$
+b. Tùy từng loại ampere kẹp
+c. Tùy thuộc vào giới hạn đo của ampere kẹp
+d. $10\text{ vòng}$
+
+Hệ số đỉnh là tỉ số giữa:
+*a. Trị đỉnh / Trị hiệu dụng
+b. Trị chỉnh lưu trung bình / Trị hiệu dụng
+c. Trị hiệu dụng / Trị đỉnh
+d. Trị hiệu dụng / Trị chỉnh lưu trung bình
+
+Mở rộng tầm đo điện áp cho volt kế điện tử DC và AC dùng:
+a. Thay đổi hệ số khuếch đại
+b. Điện trở nối tiếp (cơ cấu từ điện)
+c. Thay đổi số vòng dây
+*d. Điện trở phân áp ngõ vào mạch khuếch đại
+
+Quy tắc an toàn khi sử dụng biến dòng kết hợp với ampere kế xoay chiều là:
+a. Tất cả đều sai
+*b. Không để hở mạch cuộn dây thứ cấp khi đã có dòng vào sơ cấp
+c. Nối đất cuộn dây thứ cấp của biến dòng
+d. Không để hở mạch cuộn dây sơ cấp khi đã có dòng vào thứ cấp
+
+Một cơ cấu đo kiểu từ điện có $R_{m} = 1,1\Omega$ và dòng điện làm kim lệch tối đa là $0,1\text{mA}$. Dùng điện trở Shunt $R_{s} = 0,22\Omega$ để mở rộng thang đo. Tính giá trị dòng điện qua mạch khi kim lệch ở giữa thang đo:
+a. $0,05\text{mA}$
+b. $0,25\text{mA}$
+*c. $0,3\text{mA}$
+d. $0,2\text{mA}$
+
+Một Volt kế có độ nhạy là $15\text{K}\Omega/\text{V}$, thì tổng trở vào của Volt kế ở thang đo $50\text{V}$ là:
+*a. $750\text{K}\Omega$
+b. $7,5\text{K}\Omega$
+c. $75\text{K}\Omega$
+d. $750\Omega$
+
+Một Volt kế AC có độ nhạy là $9\text{K}\Omega/\text{V}$, thì nội trở của volt kế ở tầm đo $50\text{V}$ là:
+a. $45\text{K}\Omega$
+*b. $450\text{K}\Omega$
+c. $900\text{K}\Omega$
+d. $450\Omega$
+
+Một cơ cấu đo kiểu từ điện có giá trị giới hạn đo là $I_{fs}$, nội trở của cơ cấu đo là $R_{m}$. Để cơ cấu đo trở thành Volt kế DC có thang đo $U$, cần mắc một điện trở phụ $R_{p}$ nối tiếp với cơ cấu đo. Giá trị của điện trở phụ là:
+*a. $R_{p} = (U/I_{fs}) - R_{m}$
+b. $R_{p} = R_{m}/(U - I_{fs})$
+c. $R_{p} = (U/I_{fs}) + R_{m}$
+d. $R_{p} = U - R_{m}$
