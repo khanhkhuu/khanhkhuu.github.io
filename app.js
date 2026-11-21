@@ -693,7 +693,7 @@ function finishQuiz() {
   const accuracy = total > 0 ? Math.round((state.correctCount / total) * 100) : 0;
   const examLabel = state.currentExamFiles.length > 1
     ? `${state.currentExamFiles.length} đề đã chọn`
-    : (state.currentExamFiles[0] || '');
+    : (state.currentExamFiles[0].replace(/\.txt$/i, '').replace(/_/g, ' ') || '');
 
   document.getElementById('resultExamName').textContent =
     `${state.currentSubject} — ${examLabel}`;
