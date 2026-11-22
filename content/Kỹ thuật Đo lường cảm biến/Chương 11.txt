@@ -1,0 +1,239 @@
+Đặc tính vật lý nào là thông số đo chính của đồng hồ đo lưu lượng từ?
+*a. Vận tốc dòng chảy 
+b. Chênh lệch áp suất
+c. Cường độ từ trường
+d. Độ dẫn điện
+
+Lưu lượng là:
+a. Áp suất của một tiết diện trong một đơn vị thời gian
+b. Vận tốc của thể tích chảy qua một tiết diện trong một đơn vị thời gian
+c. Khối lượng của một tiết diện trong một đơn vị thời gian
+*d. Lượng thể tích chảy qua một tiết diện trong một đơn vị thời gian 
+
+Thành phần nào trong đồng hồ đo lưu lượng áp suất chênh lệch gây ra sự giảm áp suất để đo lưu lượng
+a. Ống Venturi
+b. Màng
+c. Cảm biến
+*d. Đĩa đo lưu lượng 
+
+Chức năng chính của đồng hồ đo lưu lượng dịch chuyển dương là:
+a. Đo nhiệt độ chất lỏng
+*b. Đo thể tích chất lỏng 
+c. Đo vận tốc chất lỏng
+d. Đo áp suất chất lỏng
+
+Loại đồng hồ đo lưu lượng nào có một đoạn hẹp với đường kính lớn và nhỏ để đo lưu lượng?
+*a. Đồng hồ đo Venturi 
+b. Đồng hồ đo từ
+c. Đĩa đo lưu lượng
+d. Đồng hồ đo xoáy
+
+Thiết bị nào đo lưu lượng bằng cách phát hiện sự thay đổi tần số do dòng chất lỏng gây ra?
+a. Đồng hồ đo Coriolis
+b. Đồng hồ đo từ
+c. Đồng hồ đo Turbine
+*d. Đồng hồ đo Doppler siêu âm 
+
+Lưu lượng kế điện từ hoạt động dựa vào định luật:
+a. Định luật Coulumb
+b. Định luật Hooke
+c. Định luật Ohm
+*d. Định luật Faraday 
+
+Loại đồng hồ đo lưu lượng nào sử dụng một phần tử xoay để đo lưu lượng?
+*a. Đồng hồ đo Turbine 
+b. Đồng hồ đo Venturi
+c. Đồng hồ đo siêu âm
+d. Đồng hồ đo từ
+
+Variable Area Flow Meter còn được gọi là:
+a. Lưu lượng kế truyền nhiệt
+b. Lưu lượng kế thể tích
+*c. Lưu lượng kế kiểu phao 
+d. Lưu lượng kế turbine
+
+Lưu lượng kế thể tích tên tiếng anh là:
+a. Oriace Plate
+b. Barometer
+*c. Positive Displacement Flowmeter 
+d. Rotameter
+
+Trong hiệu ứng Venturi, điều gì xảy ra với vận tốc và áp suất của chất lỏng ở phần hẹp của ống?
+*a. Vận tốc tăng, áp suất giảm 
+b. Cả vận tốc và áp suất tăng
+c. Vận tốc giảm, áp suất tăng
+d. Cả vận tốc và áp suất giảm
+
+Yếu tố nào của ống trong suốt không ảnh hưởng đến độ chính xác của kết quả đo?
+a. Nhiệt độ chất lỏng
+b. Độ chính xác của vạch chia
+c. Đường kính ống
+*d. Khối lượng riêng của chất lỏng 
+
+Thuật ngữ “hiệu ứng Coriolis” trong đồng hồ đo lưu lượng ám chỉ:
+a. Đo lưu lượng chất lỏng bằng sự chênh lệch áp suất
+*b. Đo lưu lượng khối lượng bằng lực quán tính 
+c. Đo sự thay đổi nhiệt độ của chất lỏng
+d. Đo sự thay đổi mật độ chất lỏng do vận tốc
+
+Thành phần chính của cảm biến siêu âm là:
+a. Nam châm
+b. Cuộn dây điện
+*c. Bộ phát và nhận sóng âm 
+d. Bộ phát tia laser
+
+Nguyên lý nào được sử dụng trong cảm biến áp suất để đo mức chất lỏng?
+a. Phản xạ sóng âm
+*b. Thay đổi điện trở 
+c. Từ trường
+d. Phản xạ ánh sáng
+
+Loại cảm biến nào sử dụng sự thay đổi điện dung để đo mức chất lỏng?
+a. Cảm biến siêu âm
+*b. Đầu dò điện dung 
+c. Cảm biến áp suất
+d. Cảm biến quang học
+
+Phương pháp ống bọt khí có ưu điểm đặc biệt chống lại:
+a. Áp suất cao
+b. Sự thay đổi nhiệt độ
+c. Nhiễu điện
+*d. Ăn mòn 
+
+Phương trình Bernoulli liên quan đến áp suất, vận tốc và yếu tố nào khác trong hệ thống dòng chất lỏng?
+a. Độ nhớt
+*b. Độ cao 
+c. Mật độ
+d. Nhiệt độ
+
+Trong cảm biến điện dung, không khí và chất lỏng tạo thành lớp nào của tụ điện?
+a. Từ trường
+*b. Điện môi 
+c. Dòng điện
+d. Ánh sáng
+
+Nguyên lý chính được sử dụng trong đồng hồ đo lưu lượng áp suất chênh lệch là:
+*a. Chênh lệch áp suất 
+b. Độ đục
+c. Độ dẫn nhiệt
+d. Cảm ứng từ
+
+Nguyên lý nào không thể xác định được lưu lượng:
+*a. Đo áp suất lưu chất 
+b. Đo khối lượng lưu chất
+c. Đo vận tốc lưu chất
+d. Đo thể tích lưu chất
+
+Thuật ngữ “Rotameter” thường liên quan đến loại đo lưu lượng:
+a. Khối lượng nhiệt
+b. Áp suất chênh lệch
+c. Điện từ
+*d. Diện tích biến đổi 
+
+Mục đích của ống Pitot trong đo lưu lượng là:
+a. Đo mật độ chất lỏng
+b. Đo áp suất tĩnh
+*c. Đo áp suất động 
+d. Đo nhiệt độ dòng chảy
+
+Đặc điểm chính của đồng hồ đo lưu lượng Turbine
+a. Đo lưu lượng bằng cảm biến nhiệt
+*b. Đo lưu lượng thể tích bằng cách sử dụng phần tử xoay 
+c. Đo lưu lượng dựa trên nguyên lý từ trường
+d. Đo lưu lượng bằng tín hiệu siêu âm
+
+Lưu lượng thể tích Q qua đồng hồ đo lưu lượng được tính bằng:
+a. Q = B.L.v
+b. Q = A.L.B
+*c. Q = A.v 
+d. Q = A.E
+
+Công thức tính mức chất lỏng dựa trên trọng lượng, gia tốc trọng trường
+a. $h = \frac{4F}{g\pi D^2}$
+b. $h = \frac{4F}{M\pi D^2}$
+a. $h = \frac{4F}{\rho\pi D^2}$
+*a. $h = \frac{4F}{\rho g\pi D^2}$
+
+Kỹ thuật nào sử dụng phao để đo mức chất lỏng?
+a. Điện dung
+*b. Đo mức bằng phao 
+c. Từ tính
+d. Siêu âm
+
+Thành phần nào trong đồng hồ đo lưu lượng áp suất chênh lệch đo sự chênh lệch áp suất:
+a. Đĩa đo lưu lượng
+*b. Cảm biến 
+c. Màng
+d. Ống Venturi
+
+Trong ngữ cảnh đo mức chất lỏng, LVDT viết tắt là:
+*a. Biến áp vi sai tuyến tính 
+b. Bộ phát hiện độ nghiêng
+c. Cảm biến dịch chuyển
+d. Đo mức thay đổi
+
+Trong ngữ cảnh đồng hồ đo lưu lượng, thuật ngữ “dịch chuyển dương” ám chỉ:
+a. Đo sự dịch chuyển của phân tử khí
+*b. Đo thể tích cụ thể của chất lỏng 
+c. Đo sự dịch chuyển của hạt rắn
+d. Đo sự dịch chuyển của hạt chất lỏng
+
+Loại đồng hồ đo lưu lượng nào thường được sử dụng cho khí và hơi nước?
+*a. Đồng hồ đo xoáy 
+b. Đồng hồ đo siêu âm
+c. Đồng hồ lưu lượng
+d. Đồng hồ đo Turbine
+
+Phương pháp đo mức chất lỏng sử dụng ống:
+*a. Ống trong suốt 
+b. Ống đục
+c. Ống nhựa
+d. Ống chữ U
+
+Công thức tính mức chất lỏng dựa trên khối lượng của chất lỏng, thể tích và khối lượng riêng
+a. $h = \frac{4M}{V\pi D^2}$
+*b. $h = \frac{4M}{\rho\pi D^2}$
+c. $h = \frac{4M}{\pi D^2}$
+d. $h = \frac{4V}{\rho\pi D^2}$
+
+Ưu điểm của việc sử dụng cảm biến siêu âm trong đo mức là:
+a. Kháng nhiệt độ cao
+*b. Khả năng đo chất lỏng ăn mòn 
+c. Chi phí thấp
+d. Độ chính xác cao
+
+Đồng hồ đo Coriolis đo trực tiếp thông số:
+a. Áp suất dòng chảy
+b. Mật độ dòng chảy
+c. Vận tốc dòng chảy
+*d. Khối lượng dòng chảy 
+
+Công thức nào được dùng để tính mức chất lỏng h dựa trên thể tích V và đường kính D trong ống nhìn?
+a. $h = \frac{P}{\rho g}$
+b. $h = \frac{F}{\rho g}$
+*c. $h = \frac{4V}{\pi D^2}$
+d. $h = \frac{2V}{\pi D^2}$
+
+Biến áp vi sai LVDT viết tắt của:
+a. Linear Variety Differential Transformer
+b. Linear Variable Difference Transformer
+*c. Linear Variable Differential Transformer 
+d. Linear Various Different Transformer
+
+Sức điện động cảm ứng theo định luật Faraday:
+a. E = B.v
+*b. E = B.L.v 
+c. E = B.L
+d. E = L.v
+
+Công thức đo mức chất lỏng dựa trên áp suất tại đáy ống, khối lượng riêng chất lỏng và gia tốc trọng trường
+a. $h = \frac{F}{\rho g}$
+b. $h = \frac{2V}{\pi D^2}$
+*c. $h = \frac{P}{\rho g}$
+d. $h = \frac{4V}{\pi D^2}$
+
+Trong đồng hồ đo lưu lượng kiểu phao, mối quan hệ giữa lưu lượng và vị trí của phao là:
+*a. Lưu lượng tỉ lệ thuận với vị trí phao 
+b. Lưu lượng không phụ thuộc vào vị trí phao
+c. Lưu lượng tỉ lệ nghịch với vị trí phao
+d. Lưu lượng tỉ lệ bình phương với vị trí phao
