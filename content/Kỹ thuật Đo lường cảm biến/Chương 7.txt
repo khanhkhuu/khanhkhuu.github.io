@@ -1,0 +1,119 @@
+Trong biến áp vi sai khi lõi sắt di chuyển về phía cuộn thứ cấp 1 thì:
+a. $V_1$ giảm xuống, $V_2$ tăng lên và $V_out$ tăng lên và cùng chiều $V_1$
+*b. $V_1$ tăng lên, $V_2$ giảm xuống và $V_out$ tăng lên và cùng chiều $V_1$
+c. $V_1$ tăng lên, $V_2$ tăng lên và $V_out$ tăng lên và cùng chiều $V_1$
+d. $V_1$ tăng lên, $V_2$ giảm xuống và $V_out$ tăng lên và ngược chiều $V_1$
+
+Biến áp vi sai có:
+a. 2 cuộn dây sơ cấp ngược cực tính, 1 cuộn dây thứ cấp
+*b. 1 cuộn dây sơ cấp, 2 cuộn dây thứ cấp ngược cực tính
+c. 1 cuộn dây sơ cấp, 2 cuộn dây thứ cấp cùng cực tính
+d. 2 cuộn dây sơ cấp, 2 cuộn dây thứ cấp ngược cực tính
+
+Trong biến áp vi sai khi lõi sắt di chuyển về phía cuộn thứ cấp 2 thì:
+a. $V_1$ giảm xuống, $V_2$ giảm xuống và $V_out$ tăng lên và cùng chiều $V_2$
+*b. $V_1$ giảm xuống, $V_2$ tăng lên và $V_out$ tăng lên và cùng chiều $V_2$
+c. $V_1$ giảm xuống, $V_2$ tăng lên và $V_out$ giảm xuống và cùng chiều $V_2$
+d. $V_1$ giảm xuống, $V_2$ tăng lên và $V_out$ tăng lên và cùng chiều $V_1$
+
+Sự khác biệt chính giữa cảm biến từ và cảm biến điện dung là:
+*a. Nguyên lý hoạt động
+b. Độ chính xác
+c. Vùng phát hiện
+d. Cách sử dụng
+
+Biến áp vi sai là:
+a. Thiết bị cơ điện chuyển đổi tần số của một đối tượng thành tín hiệu điện
+b. Thiết bị cơ điện chuyển đổi chuyển động tròn của một đối tượng thành tín hiệu điện
+c. Thiết bị cơ điện chuyển đổi sai số điện áp của một đối tượng thành tín hiệu điện
+*d. Thiết bị cơ điện chuyển đổi chuyển động thẳng của một đối tượng thành tín hiệu điện
+
+Điện cảm L trong cuộn dây được tính bằng
+a. $L = W^2 R$
+b. $L = \frac{W}{R}$
+c. $L = \frac{R}{W^2}$
+*b. $L = \frac{W^2}{R}$
+
+Tụ điện trụ có công thức:
+a. $C = \frac{\pi ε.l}{ln\frac{R_1}{R2}}$
+*b. $C = \frac{2\pi ε.l}{ln\frac{R_2}{R_1}}$
+c. $C = \frac{\pi ε.l}{ln\frac{R_2}{R_1}}$
+d. $C = \frac{2\pi ε.l}{ln\frac{R_1}{R_2}}$
+
+Độ dịch chuyển của điện tử liên quan mật thiết đến góc:
+a. Theta
+b. Delta
+c. Beta
+*d. Alpha
+
+Đo dịch chuyển dùng cảm biến điện cảm mắc vi sai 2 cuộn dây, ngõ ra của cảm biến là:
+a. Điện cảm
+b. Điện dung
+c. Điện trở
+*d. Điện áp
+
+Phát biểu nào sau đây là sai khi nói về nhược điểm của cảm biến điện trở:
+a. Tiếp điểm mòn dần do con chạy trượt trên các vòng dây
+b. Chịu ảnh hưởng nhiễu từ môi trường (bụi, hơi nước, rung, chấn động)
+*c. Thời gian sử dụng càng nhiều, độ chính xác không thay đổi
+d. Đáp ứng động kém do giữa trục và con chạy có quán tính
+
+Đo dịch chuyển sử dụng cảm biến điện cảm, khi khoảng cách càng tăng thì điện cảm càng:
+a. Không thay đổi
+b. Tất cả đều đúng
+c. Tăng
+*d. Giảm
+
+Cảm biến từ không có đặc điểm:
+*a. Độ tin cậy cao
+b. Không tiếp xúc với vật khi đo
+c. Chống chịu được môi trường nhiễm bẩn cực tốt
+d. Tuổi thọ cao
+
+Đâu là nhược điểm của cảm biến điện cảm:
+*a. Phải sử dụng nguồn điện xoay chiều
+b. Khoảng hoạt động lớn
+c. Thời gian hoạt động bền
+d. Dải nhiệt hoạt động rộng
+
+Tụ điện phẳng có công thức
+*a. $C = \frac{\varepsilon.A}{d}$
+b. $C = \frac{\varepsilon.d}{A}$
+c. $C = \frac{A.d}{\varepsilon}$
+b. $C = \frac{d}{\varepsilon.A}$
+
+Vật liệu nào sau đây không được sử dụng làm cảm biến điện trở từ:
+*a. Vàng
+b. Nickel – Sắt
+c. Cobalt – Nickel
+d. Indium Antimonide
+
+Đặc điểm của biến áp vi sai:
+a. Độ phân giải giới hạn
+b. Tuổi thọ cơ khí thấp
+c. Hư hỏng do dịch chuyển quá giới hạn
+*d. Chống chịu môi trường tốt
+
+Lực điện từ Lorentz có công thức:
+a. F = q.E
+*b. F = q.E + q.v.B
+c. F = q.v.B.E
+d. F = q.v.B
+
+Đo dịch chuyển dùng cảm biến điện dung bằng phương pháp thay đổi điện môi giữa các cực, các tụ điện $C_1$ và $C_2$ của cảm biến mắc:
+a. Tất cả đều đúng
+b. Hỗn hợp
+*c. Song song
+d. Nối tiếp
+
+Đo dịch chuyển dùng cảm biến điện dung, ngõ ra của cảm biến thuộc loại:
+a. Số
+b. Tương tự
+*c. Thụ động
+d. Tác động
+
+Phát biểu nào sau đây là sai khi nói về ưu điểm của cảm biến điện trở:
+a. Đo được dịch chuyển thẳng, quay, góc
+b. Giá thành rẻ
+*c. Mạch gia công tín hiệu phức tạp
+d. Hoạt động tốt trong dải nhiệt rộng, có dải điện trở thay đổi lớn
