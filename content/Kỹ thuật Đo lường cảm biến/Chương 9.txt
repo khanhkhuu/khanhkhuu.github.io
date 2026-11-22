@@ -1,0 +1,360 @@
+Mối quan hệ giữa điện trở và độ biến dạng
+a. $\frac{R}{\Delta R} = K\varepsilon$
+*b. $\frac{\Delta R}{R} = K\varepsilon$
+c. $\frac{\Delta R}{R} = \frac{\varepsilon}{K}$
+d. $\frac{\Delta R}{R} = \frac{K}{\varepsilon}$
+
+Gia tốc kế áp điện trở sử dụng loại cảm biến:
+*a. Cảm biến áp điện
+b. Cảm biến từ điện
+c. Cảm biến nhiệt điện
+d. Cảm biến điện dung
+
+Độ biến dạng ký hiệu là:
+a. σ
+b. ρ
+c. K
+*d. ε
+
+Gia tốc được ký hiệu là
+a. g
+*b. α
+c. F
+d. m
+
+Quan hệ giữa điện áp ra và khối lượng của load cell là:
+a. $V_O = S\frac{m}{MV_S}$
+*b. $V_O = SV_S\frac{m}{M}$
+c. $V_O = \frac{m}{MSV_S}$
+d. $V_O = V_S\frac{m}{MS}$
+
+Quan hệ giữ lực và gia tốc theo định luật 2 Newton là:
+a. F = mt
+b. F = mv
+c. F = mg
+*d. F = mα
+
+Cảm biến nào được tích hợp trong các loại máy công nghiệp như máy rèn, máy hàn, máy dập,..
+a. Cảm biến áp lực
+b. Cảm biến áp suất
+*c. Cảm biến áp điện
+d. Cảm biến điện áp
+
+Trong cảm biến áp điện trở kim loại, hệ số Poisson có giá trị tối đa là:
+a. 0,3
+b. 0,4
+c. 0,2
+*d. 0,5
+
+Gia tốc kế áp điện trở tên tiếng anh là:
+a. Magnetoresitive accelerometer
+b. Hall effect accelerometer
+c. Thermal accelerometer
+*d. Piezoresistive accelerometer
+
+Công thức tính áp suất của ống xếp
+*a. $P = \frac{x}{A}\lambda$
+b. $P = \frac{x}{A\lambda}$
+c. $P = \frac{A}{x\lambda}$
+d. $P = \frac{A}{x}\lambda$
+
+Gia tốc kế Hall hoạt động dựa trên hiệu ứng:
+a. Hiệu ứng từ điện
+*b. Hiệu ứng Hall
+c. Hiệu ứng nhiệt
+d. Hiệu ứng quang
+
+Sau năm bao nhiêu thì đơn vị Newton trên m trở thành đơn vị Pascal:
+a. 1972
+b. 1968
+*c. 1971 
+d. 1973
+
+Tính áp suất không khí tại độ cao 8,2km so với mực nước biển
+*a. 34583 Pa
+b. 34385 Pa
+c. 34358 Pa
+d. 34538 Pa
+
+Đơn vị của áp suất trong hệ SI:
+a. Newton (N)
+b. Watt (W)
+c. Jouje (J)
+*d. Pascal (Pa)
+
+Cảm biến gia tốc sử dụng hiệu ứng gì để đo lường
+a. Hiệu ứng quang điện
+*b. Hiệu ứng áp điện
+c. Hiệu ứng điện từ
+d. Hiệu ứng nhiệt điện
+
+Trên nhãn sản phẩm và đồng hồ đo thường ghi áp suất:
+a. Áp suất tuyệt đối
+b. Áp suất không khí
+c. Áp suất chân không
+*d. Áp suất tương đối
+
+Cảm biến áp điện trở bán dẫn sử dụng vật liệu:
+a. Slicon đơn tinh thể
+*b. Tất cả đều đúng
+c. Germanium
+d. Cacbua Silicon
+
+Chênh lệch mức chất lỏng trong áp kế ống chữ U được ký hiệu là:
+*a. Δh
+b. Δρ
+c. ΔP
+d. Δv
+
+Áp suất không khí được tính bằng:
+a. $P = P_0(1 - \frac{T_0}{Lh})^\frac{gM}{RL}$
+b. $P = P_0(1 - \frac{T_0}{Lh})^\frac{RL}{gM}$
+*c. $P = P_0(1 - \frac{Lh}{T_0})^\frac{gM}{RL}$
+d. $P = P_0(1 - \frac{Lh}{T_0})^\frac{RL}{gM}$
+
+Đo huyết áp, nhịp tim và nồng độ máu sử dụng cảm biến:
+a. Cảm biến áp điện trở bán dẫn
+b. Cảm biến áp điện
+*c. Cảm biến áp suất
+d. Cảm biến áp điện trở kim loại
+
+Mạch cầu Wheatstone là:
+*a. Mạch đo điện trở
+b. Mạch đo điện áp
+c. Mạch đo dòng điện
+d. Mạch đo nhiệt độ
+
+Trong cảm biến áp điện trở kim loại, hệ số biến dạng K tối đa là:
+a. 3
+b. 1
+c. 4
+*d. 2
+
+Gia tốc kế dịch chuyển sử dụng nguyên lý của định luật:
+a. Định luật Ohm
+b. Định luật Faraday
+c. Định luật Coulomb
+*d. Định luật Hooke
+
+Load cell là cảm biến dùng để đo:
+*a. Khối lượng 
+b. Kích thước
+c. Áp suất
+d. Chiều dài
+
+Hệ số Poisson được ký hiệu là:
+*a. ν 
+b. $π_i$
+c. K
+d. ε
+
+Ống xếp kết hợp với biến trở con chạy được sử dụng để đo:
+a. Độ rung
+*b. Áp suất
+c. Độ ẩm
+d. Nhiệt độ
+
+Gia tốc kế từ (Magnetoresistive Accelerometer) sử dụng loại cảm biến:
+a. Cảm biến quang
+*b. Cảm biến từ điện trở
+c. Cảm biến Hall
+d. Cảm biến áp điện
+
+Hệ số biến dạng ký hiệu là:
+a. σ
+b. ε
+*c. K 
+d. ρ
+
+Thiết bị đo áp suất bằng chiều cao cột chất lỏng được gọi là:
+a. Manometer
+*b. Barometer 
+c. Anemometer
+d. Thermometer
+
+Hiệu ứng áp điện là:
+a. Khi vật liệu bị biến dạng cơ học, nó phát ra ánh sáng
+b. Khi vật liệu bị biến dạng cơ học, nó thay đổi màu sắc
+c. Khi vật liệu bị biến dạng cơ học, nó phát ra âm thanh
+*d. Khi vật liệu bị biến dạng cơ học, nó phát ra điện tích
+
+Áp suất không khí thay đổi theo yếu tố:
+a. Nhiệt độ
+b. Độ ẩm
+*c. Tất cả đều đúng 
+d. Độ cao
+
+Gia tốc kế điện trở từ tên tiếng Anh là:
+a. Thermal accelerometer
+b. Piezoresistive accelerometer
+c. Hall effect accelerometer
+*d. Magnetoresitive accelerometer 
+
+Dụng cụ Barometer được sử dụng để đo:
+a. Áp suất dầu
+*b. Áp suất không khí 
+c. Áp suất khí gas
+d. Áp suất nước
+
+Áp suất tuyệt đối là:
+a. Áp suất so với áp suất không khí
+b. Áp suất so với áp suất chất rắn
+c. Áp suất so với áp suất chất lỏng
+*d. Áp suất so với áp suất chân không
+
+Gia tốc kế tích cực và gia tốc kế thụ động khác nhau ở:
+a. Gia tốc kế thụ động cần nguồn điện
+b. Gia tốc kế tích cực không cần nguồn điện
+*c. Gia tốc kế thụ động thích hợp cho đo kích thước tĩnh
+d. Gia tốc kế tích cực thích hợp cho đo kích thước tĩnh
+
+Vật liệu thường được sử dụng để chế tạo cảm biến áp điện trở là:
+a. Thủy tinh
+*b. Đồng – Nickel 
+c. Vàng
+d. Bạc
+
+Cảm biến áp điện trở có ngõ ra là:
+a. Lực tác động
+*b. Điện trở 
+c. Khối lượng
+d. Điện áp
+
+Điện áp ra định mức của load cell là bao nhiêu khi khối lượng đặt lên là cực đại?
+a. 0,5V
+*b. 1V 
+c. 5V
+d. 2V
+
+Vật liệu nào sau đây không được sử dụng trong cảm biến áp điện trở bán dẫn?
+a. Germanium
+*b. Nickel 
+c. Silicon đa tinh thể
+d. Cacbua Silicon
+
+Áp suất chất lỏng trong áp kế ống chữ U được tính bằng:
+a. $P = \rho g \Delta v$
+b. $P = \rho g \Delta \rho$
+c. $P = \rho g \Delta P$
+*d. $P = \rho g \Delta h$
+
+Mạch cầu Wheatstone thường được sử dụng với cảm biến:
+a. Cảm biến ánh sáng
+b. Cảm biến âm thanh
+c. Cảm biến nhiệt
+*d. Cảm biến áp điện trở 
+
+Định luật Hooke có công thức:
+a. F = Kg
+*b. F = Kx 
+c. F = mK
+d. F = Kv
+
+Load cell hoạt động dựa vào hiệu ứng:
+a. Áp điện
+b. Điện từ
+c. Tất cả đều sai
+*d. Áp điện trở 
+
+Cảm biến áp điện trở bán dẫn thường được chế tạo từ vật liệu:
+a. Silicon đa tinh thể
+b. Germanium
+c. Silicon không kết tinh
+*d. Tất cả đều đúng
+
+Áp suất là:
+a. Khối lượng tác động trên một đơn vị lực
+b. Lực tác động trên một đơn vị khối lượng
+*c. Lực tác động trên một đơn vị diện tích 
+d. Diện tích tác động trên một đơn vị lực
+
+Gia tốc kế hiệu ứng Hall tên tiếng anh là:
+a. Thermal accelerometer
+b. Piezoresistive accelerometer
+*c. Hall effect accelerometer 
+d. Magnetoresitive accelerometer
+
+Áp suất tương đối là:
+a. Áp suất so với áp suất chất rắn
+*b. Áp suất so với áp suất không khí 
+c. Áp suất so với áp suất chất lỏng
+d. Áp suất so với áp suất chân không
+
+Cảm biến áp điện trở được chế tạo dạng sợi nhỏ với kích thước:
+a. Vài m
+b. Vài dm
+*c. Vài μm 
+d. Vài cm
+
+Ống Bourdon và ống xếp được sử dụng để:
+a. Đo nhiệt độ
+b. Đo độ ẩm
+*c. Đo áp suất
+d. Đo độ rung
+
+Trong kỹ thuật, áp suất nào được dùng trong tính toán:
+a. Áp suất không khí
+b. Áp suất chân không
+c. Áp suất tương đối
+*d. Áp suất tuyệt đối
+
+Load cell có ngõ ra là:
+a. Điện trở
+*b. Điện áp 
+c. Khối lượng
+d. Lực tác động
+
+Cảm biến áp điện trở hoạt động dựa trên nguyên lý:
+a. Hiệu ứng quang điện
+*b. Hiệu ứng áp điện trở
+c. Hiệu ứng điện từ
+d. Hiệu ứng Hall
+
+Load cell của Honeywell sử dụng mạch cầu:
+a. Mạch cầu ¼
+b. Mạch cầu bán phần
+*c. Mạch cầu Wheatstone
+d. Mạch cầu toàn phần
+
+Trong mạch cầu toàn phần, điện áp ra được tính bằng công thức
+a. $V_o = 2K\varepsilon V_S$
+b. $V_o = \frac{K\varepsilon}{2}V_S$
+c. $V_o = \frac{K\varepsilon}{4}V_S$
+*d. $V_o = K\varepsilon V_S$
+
+Gia tốc kế điện trở sử dụng loại cảm biến nào để đo gia tốc
+a. Cảm biến quang
+b. Cảm biến từ
+*c. Cảm biến điện trở
+d. Cảm biến nhiệt
+
+Gia tốc kế truyền nhiệt tên tiếng Anh là:
+a. Hall effect accelerometer
+*b. Thermal accelerometer
+c. Piezoresistive accelerometer
+d. Magnetoresitive accelerometer
+
+Gia tốc kế (Accelerometer) dùng để đo:
+a. Khối lượng
+b. Khoảng cách
+c. Tốc độ
+*d. Gia tốc
+
+Trong mạch cầu Wheatstone, thành phần gây sai số khi cảm biến đặt xa mạch là:
+a. Điện trở nhiệt
+b. Điện trở nối đất
+c. Điện trở cảm biến
+*d. Điện trở dây dẫn 
+
+Trong mạch cầu bán phần, điện áp ra được tính bằng
+công thức
+a. $V_o = \frac{K\varepsilon}{4}V_S$
+b. $V_o = K\varepsilon V_S$
+*c. $V_o = \frac{K\varepsilon}{2}V_S$
+d. $V_o = 2K\varepsilon V_S$
+
+Trong mạch cầu Wheatstone ¼, điện áp ra được tính bằng công thức
+*a. $V_o = \frac{K\varepsilon}{4}V_S$
+b. $V_o = 2K\varepsilon V_S$
+c. $V_o = \frac{K\varepsilon}{2}V_S$
+d. $V_o = K\varepsilon V_S$
