@@ -12,7 +12,7 @@ d. Resistance Temperature Metal
 
 Dải đo nhiệt độ của NTC:
 a. $0^0 C ~ 150^0 C$
-*b. $– 100^0  C ~ 700^0  C$ 
+*b. $– 100^0 C ~ 700^0  C$ 
 c. $50^0 C ~ 150^0 C$
 d. $100^0 C ~ 700^0 C$
 
@@ -317,8 +317,8 @@ c. Bậc ba
 *d. Tuyến tính 
 
 Vật liệu nào sau đây được sử dụng làm CTR:
-a. BaTiO
-b. Al O
+a. $BaTiO_3$
+b. $Al_2 O_3$
 *c. Họ oxyt Vanadium 
 d. Ni
 
