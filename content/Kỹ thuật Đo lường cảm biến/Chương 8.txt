@@ -1,0 +1,299 @@
+Phát biểu nào sau đây là đúng khi nói về ảnh hưởng của cảm biến tiệm cận điện dung
+a. Hằng số điện môi càng nhỏ thì càng dễ phát hiện
+b. Đối với những vật không chuẩn thì khoảng cách phát hiện sẽ tăng lên, do đó phải được điều chỉnh lại
+c. Tất cả đều sai
+*d. Khoảng cách phát hiện của cảm biến phụ thuộc nhiều vào vật liệu của vật cần phát hiện
+
+Phát biểu nào sau đây sai khi nói về các thành phần chính của cảm biến tiệm cận quang
+a. Bộ phát sử dụng LED để phát ra ánh sáng
+b. Phototransistor sẽ chuyển đổi tín hiệu ánh sáng nhận được thành tín hiệu điện
+*c. Phototransistor sẽ chuyển đổi tín hiệu ánh sáng nhận được thành tín hiệu quang
+d. Bộ thu sử dụng phototransistor để nhận tín hiệu ánh sáng phản xạ từ đối tượng
+
+Cảm biến tiệm cận dựa trên nguyên lý gì để phát hiện vật thể?
+a. Đo lực tác dụng
+b. Đo dòng điện
+c. Đo điện áp
+*d. Tương tác từ trường
+
+Phát biểu nào sau đây là sai khi nói về cảm biến tiệm cận điện cảm
+a. Vật thể kim loại vào vùng từ trường, tạo dòng điện xoáy trên bề mặt
+*b. Mạch tạo dao động sẽ cấp dòng điện một chiều cho cuộn dây, tạo từ trường dao động.
+c. Mạch ngõ ra chuyển đổi tín hiệu từ mạch phát tín hiệu ON/OFF.
+d. Cấu tạo cảm biến tiệm cận điện cảm gồm: cuộn dây quấn trên lõi sắt từ, mạch tạo dao động, mạch phát hiện, mạch ngõ ra
+
+Khoảng cách phát hiện S là:
+a. Khoảng cách từ đầu cảm biến đến vị trí mà cảm biến chuyển từ trạng thái ON sang OFF sau khi vật rời khỏi vùng phát hiện
+b. Tất cả đều đúng
+*c. Khoảng cách cảm biến có thể nhận biết vật
+d. Khoảng cách mà cảm biến hoạt động ổn định
+
+Phát biểu nào sau đây là sai khi nói về ưu điểm của cảm biến tiệm cận siêu âm
+a. Vùng cảm biến rộng khoảng cách phát hiện vật thể có thể lên đến vài m
+b. Đo được khoảng cách rời rạc của vật di chuyển
+c. Ít ảnh hưởng bởi vật liệu và bề mặt
+*d. Ảnh hưởng bởi màu sắc
+
+Cảm biến tiệm cận điện cảm dùng loại ngõ ra nào?
+a. NPN
+b. PNP
+*c. Analog
+d. Digital
+
+Phát biểu nào sau đây sai khi nói về nhược điểm của cảm biến tiệm cận điện dung
+a. Bị ảnh hưởng bởi độ ẩm, nhiệt độ môi trường, bụi bẩn,..
+b. Phạm vi đo ngắn, nhạy với những chất dẫn điện hơn là với những chất không dẫn điện
+*c. Độ tuyến tính kém, độ chính xác tốt hơn cảm biến tiệm cận điện cảm
+d. Dây nối tới cảm biến phải ngắn để điện dung dây không ảnh hưởng đến dao dộng của bộ tạo dao động
+
+Nhược điểm của cảm biến điện cảm
+a. Chỉ phát hiện được đối tượng là kim loại
+b. Có thể chịu ảnh hưởng bởi các vùng trường điện từ mạnh
+* c. Tất cả đều đúng
+d. Phạm vị hoạt động ngắn hơn so với các kỹ thuật khác
+
+Cảm biến tiệm cận siêu âm
+*a. Sử dụng sóng siêu âm để phát hiện vật thể
+b. Sử dụng sóng vô tuyến để phát hiện vật thể
+c. Tất cả đều sai
+d. Sử dụng sóng hạ âm để phát hiện vật thể
+
+Cảm biến quang loại phản xạ gương có khoảng cách phát hiện:
+*a. Ngắn hơn loại thu phát độc lập
+b. Tất cả đều đúng
+c. Dài hơn loại thu phát độc lập
+d. Bằng loại phản xạ khuếch tán
+
+Tần số đáp ứng:
+a. Là số lần cảm biến phát hiện trong một ngày khi vật chuẩn di chuyển qua vùng phát hiện của nó
+b. Là số lần cảm biến phát hiện trong một giờ khi vật chuẩn di chuyển qua vùng phát hiện của nó
+*c. Là số lần cảm biến phát hiện trong một giây khi vật chuẩn di chuyển qua vùng phát hiện của nó
+d. Là số lần cảm biến phát hiện trong một phút khi vật chuẩn di chuyển qua vùng phát hiện của nó
+
+Photodiode và Phototransistor
+a. Là loại mosfet và diode hoạt động dẫn ngắt theo sự chiếu xạ của ánh sáng
+b. Là loại diode và transistor hoạt động dẫn ngắt theo sự phản xạ của ánh sáng
+c. Là loại mosfet và transistor hoạt động dẫn ngắt theo sự chiếu xạ của ánh sáng
+*d. Là loại diode và transistor hoạt động dẫn ngắt theo sự chiếu xạ của ánh sáng
+
+Ưu điểm của cảm biến tiệm cận điện cảm có vỏ bọc kim loại(shielded)
+a. Có thể lắp đặt ngang bằng với bề mặt làm việc
+b. Hạn chế vùng từ trường hai bên
+*c. Tất cả đều đúng
+d. Vùng từ trường được hạn chế, ít bị nhiễu từ vật thể xung quanh
+
+Phát biểu nào sau đây là sai khi nói về nguyên lý của cảm biến tiệm cận siêu âm
+a. Vật thể được phát hiện bằng cách đo thời gian truyền sóng từ khi sóng phát đi tới khi sóng phản hồi được ghi nhận
+b. Khi cảm biến phát ra một sóng siêu âm, nếu có vật cản trên đường đi, sóng siêu âm sẽ phản xạ lại tác động lên bộ phận nhận sóng
+*c. Quãng đường di chuyển của sóng bằng bốn lần khoảng cách từ cảm biến tới vật cản theo hướng phát của sóng siêu âm
+d. Cảm biến siêu âm sử dụng nguyên lý phản xạ sóng siêu âm
+
+Nhược điểm của cảm biến tiệm cận điện cảm không có vỏ bọc kim loại
+a. Cần có vùng trống xung quanh để tránh nhiễu
+*b. Tất cả đều đúng
+c. Không thể lắp đặt ngang bằng với bề mặt làm việc
+d. Dễ bị ảnh hưởng bởi môi trường và vật thể xung quanh
+
+Khoảng cách phát hiện của cảm biến tiệm cận điện cảm bị ảnh hưởng bởi:
+a. Kích thước vật cần phát hiện
+*b. Tất cả đều đúng
+c. Vật liệu vật cần phát hiện
+d. Nhiệt độ môi trường
+
+Phát biểu nào sau đây sai khi nói về ưu điểm của cảm biến tiệm cận quang loại phản xạ gương
+a. Lắp đặt đơn giản
+b. Chỉnh định dễ dàng hơn các loại cảm biến khác
+c. Không bị ảnh hưởng bởi hình dạng, màu sắc hay vật liệu vật cản
+*d. Có thể lắp đặt ở nơi có không gian lớn
+
+Để kiểm tra mực chất lỏng bên trong hộp sữa nước dùng cảm biến tiệm cận:
+a. Quang
+*b. Điện dung
+c. Tất cả đều đúng
+d. Điện cảm
+
+Vật chuẩn là:
+a. Vật thể phù hợp về vật liệu, hình dạng để cảm biến nhận biết
+*b. Vật thể phù hợp về vật liệu, hình dạng, kích thước và tốc độ để cảm biến nhận biết
+c. Vật thể phù hợp về vật liệu, hình dạng, kích thước để cảm biến nhận biết
+d. Vật thể phù hợp về vật liệu để cảm biến nhận biết
+
+Tế bào quang điện:
+a. Tất cả đều sai
+b. Cường độ dòng quang điện sinh ra thay đổi theo độ rọi ánh sáng
+c. Cường độ dòng quang điện sinh ra thay đổi theo bước sóng ánh sáng
+*d. Cường độ dòng quang điện sinh ra thay đổi theo cường độ ánh sáng
+
+Phát biểu nào sau đây sai khi nói về ưu điểm của cảm biến tiệm cận quang loại thu phát độc lập
+*a. Độ tin cậy thấp
+b. Khoảng cách phát hiện xa, xác định vị trí chính xác của vật thể
+c. Hoạt động tốt trong môi trường khắc nghiệt nhiều bụi bẩn, độ nhiễu cao
+d. Phát hiện được mọi loại vật thể (trừ loại trong suốt)
+
+Những yếu tố ảnh hưởng đến khoảng cách phát hiện của cảm biến tiệm cận điện cảm:
+a. Vật liệu và kích thước của vật cần phát hiện
+b. Vật liệu của cuộn dây và lõi sắt từ
+c. Nhiệt độ môi trường
+*d. Tất cả đều đúng
+
+Phát biểu nào sau đây sai khi nói về ưu điểm của cảm biến tiệm cận điện dung
+a. Tốc độ hoạt động nhanh
+b. Độ ổn định và độ phân giải tốt
+*c. Tuổi thọ thấp và giá thành thấp
+d. Có thể phát hiện vật dẫn điện và không dẫn điện
+
+Cảm biến tiệm cận điện cảm hoạt động dựa trên ?
+a. Nguyên lý thứ hai nhiệt động lực học
+b. Nguyên lý thứ nhất nhiệt động lực học
+c. Hiệu ứng Hall
+*d. Nguyên lý cảm ứng điện từ
+
+Muốn nhận biết xe khi xe đi vào nhà rửa xe thì sử dụng cảm biến tiệm cận quang:
+a. Loại phản xạ khuếch tán
+*b. Loại thu phát độc lập
+c. Loại phản xạ có gương
+d. Tất cả đều đúng
+
+Có mấy loại cảm biến tiệm cận?
+*a. 4
+b. 5
+c. 3
+d. 2
+
+Phát biểu nào sau đây là đúng khi nói về một số loại cảm biến tiệm cận
+a. Cảm biến điện trở, cảm biến điện cảm, cảm biến điện dung, cảm biến tiệm cận quang
+b. Tất cả đều sai
+c. Cảm biến điện trở, cảm biến điện dung, cảm biến tiệm cận quang, cảm biến tiệm cận siêu âm
+*d. Cảm biến điện cảm, cảm biến điện dung, cảm biến tiệm cận quang, cảm biến tiệm cận siêu âm
+
+Cảm biến tiệm cận điện cảm phát hiện vật thể bằng:
+*a. Kim loại
+b. Phi kim
+c. Tia tử ngoại
+d. Tia hồng ngoại
+
+Phát biểu nào sau đây sai khi nói về nhược điểm của cảm biến tiệm cận quang loại phản xạ khuếch tán
+a. Góc nghiên vật làm ánh sáng bị tổn thất
+b. Độ nhạy và độ tin cậy kém hơn loại thu phát và phản xạ gương
+*c. Khoảng cách phát hiện dài
+d. Khoảng cách phát hiện phụ thuộc nhiều vào màu sắc, kích thước, tính chất bề mặt của vật thể
+
+Muốn điều khiển hệ thống làm đầy mực chất lỏng trong thùng sử dụng cảm biến tiệm cận
+*a. Điện dung
+b. Quang
+c. Siêu âm
+d. Điện cảm
+
+Phát biểu nào sau đây đúng khi nói về đặc điểm chung của cảm biến tiệm cận
+*a. Độ chính xác ít bị ảnh hưởng bởi bụi bẩn hay dầu mỡ
+b. Phải tiếp xúc trực tiếp mới phát hiện vật thể
+c. Hoạt động từ 20 C đến 400 C
+d. Phản ứng nhanh nhờ nguyên lý nhiệt động lực học
+
+Ưu điểm của cảm biến điện cảm
+*a. Tất cả đều đúng
+b. Độ chính xác tốt hơn tiệm cận điện dung
+c. Không chịu ảnh hưởng của độ ẩm, bụi bẩn, màu sắc
+d. Tần số chuyển mạch nhanh
+
+Phát biểu nào sau đây là sai khi nói về Optoisolator
+a. Là một linh kiện điện tử cách ly giữa ngõ ra và ngõ vào
+b. Thường được sử dụng để cách ly điện giữa các mạch, bảo vệ các linh kiện nhạy cảm
+*c. Sử dụng phototransistor để phát hiện và chuyển đổi tín hiệu điện thành tín hiệu ánh sáng
+d. Sử dụng phototransistor để phát hiện và chuyển đổi tín hiệu ánh sáng thành tín hiệu điện
+
+Để đếm số lượng lon trên dây chuyền sản xuất dùng cảm biến tiệm cận:
+a. Điện cảm
+b. Điện dung
+*c. Tất cả đều đúng
+d. Siêu âm
+
+Cảm biến tiệm cận điện dung hoạt động dựa trên sự thay đổi:
+a. Điện trở
+*b. Điện dung
+c. Điện cảm
+d. Điện áp
+
+Cảm biến tiệm cận dùng để làm gì trong các hệ thống tự động hóa?
+a. Đo kích thước vật thể
+b. Đo khoảng cách vật thể
+c. Đo vật thể ở gần
+*d. Phát hiện vật thể hoặc không có vật thể
+
+Cảm biến tiệm cận quang gồm mấy loại:
+a. 2
+b. 4
+*c. 3
+d. 1
+
+Sự trễ (hysteresis):
+a. Tất cả đều đúng
+b. Độ chênh lệch giữa khoảng cách reset và khoảng cách cài đặt
+*c. Độ chênh lệch giữa khoảng cách reset và khoảng cách phát hiện
+d. Độ chênh lệch giữa khoảng cách cài đặt và khoảng cách phát hiện
+
+Cảm biến quang được chia làm mấy loại?
+*a. 4
+b. 5
+c. 2
+d. 3
+
+Khoảng cách reset là:
+*a. Khoảng cách từ đầu cảm biến đến vị trí mà cảm biến chuyển từ trạng thái ON sang OFF sau khi vật rời khỏi vùng phát hiện
+b. Khoảng cách mà cảm biến hoạt động ổn định
+c. Khoảng cách cảm biến có thể nhận biết vật
+d. Tất cả đều đúng
+
+Phát biểu nào sau đây là sai khi nói về nhược điểm của cảm biến tiệm cận siêu âm
+a. Cần 1 khoảng thời gian sau mỗi lần sóng phát đi để sẵn sàng nhận sóng phản hồi, thời gian tác động chậm hơn cảm biến khác
+b. Sóng phản hồi bị ảnh hưởng của sóng âm thanh tạp âm
+c. Tần số chuyển mạch từ 1 đến 125Hz
+*d. Dễ phát hiện vật có mật độ vật chất thấp ở khoảng cách xa
+
+Phát biểu nào sau đây là đúng khi nói về ưu điểm của cảm biến tiệm cận siêu âm
+a. Không thể phát hiện vật nhỏ ở khoảng cách xa
+b. Bị suy giảm nhiều trong môi trường nước
+c. Không thể phát hiện được vật thể trong suốt
+*d. Có thể làm việc trong một môi trường dơ và bụi
+
+Cảm biến tiệm cận điện dung dùng loại ngõ ra nào?
+a. NPN
+b. Digital
+c. PNP
+*d. Analog
+
+Muốn kiểm tra các chân của IC sử dụng cảm biến tiệm cận quang:
+*a. Loại phản xạ khuếch tán
+b. Loại phản xạ có gương
+c. Loại thu phát độc lập
+d. Tất cả đều đúng
+
+Khoảng cách cài đặt (Setting Distance) là
+*a. Khoảng cách mà cảm biến hoạt động ổn định
+b. Khoảng cách từ đầu cảm biến đến vị trí mà cảm biến chuyển từ trạng thái ON sang OFF sau khi vật rời khỏi vùng phát hiện
+c. Khoảng cách cảm biến có thể nhận biết vật
+d. Tất cả đều đúng
+
+Cảm biến tiệm cận quang
+a. Sử dụng tia gamma để phát hiện vật thể
+b. Sử dụng tia tử ngoại để phát hiện vật thể
+*c. Sử dụng tia hồng ngoại để phát hiện vật thể
+d. Sử dụng tia X để phát hiện vật thể
+
+Khoảng cách phát hiện của cảm biến tiệm cận điện cảm bị ảnh hưởng bởi:
+*a. Tất cả đều đúng
+b. Vật liệu cần phát hiện
+c. Kích thước vật cần phát hiện
+d. Nhiệt độ môi trường
+
+Tế bào quang dẫn còn được gọi là quang trở:
+a. Có điện trở thay đổi theo bước sóng ánh sáng
+b. Có điện trở thay đổi theo cường độ ánh sáng
+c. Tất cả đều sai
+*d. Có điện trở thay đổi theo độ rọi ánh sáng
+
+Để kiểm tra cáp bị đứt sử dụng cảm biến tiệm cận
+a. Điện dung
+b. Quang
+*c. Siêu âm
+d. Điện cảm
