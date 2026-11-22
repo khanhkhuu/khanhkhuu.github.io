@@ -1,0 +1,364 @@
+Trên công tơ điện một pha có ghi đại lượng 600 vòng/kWh. Có nghĩa là:
+*a. Nếu phụ tải có công suất là 1000W hoạt động trong 1 giờ thì đĩa nhôm của công tơ điện sẽ quay được 600 vòng
+b. Khi mạch hoạt động trong 1 giờ thì đĩa nhôm của công tơ điện sẽ quay được 600 vòng
+c. Khi mạch hoạt động trong 1 giờ với điện áp định mức thì đĩa nhôm của công tơ điện sẽ quay được 600 vòng
+d. Nếu phụ tải hoạt động trong 1 giờ thì đĩa nhôm của công tơ điện sẽ quay được 600 vòng
+
+Nhược điểm của watt điện động là:
+a. Giá thành cao
+b. Kết quả đo phụ thuộc vào tần số nguồn
+*c. Tất cả đều đúng
+d. Dễ bị ảnh hưởng bởi từ trường nhiễu
+
+Để đo công suất tiêu thụ trong mạng 3 pha 3 dây không đối xứng thường dùng:
+a. Hai watt kế 1 pha
+*b. Một watt kế 3 pha 2 phần tử
+c. Một watt kế 3 pha 3 phần tử
+d. Ba watt kế 1 pha
+
+Đo công suất của tải dùng bộ biến đổi nhiệt có ưu điểm:
+a. Giảm nhỏ sai số
+*b. Tín hiệu đo có tần số cao và dạng bất kỳ
+c. Tín hiệu đo lớn
+d. Tất cả đều đúng
+
+Khi đo công suất tác dụng 1 chiều dùng volt kế và ampere kế dạng mắc sau thì sai số phép đo chủ yếu do:
+*a. Volt kế
+b. Tất cả đều đúng
+c. Ampere kế
+d. Điện áp nguồn
+
+Một công tơ có ghi 1400ws/vòng được dùng để đo điện năng trên tải có công suất 2kW. Thời gian để đĩa công tơ quay được 200 vòng là:
+*a. 140s
+b. 280s
+c. Tất cả đều sai
+d. 14.000s
+
+Dùng 2 watt kế để đo công suất trong mạch 3 pha tải đối xứng, kết quả chỉ thị trên 2 watt kế là: $P_1 = 500W, P_2 = 2500W$ thì công suất tác dụng là:
+a. 1155W
+b. 3464W
+c. 2000W
+*d. 3000W
+
+Điện năng trong mạch xoay chiều một pha được tính:
+a. A = U.I.t
+b. A = U.I
+*c. A = U.I.cosφ.t
+d. A = $U^2 .R.t$
+
+Khi đo phụ tải có công suất 300W người ta thấy trong 15 phút, đĩa công tơ quay được 150 vòng. Vậy hằng số công tơ sẽ là:
+a. 3000 vòng/kWh
+*b. 2000 vòng/kWh✓
+c. 1000 vòng/kWh
+d. 4000 vòng/kWh
+
+Để đo công suất của phụ tải có điện áp lớn hơn điện áp định mức của Watt kế, ta phải sử dụng
+a. Volt kế, Ampere kế kết hợp với Watt kế
+*b. Máy biến điện áp kết hợp với Watt kế và Volt kế
+c. Máy biến điện áp, máy biến dòng điện, Volt kế, Ampere kế và Watt kế
+d. Máy biến điện áp, máy biến dòng điện và Watt kế
+
+Khi đo công suất tiêu thụ dòng watt kế điện động tác dụng dạng mắc sau thì sai số phép đo chủ yếu do:
+a. Tất cả đều sai
+*b. Cuộn điện áp
+c. Tất cả đều đúng
+d. Cuộn dòng điện
+
+Khi đo tần số dùng cơ cấu điện động, nếu tần số cần đo tăng 2 lần thì góc quay sẽ:
+a. Giảm gần 2 lần
+b. Giảm gần 4 lần
+*c. Tăng gần 4 lần
+d. Tăng gần 2 lần
+
+Cho mạch đo công suất như hình vẽ, nếu biện điện áp BU có $k_{U}$ = 1000/110V và công suất đọc được trên Watt kế là 1450W thì công suất thực của phụ tải $Z_t$ là:
+@img img/chuong-5-1.png
+*a. $P_{Zt} = 13,18kW$
+b. $P_{Zt} = 13,81kW$
+c. $P_{Zt} = 11,38kW$
+d. $P_{Zt} = 18,31kW$
+
+Để đo điện năng trong mạng 3 pha 4 dây thường dùng:
+a. Một điện năng kế 3 pha 2 phần tử
+*b. Một điện năng kế 3 pha 3 phần tử
+c. Ba điện năng kế 1 pha
+d. Tất cả đều đúng
+
+Một công tơ ghi 1200ws/vòng được dùng để đo điện năng trên tải, khi công tơ quay được 30 vòng thì điện năng mà tải đã tiêu thụ là:
+a. 1/10 wh
+b. 1/40 ws
+c. 40 ws
+*d. 10 wh
+
+Một watt kế được dùng cùng với biến dòng và biến điện áp (có $K_I = 100/5 và K_U = 500/100$ ) để đo công suất trên tải. Nếu tải có điện áp là 400V; dòng điện 50A, cos φ = 1 thì công suất chỉ trên watt kế là:
+a. 500W
+b. 1000W
+*c. 200W
+d. 300W
+
+Công suất mạng 3 pha 4 dây được đo trực tiếp bằng:
+a. Volt kế
+b. Watt kế 1 pha
+*c. Watt kế 3 pha 3 phần tử
+d. 3 Watt kế 1 pha
+
+Để đo công suất tác dụng P trong mạch điện một chiều theo phương pháp trực tiếp, ta dùng các thiết bị đo sau:
+a. Watt kế và Ohm kế
+b. Volt kế và ampere kế
+c. 2 volt kế
+*d. Watt kế
+
+Có mấy phương pháp đo tần số
+*a. 4
+b. 3
+c. 1
+d. 2
+
+Dùng 3 Watt kế 1 pha để đo công suất mạng 3 pha khi:
+*a. Mạng 3 pha có dây trung tính và phụ tải không cân bằng
+b. Mạng 3 pha không có dây trung tính
+c. Mạng 3 pha trung thế trở lên
+d. Mạng 3 pha có phụ tải không cân bằng
+
+Khi đo công suất tiêu thụ dòng watt kế điện động tác dụng dạng mắc trước thì sai số phép đo chủ yếu do:
+a. Tất cả đều sai
+b. Cuộn điện áp
+c. Tất cả đều đúng
+*d. Cuộn dòng điện
+
+Sự khác nhau trong cấu tạo giữa watt kế và Var kế điện động là:
+a. Tất cả đều sai
+b. Cấu tạo cả cuộn dòng và áp
+c. Cấu tạo cuộn dây dòng
+*d. Cấu tạo các cuộn dây áp
+
+Một công tơ có ghi 2000 vòng/kWh được dùng để đo điện năng của tải. Trong 15 phút,đĩa công tơ quay được 150 vòng thì công suất của tải là:
+a. 400W
+b. 100W
+c. 200W
+*d. 300W
+
+Để đo công suất tác dụng P trong mạch điện một chiều theo phương pháp gián tiếp, ta dùng các thiết bị đo sau:
+*a. Volt kế và ampere kế
+b. Watt kế và Ohm kế
+c. Watt kế
+d. 2 volt kế
+
+Sự khác nhau trong cấu tạo giữa watt kế điện động 1 pha và 3 pha là:
+*a. Số lượng các cuộn dây dòng và áp
+b. Tất cả đều sai
+c. Cấu tạo các cuộn dây dòng
+d. Cấu tạo các cuộn dây áp
+
+Khi đo tần số dùng volt kế, ampere kế kết hợp với tụ điện mẫu, tần số cần đo được xác định
+a. $\frac{I.2\pi}{U.C}$
+b. $\frac{2\pi U}{I.C}$
+*c. $\frac{I}{U.2\pi .C}$
+d. $\frac{U}{I.2\pi .C}$
+
+Để đo công suất tiêu thụ trong mạng 3 pha 4 dây không đối xứng thường dùng:
+*a. Ba watt kế 1 pha
+b. Tất cả đều sai
+c. Một watt kế 1 pha
+d. Một watt kế 3 pha 2 phần tử
+
+Dụng cụ để đo hệ số công suất đọc thẳng là:
+a. Ampere kế
+*b. Cos phi kế
+c. Volt kế
+d. Điện năng kế
+
+Cho mạch đo công suất như hình vẽ, nếu biến dòng điện BI có $k_I$ = 150/5A và công suất đọc được trên Watt kế là 450W thì công suất thực của phụ tải $Z_t$ là
+@img img/chuong-5-2.png
+a. $P_{Zt} = 3kW$
+b. $P_{Zt} = 15kW$
+c. $P_{Zt} = 67,5kW$
+*d. $P_{Zt} = 13,5kW$
+
+Để mở rộng tầm đo cho watt kế điện động thường dùng phương pháp:
+a. Tăng khả năng chịu dòng của cuộn dây dòng
+*b. Tất cả đều đúng
+c. Tăng khả năng chịu áp của cuộn dây áp
+d. Kết hợp với biến dòng và biến điện áp
+
+Dùng 1 Watt kế 1 pha để đo công suất mạng 3 pha khi:
+a. Mạng 3 pha không có dây trung tính
+b. Mạng 3 pha có phụ tải không cân bằng
+*c. Mạng 3 pha có dây trung tính
+d. Mạng 3 pha trung thế trở lên
+
+Khi đo công suất tiêu thụ tải dùng watt kế điện động nếu tổng trở tải có trị số lớn thì thực hiện:
+a. Tất cả đều sai
+*b. Mắc trước
+c. Mắc cả trước và sau
+d. Mắc sau
+
+Khi đo công suất tác dụng 1 chiều dùng volt kế và ampere kế dạng mắc trước thì sai số phép đo chủ yếu do:
+a. Tất cả đều đúng
+b. Điện áp nguồn
+c. Volt kế
+*d. Ampere kế
+
+Để đo điện năng trong mạng 3 pha 3 dây thường dùng:
+a. Tất cả đều đúng
+*b. Một điện năng kế 3 pha 2 phần tử
+c. Một điện năng kế 3 pha 3 phần tử
+d. Ba điện năng kế 1 pha
+
+Một công tơ điện có thông số định mức là 450 vòng/kWh. Nếu trong 10 phút đĩa nhôm quay được 120 vòng thì công suất tiêu thụ sẽ là:
+a. 26,6kW
+b. 3,75kW
+*c. 1,6kW
+d. 11,1kW
+
+Để đo công suất tiêu thụ trong mạng 3 pha 3 dây đối xứng thường dùng:
+a. Một watt kế 3 pha 2 phần tử
+*b. Tất cả đều đúng
+c. Hai watt kế 1 pha
+d. Tất cả đều sai
+
+Khi đo công suất tiêu thụ tải 3 pha dùng 2 watt kế thì công suất trên tải được xác định:
+a. $P_{3f} = P_1 – P_2$
+b. $P_{3f} = 3(P_2 – P_1)$
+c. $P_{3f} = 3(P_1 – P_2)$
+*d. $P_{3f} = P_1 + P_2$
+
+Tốc độ quay của đĩa nhôm trong điện kế phụ thuộc vào:
+a. Công suất tải và tần số nguồn
+*b. Công suất tải và hằng số công tơ
+c. Công suất tải
+d. Điện áp nguồn
+
+Khi lắp Watt kế một pha, ta cần lưu ý đến các điểm sau:
+a. Cực tính của cuộn dây điện áp
+b. Cực tính nguồn điện cung cấp cho mạch
+*c. Cực tính của cuộn dây dòng điện và cuộn dây điện áp
+d. Cực tính của cuộn dây dòng điện
+
+Var kế là dụng cụ đo công suất phản kháng
+a. Chỉ dùng trong mạch DC
+*b. Chỉ dùng trong mạch AC
+c. Tất cả đều đúng
+d. Tất cả đều sai
+
+Đối với watt kế điện động tác dụng 1 pha, nếu công suất tải tăng lên 2 lần thì góc quay:
+a. Giảm 4 lần
+b. Giảm 2 lần
+c. Tăng 4 lần
+*d. Tăng 2 lần
+
+Công suất mạch điện 3 pha 3 dây được đo gián tiếp bằng:
+a. 3 Watt kế 1 pha
+*b. 2 Watt kế 1 pha
+c. Watt kế 3 pha
+d. Ampere kế
+
+Công thức nào sau đây xác định công suất tiêu thụ trên tải xoay chiều một pha: Biết $V_1$: điện áp trên R ; $V_2$: điện áp trên tải ; $V_3$: điện áp trên nguồn
+a. $P = \frac{I(V_3^2 - V_1^2 - V_2^2)}{2V_2}$
+*b. $P = \frac{I(V_3^2 - V_1^2 - V_2^2)}{2V_1}$
+c. $P = \frac{I(V_2^2 - V_1^2 - V_3^2)}{2V_1}$
+d. $P = \frac{I(V_1^2 - V_2^2 - V_3^2)}{2V_1}$
+
+Một watt kế điện động có ghi: 5A – 150V – 150 vạch, nếu dùng watt kế trên để đo công suất của tải 500W thì kim của watt kế chỉ ở vạch thứ:
+a. 75
+*b. 100
+c. 50
+d. 120
+
+Dùng 2 watt kế để đo công suất trong mạch 3 pha tải
+đối xứng, kết quả chỉ thị trên 2 watt kế là $P_1$ = 500W, $P_2$ =
+2500W thì công suất phản kháng của tải là:
+*a. 3464 Var
+b. Tất cả đều sai
+c. 1155 Var
+d. 3000 Var
+
+Điện kế 1 pha thường được chế tạo với cơ cấu đo kiểu:
+a. Điện động
+*b. Cảm ứng
+c. Điện từ
+d. Từ điện
+
+Dùng 2 Watt kế 1 pha để đo công suất mạng 3 pha khi:
+a. Mạng 3 pha trung thế trở lên
+b. Mạng 3 pha có phụ tải không cân bằng
+*c. Mạng 3 pha không có dây trung tính
+d. Mạng 3 pha có dây trung tính và phụ tải không cân bằng
+
+Khi đo cos φ dùng volt kế thì cos φ được xác định bởi công thức
+*a. $cosφ = \frac{V_3^2 - V_2^2 - V_1^2}{2V_1 V_2}$
+b. $cosφ = \frac{V_3^2 - V_2^2 - V_1^2}{2V_2 V_3}$
+c. $cosφ = \frac{V_3^2 - V_2^2 - V_1^2}{2V_1 V_3}$
+b. $cosφ = \frac{2V_1 V_2}{V_3^2 - V_2^2 - V_1^2}$
+
+Khi đo tần số dùng volt kế, ampere kế kết hợp với cuộn dây mẫu, tần số cần đo được xác định
+a. $f = \frac{I.2\pi}{L.U}$
+b. $f = \frac{I}{U.2\pi .L}$
+c. $f = \frac{U.2\pi}{L.I}$
+*d. $f = \frac{U}{I.2\pi .L}$
+
+Đồng hồ đo điện năng(Công tơ điện) có cấu tạo gồm 2 cuộn dây tạo thành 2 nam châm điện. Trong đó:
+*a. Cuộn áp được mắc song song với phụ tải và cuộn dòng được mắc nối tiếp với nguồn điện
+b. Cuộn dòng được mắc song song với phụ tải và cuộn dòng được mắc nối tiếp với nguồn điện
+c. Cuộn áp được mắc nối tiếp với phụ tải và cuộn dòng được mắc song song với nguồn điện
+d. Cuộn dòng được mắc nối tiếp với phụ tải và cuộn dòng được mắc song song với nguồn điện
+
+Đo tần số dùng cầu Wien, tần số cần đo được xác định:
+a. $f = \frac{2\pi}{L.U}$
+*b. $f = \frac{1}{2\pi .RC}$
+c. $f = \frac{RC}{2\pi}$
+
+Moment tác động làm quay đĩa công tơ cảm ứng đo điện năng thì:
+a. Tỷ lệ bậc 1 với điện năng tiêu thụ
+b. Tỷ lệ bậc 2 với công suất trên tải
+*c. Tỷ lệ bậc 1 với công suất trên tải
+d. Tỷ lệ bậc 2 với điện năng tiêu thụ
+
+Một watt kế điện động có ghi: 5A – 150V – 150 vạch, nếu dùng watt kế trên để đo công suất của tải 800W. Biết tải đang hoạt động 50% công suất, số vạch chỉ trên watt kế là:
+*a. 80 vạch
+b. 160 vạch
+c. 8 vạch
+d. 16 vạch
+
+Khi đo cos φ bằng cách dùng volt kế, ampere kế và watt
+kế thì cos φ được xác định bởi công thức: Biết $P_W$ : Công
+suất chỉ trên watt kế, $P_a$ = U.I)
+a. Tất cả đều sai
+b. $cos φ = P_a / P_W$
+*c. $cos φ = P_W / P_a$
+d. $cos φ = P_{W}.P_a$
+
+Công suất mạng 3 pha 3 dây được đo trực tiếp bằng:
+a. Volt kế
+b. 3 Watt kế 1 pha
+*c. 3 pha 2 phần tử
+d. Watt kế 1 phaWatt kế
+
+Một công tơ có thông số 1000 vòng/kWh được dùng để đo điện năng của tải có công suất 500W. Hỏi trong 30 phút thì đĩa công tơ quay được bao nhiêu vòng?
+*a. 250 vòng
+b. 50 vòng
+c. 100 vòng
+d. 25 vòng
+
+Trong đồng hồ công tơ điện một pha, cuộn dây dòng có
+a. Số vòng dây ít, tiết diện dây nhỏ
+*b. Số vòng dây ít, tiết diện dây lớn
+c. Số vòng dây nhiều, tiết diện dây nhỏ
+d. Số vòng dây nhiều, tiết diện dây lớn
+
+Để đo công suất tiêu thụ trong mạng 3 pha 4 dây đối xứng thường dùng:
+a. Ba watt kế 1 pha
+b. Một watt kế 3 pha 3 phần tử
+c. Một watt kế 1 pha
+*d. Tất cả đều đúng
+
+Một công tơ có thông số 1000 vòng/kWh được dùng để đo điện năng của tải có công suất 500W. Hỏi trong thời gian bao lâu thì đĩa công tơ quay được 50 vòng?
+*a. 6 phút
+b. 6 giây
+c. 36 giây
+d. 1 giờ
+
+Khi đo công suất tác dụng trên tải dùng watt kế kết hợp với biến dòng và biến điện áp thì công suất trên tải được xác định: Biết P: công suất chỉ tiêu watt kế ; $k_I = I_1 / I_2 ; k_U = U_2 / U_1$
+a. $P_t = P /(k_I .k_U)$
+*b. $P_t = P.k_I .k_U$
+c. $P_t = (P.k_I)/k_U$
+d. $P_t = P.(k_U / k_I)$

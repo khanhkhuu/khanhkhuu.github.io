@@ -110,7 +110,7 @@ Hai tụ điện $C_{1} = 0,22.10^{-6}F/50V, C_{2} = 0,1.10^{-6}F/100V$ được
 a. Điện dung tương đương của hai tụ điện là 32nF
 b. Khi điện áp nguồn cấp là 100V, điện áp mỗi tụ là 50V
 c. Nếu tăng tần số nguồn lên 2kHz thì dung kháng của tụ $C_{1}$ lớn hơn tụ $C_{2}$
-d. Khi tần số nguồn là 100Hz, dòng điện qua tụ $C_{1}$ lớn hơn tụ $C_{2}$
+*d. Khi tần số nguồn là 100Hz, dòng điện qua tụ $C_{1}$ lớn hơn tụ $C_{2}$
 
 Cho mạch đo điện trở dạng nối tiếp như hình vẽ. Biết $E_{b} = 3V, I_{m} = 100\mu\text{A}, R_{1} + R_{g} = 25kΩ$. Nếu dòng điện qua mạch đo bằng 50% $I_{m}$ thì giá trị điện trở $R_{x}$ là
 @img img/chuong-4-1.png
@@ -312,7 +312,7 @@ Thang đo của ohm kế nối tiếp thường chia không đều là do:
 a. Tất cả đều sai
 b. Quan hệ giữa điện trở cần đo và góc quay là hàm tuyến tính
 c. Nguồn cung cấp giảm khi sử dụng
-d. Quan hệ giữa điện trở cần đo và góc quay là hàm phi tuyến
+*d. Quan hệ giữa điện trở cần đo và góc quay là hàm phi tuyến
 
 Cho mạch đo điện trở dùng cầu chia dòng như hình vẽ, chỉ số trên volt kế $\text{A}_1, \text{A}_2$ lần lượt là 8mA và 12,5mA. Biết điện trở $R_1$ = 18kΩ. Tìm giá trị điện trở $R_X$
 @img img/chuong-4-5.png
