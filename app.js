@@ -438,15 +438,21 @@ function absoluteMediaUrl(relativePath) {
   }
 }
 
+function sortQuestionsAlphabetically(questions) {
+  return [...questions].sort((a, b) =>
+    String(a.question || '').localeCompare(String(b.question || ''), 'vi', {
+      sensitivity: 'base',
+      numeric: true
+    })
+  );
+}
+
 function buildExportExamHtml(fileName, questions, startIndex) {
   const title = escapeHtml(examDisplayName(fileName));
-  const answerKeys = [];
   let html = `<section class="exam-block"><h2>${title}</h2>`;
 
   questions.forEach((q, i) => {
     const qNum = startIndex + i + 1;
-    const correctOpt = q.options.find(o => o.isCorrect);
-    if (correctOpt) answerKeys.push(`${qNum}${correctOpt.label.toUpperCase()}`);
 
     html += `<article class="question-block">`;
     html += `<div class="q-title"><span class="q-num">Câu ${qNum}.</span> ${escapeHtml(q.question)}</div>`;
@@ -473,10 +479,10 @@ function buildExportExamHtml(fileName, questions, startIndex) {
   });
 
   html += `</section>`;
-  return { html, answerKeys, count: questions.length };
+  return { html, count: questions.length };
 }
 
-function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml, answerKeyHtml }) {
+function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml }) {
   const printWin = window.open('', '_blank');
   if (!printWin) {
     alert('Trình duyệt đã chặn cửa sổ mới. Hãy cho phép popup để xuất PDF.');
@@ -484,7 +490,7 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
   }
 
   const generatedAt = new Date().toLocaleString('vi-VN');
-  const docTitle = `Đề đáp án — ${subjectName}`;
+  const docTitle = `${subjectName}`;
 
   printWin.document.write(`<!DOCTYPE html>
 <html lang="vi">
@@ -564,14 +570,6 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       font-weight: 600;
     }
     .correct-mark { color: #15803d; font-size: 12px; font-weight: 700; }
-    .answer-key {
-      margin-top: 28px;
-      padding-top: 12px;
-      border-top: 2px solid #111;
-      page-break-inside: avoid;
-    }
-    .answer-key h2 { border-bottom: none; margin-top: 0; }
-    .answer-key p { margin: 0; white-space: pre-wrap; }
     @media print {
       body { padding: 12mm 14mm; font-size: 12.5px; }
       .toolbar { display: none !important; }
@@ -587,7 +585,6 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
   <h1>${escapeHtml(docTitle)}</h1>
   <p class="meta">${examCount} đề · ${questionCount} câu hỏi · Xuất lúc ${escapeHtml(generatedAt)}</p>
   ${bodyHtml}
-  ${answerKeyHtml}
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.js"><\/script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/contrib/auto-render.min.js"><\/script>
   <script>
@@ -619,15 +616,18 @@ async function exportSelectedExamsToPdf() {
 
   try {
     let bodyHtml = '';
-    const allAnswerKeys = [];
     let questionCount = 0;
 
-    for (const fileName of selected) {
+    const selectedSorted = [...selected].sort((a, b) =>
+      examDisplayName(a).localeCompare(examDisplayName(b), 'vi', { sensitivity: 'base', numeric: true })
+    );
+
+    for (const fileName of selectedSorted) {
       const parsed = await loadExamQuestions(state.currentSubject, fileName);
       if (!parsed.length) continue;
-      const built = buildExportExamHtml(fileName, parsed, questionCount);
+      const sortedQuestions = sortQuestionsAlphabetically(parsed);
+      const built = buildExportExamHtml(fileName, sortedQuestions, questionCount);
       bodyHtml += built.html;
-      allAnswerKeys.push(...built.answerKeys);
       questionCount += built.count;
     }
 
@@ -638,19 +638,11 @@ async function exportSelectedExamsToPdf() {
       return;
     }
 
-    const answerKeyHtml = `
-      <section class="answer-key">
-        <h2>Bảng đáp án nhanh</h2>
-        <p>${escapeHtml(allAnswerKeys.join('  ·  '))}</p>
-      </section>
-    `;
-
     openExportPrintWindow({
       subjectName: state.currentSubject,
       examCount: selected.length,
       questionCount,
-      bodyHtml,
-      answerKeyHtml
+      bodyHtml
     });
   } catch (err) {
     setLoader(false, err.message);
