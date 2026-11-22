@@ -6,15 +6,9 @@
   --text-muted: #c4b5fd;
   --accent-purple: #8b5cf6;
 
-  /* 4 màu thẻ đáp án phong cách Wayground / Quizizz */
-  --opt-0: #2563eb; /* Xanh dương */
-  --opt-0-shadow: #1d4ed8;
-  --opt-1: #0891b2; /* Xanh ngọc */
-  --opt-1-shadow: #0e7490;
-  --opt-2: #d97706; /* Vàng cam */
-  --opt-2-shadow: #b45309;
-  --opt-3: #e11d48; /* Đỏ hồng */
-  --opt-3-shadow: #be123c;
+  /* Một màu đáp án thống nhất, tông với nền tím */
+  --opt: #5b4fd6;
+  --opt-shadow: #4338b8;
 
   --correct: #16a34a;
   --wrong: #dc2626;
@@ -492,10 +486,13 @@ body {
   transform: translateY(2px);
 }
 
-.tile-0 { background: var(--opt-0); box-shadow: 0 5px 0 var(--opt-0-shadow); }
-.tile-1 { background: var(--opt-1); box-shadow: 0 5px 0 var(--opt-1-shadow); }
-.tile-2 { background: var(--opt-2); box-shadow: 0 5px 0 var(--opt-2-shadow); }
-.tile-3 { background: var(--opt-3); box-shadow: 0 5px 0 var(--opt-3-shadow); }
+.tile-0,
+.tile-1,
+.tile-2,
+.tile-3 {
+  background: var(--opt);
+  box-shadow: 0 5px 0 var(--opt-shadow);
+}
 
 .opt-badge {
   width: 34px;
