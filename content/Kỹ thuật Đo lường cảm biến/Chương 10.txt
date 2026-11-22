@@ -1,0 +1,300 @@
+Đĩa rãnh đơn tiếng anh gọi là:
+*a. Single track encoder 
+b. Quadrature encoder
+c. Absolute encoder
+d. Relative encoder
+
+Nguyên lý hoạt động của Stroboscope là:
+a. Sử dụng từ trường để phát hiện góc quay
+*b. Sử dụng ánh sáng chớp tắt đồng bộ với tốc độ quay của vật thể 
+c. Sử dụng cảm biến quang để phát hiện tốc độ
+d. Sử dụng cảm biến áp suất để đo tốc độ
+
+0101 của mã Gray tương ứng với số nào của mã nhị phân?
+a. 0100
+b. 0101
+*c. 0110 
+d. 0111
+
+Encoder dùng đo tốc độ có ngõ ra:
+*a. Số 
+b. Tương tự
+c. Từ trường
+d. Dòng điện
+
+Tốc kế góc công tắc hoạt động dựa trên nguyên lý:
+a. Sử dụng cảm biến áp suất để đo tốc độ
+b. Sử dụng cảm biến quang để phát hiện tốc độ
+c. Sử dụng từ trường để phát hiện góc quay
+*d. Sử dụng tiếp điểm cơ khí đóng ngắt mạch điện 
+
+Nguyên lý hoạt động của đĩa mã hóa quang học là:
+a. Sử dụng hệ thống từ trường
+b. Dựa trên sự biến đổi của cảm biến áp suất
+*c. Sử dụng đĩa mã hóa với các rãnh chắn sáng kết hợp cảm biến quang 
+d. Dựa trên sự biến đổi điện áp
+
+Tốc kế góc quang có thể đo:
+*a. Tất cả đều đúng 
+b. Góc quay
+c. Tốc độ quay
+d. Chiều quay
+
+Đâu không phải là tốc kế góc loại không tiếp xúc:
+a. Wiegand
+b. Từ trường
+c. Quang
+*d. Áp điện trở 
+
+Công thức tính tốc độ quay:
+a. $n = \frac{N_0}{NT}$
+b. $n = \frac{NT}{N_0}$
+c. $n = \frac{N_0 T}{N}$
+*d. $n = \frac{N}{N_0 T}$
+
+Nguồn sáng trong Stroboscope là:
+a. Đèn huỳnh quang
+b. Đèn Halogen
+c. Đèn Neon
+*d. Đèn Xenon gash hoặc đèn Led 
+
+Stroboscope thường được sử dụng để:
+a. Đo độ ẩm
+b. Đo nhiệt độ
+*c. Đo tốc độ quay của các vật thể chuyển động nhanh 
+d. Đo áp suất
+
+Đĩa mã hóa tuyệt đối tiếng anh gọi là:
+a. Single track encoder
+b. Relative encoder
+c. Quadrature encoder
+*d. Absolute encoder 
+
+Tốc kế góc từ trường sử dụng loại bánh răng:
+a. Nhựa
+b. Gỗ
+c. Cao su
+*d. Kim loại 
+
+Đĩa mã hóa quang học nào được sử dụng để đo lường tốc độ và góc quay của trục động cơ?
+a. Đĩa mã hóa cơ học
+b. Đĩa mã hóa điện từ
+*c. Đĩa mã hóa tương đối 
+d. Đĩa mã hóa từ tính
+
+Đĩa rãnh đôi tiếng anh gọi là:
+a. Relative encoder
+b. Single track encoder
+c. Absolute encoder
+*d. Quadrature encoder 
+
+Đĩa mã hóa tuyệt đối sử dụng mã:
+a. Mã nhị phân, mã bát phân
+*b. Mã nhị phân, mã Gray 
+c. Mã nhị phân, mã thập phân
+d. Mã nhị phân, mã bát phân, mã Hex, mã Gray
+
+Tốc kế góc quang hoạt động dựa trên nguyên lý:
+a. Sử dụng cảm biến áp suất để đo tốc độ
+b. Biến đổi điện áp để đo tốc độ
+*c. Phát hiện ánh sáng phản xạ từ một vạch phản xạ hoặc mã hóa 
+d. Sử dụng từ trường để phát hiện góc quay
+
+Tốc kế góc điện áp một chiều có công thức:
+a. E = (A.N)/(60.p) .Φ.n
+b. E = (p.A)/(60.N) .Φ.n
+c. E = (60.A)/(p.N) .Φ.n
+*d. E = (p.N)/(60.A) .Φ.n 
+
+Tốc kế góc công tắc có ưu điểm gì so với tốc kế góc điện trở?
+a. Độ bền cao hơn
+*b. Sử dụng tiếp điểm cơ khí thay vì cảm biến áp điện trở 
+c. Độ chính xác cao hơn
+d. Không cần sử dụng cảm biến áp suất
+
+Cảm biến Hall dùng đo tốc độ có ngõ ra:
+a. Từ trường
+b. Dòng điện
+c. Tương tự
+*d. Số 
+
+Cảm biến Hall hoạt động dựa trên nguyên lý:
+a. Cảm biến áp suất
+b. Cảm biến nhiệt độ
+c. Cảm biến ánh sáng
+*d. Cảm biến từ trường 
+
+0111 của mã Gray tương ứng với số nào cũa mã thập phân?
+a. 4
+b. 3
+c. 6
+*d. 5 
+
+Nguyên lý của tốc kế góc Wiegand dựa trên hiện tượng:
+a. Hiện tượng cảm ứng nhiệt
+b. Hiện tượng cảm ứng áp suất
+*c. Hiệu ứng Wiegand 
+d. Hiện tượng cảm ứng điện từ
+
+Đĩa mã hóa rãnh đôi có gì khác so với đĩa mã hóa rãnh đơn?
+*a. Sử dụng rãnh lệch nhau 90 và có thể xác định chiều quay 
+b. Sử dụng cảm biến áp suất để đo tốc độ
+c. Sử dụng hệ thống từ trường để phát hiện góc quay
+d. Sử dụng ba rãnh
+
+Nguyên lý làm việc của tốc kế góc điện áp xoay chiều là:
+a. Sử dụng cảm biến áp suất để đo tốc độ
+b. Sử dụng từ trường để tạo ra sức điện động
+*c. Sử dụng dòng điện kích từ tạo ra từ trường 
+d. Sử dụng sự biến đổi nhiệt độ để đo góc quay
+
+Hai rãnh A và B được đặt ..... về mặt không gian trong đĩa mã hóa rãnh đôi:
+a. Lệch nhau $60^o$
+*b. Lệch nhau $90^o$ 
+c. Lệch nhau $30^o$
+d. Lệch nhau $180^o$
+
+Với đĩa mã hóa tuyệt đối 4 bit, có thể phân biệt ..... vị trí khác nhau trên vòng tròn
+a. 4
+*b. 16 
+c. 32
+d. 8
+
+Tốc kế góc áp điện trở sử dụng cảm biến:
+a. Cảm biến áp suất
+*b. Cảm biến áp điện trở 
+c. Cảm biến Hall
+d. Cảm biến quang
+
+Đĩa mã hóa (encoder) rãnh đơn là thiết bị:
+a. Đo tốc độ quay
+b. Đo góc quay
+*c. Tất cả đều đúng 
+d. Xác định chiều quay
+
+Tốc kế góc dạng điện áp gồm:
+a. Tất cả đều sai
+b. Một chiều
+c. Xoay chiều
+*d. Một chiều và xoay chiều 
+
+Đĩa mã hóa tương đối tiếng anh gọi là:
+a. Quadrature encoder
+*b. Relative encoder 
+c. Absolute encoder
+d. Single track encoder
+
+Điểm khác biệt giữa mã nhị phân và mã Gray là:
+a. Mã Gray sử dụng các ký hiệu đặc biệt
+*b. Mã Gray chỉ thay đổi một bit khi chuyển đổi giữa các vị trí 
+c. Mã nhị phân có nhiều bit hơn mã Gray
+d. Mã nhị phân dễ dàng kết nối với PLC hơn
+
+Số 6 tương ứng với mã nhị phân:
+*a. 0110 
+b. 0100
+c. 0111
+d. 0101
+
+0111 của mã nhị phân là ..... trong mã Gray
+*a. 0100 
+b. 0110
+c. 0011
+d. 0101
+
+Đĩa mã hóa rãnh đơn có 20 lỗ được dùng để đo tốc độ động cơ, trong 6 giây đĩa quay được 100 vòng. Tốc độ quay của động cơ là:
+a. 500 vòng/phút
+*b. 50 vòng/phút 
+c. 150 vòng/phút
+d. 100 vòng/phút
+
+Stroboscope là thiết bị:
+a. Đo độ ẩm
+b. Đo nhiệt độ
+c. Đo áp suất
+*d. Đo tốc độ quay 
+
+Đĩa mã hóa nào sử dụng hệ thống rãnh để mã hóa vị trí?
+*a. Đĩa mã hóa quang học 
+b. Đĩa mã hóa điện từ
+c. Đĩa mã hóa từ tính
+d. Đĩa mã hóa cơ học
+
+Nguyên lý hoạt động của đĩa mã hóa rãnh đơn là:
+*a. Sử dụng Led và Phototransistor qua các lỗ trên đĩa 
+b. Sử dụng hệ thống từ trường để phát hiện góc quay
+c. Sử dụng hai rãnh A và B
+d. Sử dụng cảm biến áp suất để đo tốc độ
+
+Máy đo góc tuyệt đối (Resolver) có phần nào không tiếp xúc:
+a. Stator
+*b. Cuộn biến áp dây quay 
+c. Rotor và Stator
+d. Rotor
+
+Đĩa mã hóa nào có khả năng xác định góc quay của trục động cơ?
+a. Đĩa mã hóa rãnh đơn
+*b. Đĩa mã hóa tuyệt đối 
+c. Đĩa mã hóa tương đối
+d. Đĩa mã hóa từ tính
+
+Hiệu ứng Wiegand được sử dụng trong loại tốc kế góc:
+a. Tốc kế góc quang
+*b. Tốc kế góc Wiegand 
+c. Tốc kế góc áp điện trở
+d. Tốc kế góc từ trường
+
+Máy đo góc tuyệt đối trong tiếng anh là:
+a. Renewer
+*b. Resolver 
+c. Recloser
+d. Recover
+
+1010 tương ứng với số nào của mã thập phân:
+a. 7
+b. 8
+*c. 10 
+d. 9
+
+Tốc kế góc từ trường hoạt động dựa trên nguyên lý:
+a. Hiện tượng cảm ứng nhiệt
+*b. Hiện tượng cảm ứng điện từ 
+c. Hiện tượng cảm ứng áp suất
+d. Hiện tượng cảm ứng ánh sáng
+
+Đâu không phải là ưu điểm của máy đo góc tuyệt đối:
+a. Xác định vị trí tuyệt đối
+*b. Giá thành rẻ 
+c. Độ tin cậy cao
+d. Không bị ảnh hưởng bởi nhiệt độ và môi trường
+
+
+Phát biểu nào sau đây sai khi nói về đĩa mã hóa tuyệt đối nhị phân:
+a. Đĩa mã hóa tuyệt đối dạng mã nhị phân có thể cho biết vị trí hiện tại của trục quay khi mất điện
+b. Đĩa mã hóa tuyệt đối dạng mã nhị phân đôi khi không xác định được góc quay hoặc xác định sai dẫn đến hệ thống hoạt động sai
+c. Đĩa mã hóa tuyệt đối dạng mã nhị phân có thể kết nối thẳng với máy tính,PLC mà không cần chuyển đổi mã
+*d. Đĩa mã hóa tuyệt đối dạng mã nhị phân 3 bit có 10 vị trí khác nhau trên vòng tròn 
+
+Số 5 trong mã Gray tương ứng:
+a. 0101
+b. 0110
+c. 0100
+*d. 0111 
+
+Cảm biến Hall có thể đo:
+a. Tốc độ quay
+b. Chiều quay
+c. Góc quay
+*d. Tất cả đều đúng 
+
+Tốc kế góc áp điện trở hoạt động dựa trên nguyên lý:
+a. Biến đổi áp suất
+*b. Biến đổi cơ học của một thanh truyền lực mỏng 
+c. Biến đổi từ trường
+d. Biến đổi nhiệt độ
+
+Ưu điểm của cảm biến Hall trong việc đo tốc độ quay là:
+a. Dễ lắp đặt
+b. Không bị ảnh hưởng bởi nhiệt độ
+c. Giá thành rẻ
+*d. Đo lường chính xác cao 
