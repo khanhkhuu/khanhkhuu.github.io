@@ -1,0 +1,23 @@
+In electrical distribution system, the ATS that means:
+a. Automatic Tranformer Switch
+b. Applied Type System
+c. Avenue To Success
+*d. Automatic Transfer Switch
+
+Lưới điện kín có đặc điểm:
+a. Phụ tải trong lưới được cung cấp từ 3 nguồn.
+b. Chỉ được dùng cho đường dây truyền tải.
+*c. Phụ tải trong lưới được cung cấp ít nhất từ 2 nguồn trở lên.
+d. Phụ tải trong lưới được cung cấp từ một nguồn.
+
+Khuyết điểm của lưới điện hở là:
+a. Không đảm bảo an toàn.
+b. Tốn kém chi phí.
+c. Tải không được cung cấp điện liên tục.
+*d. Các phụ tải (hộ tiêu thụ) bị mất điện khi có sự cố khi cần sửa chữa ngầm.
+
+Lưới hệ thống là lưới có cấp điện áp:
+a. Từ 66kV đến 220kV.
+*b. Từ 35kV trở lên.
+c. Từ 500kV trở lên.
+d. Từ 220kV trở lên.
