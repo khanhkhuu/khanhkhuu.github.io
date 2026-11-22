@@ -447,14 +447,14 @@ function sortQuestionsAlphabetically(questions) {
   );
 }
 
-function buildExportExamHtml(fileName, questions, startIndex) {
+function buildExportExamHtml(fileName, questions, startIndex, compact = false) {
   const title = escapeHtml(examDisplayName(fileName));
   let html = `<section class="exam-block"><h2>${title}</h2>`;
 
   questions.forEach((q, i) => {
     const qNum = startIndex + i + 1;
 
-    html += `<article class="question-block">`;
+    html += `<article class="question-block${compact ? ' compact' : ''}">`;
     html += `<div class="q-title"><span class="q-num">Câu ${qNum}.</span> ${escapeHtml(q.question)}</div>`;
 
     if (q.images && q.images.length) {
@@ -469,20 +469,31 @@ function buildExportExamHtml(fileName, questions, startIndex) {
       html += `</div>`;
     }
 
-    html += `<ul class="options">`;
-    q.options.forEach(opt => {
-      const mark = opt.isCorrect ? ' correct' : '';
-      const badge = opt.isCorrect ? ' <span class="correct-mark">✔ Đáp án đúng</span>' : '';
-      html += `<li class="option${mark}"><strong>${escapeHtml(opt.label.toUpperCase())}.</strong> ${escapeHtml(opt.text)}${badge}</li>`;
-    });
-    html += `</ul></article>`;
+    if (compact) {
+      const correct = (q.options || []).find(opt => opt.isCorrect);
+      if (correct) {
+        html += `<div class="answer-only"><span class="correct-mark">✔</span> ${escapeHtml(correct.text)}</div>`;
+      } else {
+        html += `<div class="answer-only missing"><em>(Chưa đánh dấu đáp án đúng)</em></div>`;
+      }
+    } else {
+      html += `<ul class="options">`;
+      q.options.forEach(opt => {
+        const mark = opt.isCorrect ? ' correct' : '';
+        const badge = opt.isCorrect ? ' <span class="correct-mark">✔ Đáp án đúng</span>' : '';
+        html += `<li class="option${mark}"><strong>${escapeHtml(opt.label.toUpperCase())}.</strong> ${escapeHtml(opt.text)}${badge}</li>`;
+      });
+      html += `</ul>`;
+    }
+
+    html += `</article>`;
   });
 
   html += `</section>`;
   return { html, count: questions.length };
 }
 
-function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml }) {
+function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml, compact = false }) {
   const printWin = window.open('', '_blank');
   if (!printWin) {
     alert('Trình duyệt đã chặn cửa sổ mới. Hãy cho phép popup để xuất PDF.');
@@ -491,6 +502,7 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
 
   const generatedAt = new Date().toLocaleString('vi-VN');
   const docTitle = `${subjectName}`;
+  const modeLabel = compact ? ' · Chỉ câu hỏi + đáp án đúng' : '';
 
   printWin.document.write(`<!DOCTYPE html>
 <html lang="vi">
@@ -509,6 +521,11 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       padding: 28px 36px 48px;
       line-height: 1.55;
       font-size: 14px;
+    }
+    body.compact-mode {
+      line-height: 1.4;
+      font-size: 13px;
+      padding: 20px 28px 36px;
     }
     .toolbar {
       position: sticky;
@@ -550,9 +567,15 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       border-bottom: 1px dashed #d1d5db;
       page-break-inside: avoid;
     }
+    .question-block.compact {
+      margin: 0 0 8px;
+      padding-bottom: 6px;
+    }
     .q-title { white-space: pre-wrap; margin-bottom: 8px; }
+    .question-block.compact .q-title { margin-bottom: 4px; }
     .q-num { font-weight: 700; }
     .q-images { margin: 8px 0 10px; }
+    .question-block.compact .q-images { margin: 4px 0 6px; }
     .q-images figure { margin: 0 0 8px; }
     .q-images img {
       max-width: 100%;
@@ -561,6 +584,7 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       border: 1px solid #e5e7eb;
       border-radius: 6px;
     }
+    .question-block.compact .q-images img { max-height: 180px; }
     .q-images figcaption { font-size: 12px; color: #6b7280; margin-top: 4px; }
     .options { list-style: none; padding: 0; margin: 0; }
     .option { margin: 4px 0; padding: 4px 8px; border-radius: 6px; }
@@ -569,21 +593,38 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       border: 1px solid #86efac;
       font-weight: 600;
     }
+    .answer-only {
+      margin-top: 2px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: #ecfdf5;
+      border: 1px solid #86efac;
+      font-weight: 600;
+      display: inline-block;
+      max-width: 100%;
+    }
+    .answer-only.missing {
+      background: #fff7ed;
+      border-color: #fdba74;
+      font-weight: 500;
+    }
     .correct-mark { color: #15803d; font-size: 12px; font-weight: 700; }
     @media print {
       body { padding: 12mm 14mm; font-size: 12.5px; }
+      body.compact-mode { padding: 8mm 10mm; font-size: 11.5px; line-height: 1.35; }
       .toolbar { display: none !important; }
       a { color: inherit; text-decoration: none; }
+      .question-block.compact { margin: 0 0 5px; padding-bottom: 4px; }
     }
   </style>
 </head>
-<body>
+<body class="${compact ? 'compact-mode' : ''}">
   <div class="toolbar">
-    <p>Chọn <strong>Save as PDF / Lưu thành PDF</strong> trong hộp thoại in.</p>
+    <p>Chọn <strong>Save as PDF / Lưu thành PDF</strong> trong hộp thoại in.${compact ? ' <em>(Chế độ gọn: chỉ câu hỏi + đáp án đúng)</em>' : ''}</p>
     <button type="button" onclick="window.print()">In / Lưu PDF</button>
   </div>
   <h1>${escapeHtml(docTitle)}</h1>
-  <p class="meta">${examCount} đề · ${questionCount} câu hỏi · Xuất lúc ${escapeHtml(generatedAt)}</p>
+  <p class="meta">${examCount} đề · ${questionCount} câu hỏi${modeLabel} · Xuất lúc ${escapeHtml(generatedAt)}</p>
   ${bodyHtml}
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.js"><\/script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/contrib/auto-render.min.js"><\/script>
@@ -610,6 +651,7 @@ async function exportSelectedExamsToPdf() {
     return;
   }
 
+  const compact = !!document.getElementById('exportPdfCompact')?.checked;
   const exportBtn = document.getElementById('exportPdfBtn');
   exportBtn.disabled = true;
   setLoader(true);
@@ -626,7 +668,7 @@ async function exportSelectedExamsToPdf() {
       const parsed = await loadExamQuestions(state.currentSubject, fileName);
       if (!parsed.length) continue;
       const sortedQuestions = sortQuestionsAlphabetically(parsed);
-      const built = buildExportExamHtml(fileName, sortedQuestions, questionCount);
+      const built = buildExportExamHtml(fileName, sortedQuestions, questionCount, compact);
       bodyHtml += built.html;
       questionCount += built.count;
     }
@@ -642,7 +684,8 @@ async function exportSelectedExamsToPdf() {
       subjectName: state.currentSubject,
       examCount: selected.length,
       questionCount,
-      bodyHtml
+      bodyHtml,
+      compact
     });
   } catch (err) {
     setLoader(false, err.message);

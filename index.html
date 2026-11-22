@@ -55,6 +55,10 @@
           <span id="examSelectedCount" class="exam-selected-count">Đã chọn: 0</span>
         </div>
         <div class="exam-actions-right">
+          <label class="toggle-chip export-compact-toggle" title="Chỉ in câu hỏi và đáp án đúng để tiết kiệm giấy">
+            <input type="checkbox" id="exportPdfCompact" />
+            <span>📄 Gọn (chỉ đáp án đúng)</span>
+          </label>
           <button type="button" id="exportPdfBtn" class="btn-secondary btn-export-pdf" onclick="exportSelectedExamsToPdf()" disabled>
             📄 Xuất PDF đề đáp án
           </button>
