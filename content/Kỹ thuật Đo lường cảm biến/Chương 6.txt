@@ -1,0 +1,310 @@
+Trình tự chuẩn bị mở máy vận hành dao động ký gồm?
+a. 12 bước
+b. 8 bước
+c. 9 bước
+*d. 10 bước
+
+Khi đo góc lệch pha bằng phương pháp Lissajous, nếu
+trên màn hình dao động ký có dạng hình tròn thì góc
+lệch pha là:
+*a. 90
+b. 180
+c. 0
+d. 360
+
+Lớp than chì xung quanh ống CRT màn huỳnh quang dùng để:
+a. Hấp thụ các điện tích gây nhiễu
+b. Triệt tiêu độ dư quang
+c. Trung hòa điện tích
+*d. Hấp thụ các điện tử phát xạ thứ cấp
+
+Nếu $S_2$ ở vị trí EXT thì:
+a. Tín hiệu quét dọc được đưa từ ngoài vào
+b. Tín hiệu quét dạng răng cưa được đưa từ ngoài vào
+c. Tất cả đều đúng
+*d. Tín hiệu quét ngang được đưa từ ngoài vào
+
+Khi đo góc lệch pha của 2 tín hiệu dùng dao động ký thì góc lệch pha được xác định? Biết T là chu kỳ, Δt là khoảng lệch của 2 tín hiệu
+a. $φ = (T/Δt).360^0$
+*b. $φ = (Δt/T).360^0$
+c. $φ = 360^0 /(Δt.T)$
+d. $φ = (Δt/360^0).T$
+
+Khi đo góc lệch pha giữa 2 tín hiệu có cùng tần số, nếu kết quả trên màn hình dao động ký là một elip có 2 đỉnh nằm trong góc phần tư thứ 1 và 3 thì góc lệch pha là:
+a. $180^0 < φ < 270^0$
+b. $90^0$
+c. $90^0 < φ < 180^0$
+*d. $0^0 < φ < 90^0$
+
+Biến trở $P_2$ trong ống tia điện tử CRT có chức năng:
+a. Thay đổi chùm tia điện tử theo chiều ngang
+b. Thay đổi điện thế giữa hai bản cực lệch dọc
+c. Điều chỉnh độ sáng cho chùm tia điện tử
+*d. Thay đổi điện trường cho các bản cực hội tụ $A_1 , A_2 , A_3$
+
+Dao động ký số có ưu điểm hơn dao động ký tương tự là:
+a. Có tầm đo lớn hơn
+*b. Có thể xem kết quả đo lường nhanh chóng mà không cần tính toán
+c. Giá thành rẻ
+d. Có độ bền cao
+
+Nếu $S_2$ ở vị trí INT thì:
+a. Tín hiệu quét dọc được đưa từ ngoài vào
+b. Tất cả đều đúng
+c. Tín hiệu quét ngang được đưa từ ngoài vào
+*d. Tín hiệu quét dạng răng cưa từ mạch tạo tín hiệu quét răng cưa được đưa vào
+
+Khoảng lệch của điểm sáng do chùm tia điện tử tạo nên trên màn huỳnh quang so với vị trí ban đầu phụ thuộc vào:
+a. Vận tốc chuyển động của chùm tia điện tử
+*b. Cường độ điện trường bản lệch dọc
+c. Tất cả đều sai
+d. Thời gian chuyển động về phía màn ảnh
+
+Bản chắn trong ống tia CRT có nhiệm vụ:
+a. Tất cả đều đúng
+b. Ngăn các điện tích bị phản xạ từ màn huỳnh quang
+c. Ngăn các điện tích
+*d. Ngăn ảnh hưởng của điện trường của 2 bản lệch dọc và ngang
+
+Trên màn hình dao dộng ký, có hai dạng sóng khác nhau. Dạng sóng A có biên độ 4,5 vạch chia thẳng đứng, sóng B đo được với biên độ 2 vạch chia. Với núm điều khiển Volt/Div tại 100mV. Thì điện áp đỉnh tới đỉnh của mỗi sóng là:
+@img img/chuong-6-1.png
+*a. Sóng A: U = 450mV và Sóng B: U = 200mV
+b. Sóng A: U = 450mV và Sóng B: U = 100mV
+c. Sóng A: U = 250mV và Sóng B: U = 200mV
+d. Sóng A: U = 350mV và Sóng B: U = 100mV
+
+Trên màn hình dao dộng ký, có hai dạng sóng khác nhau. Dạng sóng A có biên độ 4,5 vạch chia thẳng đứng, sóng B đo được với biên độ 2 vạch chia. Với núm điều khiển Volt/Div tại 50mV. Thì điện áp đỉnh tới đỉnh của mỗi sóng là
+@img img/chuong-6-2.png
+a. Sóng A: U = 50mV và Sóng B: U = 20mV
+*b. Sóng A: U = 25mV và Sóng B: U = 10mV
+c. Sóng A: U = 90mV và Sóng B: U = 40mV
+d. Sóng A: U = 45mV và Sóng B: U = 20mV
+
+Dao động ký là loại máy:
+*a. Đo vạn năng trong ngành điện tử và nhiều ngành công nghiệp khác
+b. Ghi lại các hình ảnh, dạng tín hiệu về điện
+c. Ghi lại giá trị tức thời của các điện áp biến đổi
+có chu kỳ hay không có chu kỳ
+d. Tất cả đều đúng
+
+Để điều chỉnh sự hội tụ của chùm tia điện tử cần điều chỉnh:
+a. Điện áp đặt vào bản lệch dọc
+*b. Điện áp đặt vào anode
+c. Điện áp đặt vào lưới điều khiển
+d. Điện áp đặt vào cathode
+
+Chức năng của dây đo dao động ký là:
+a. Bổ chính tần số cho dao động ký
+*b. Mở rộng giới hạn đo cho dao dộng ký
+c. Kết nối nguồn tín hiệu với máy đo
+d. Tất cả đều đúng
+
+Dao động ký 2 kênh loại 2 cathode phát ra 2 chùm tia điện tử có:
+a. 1 mạch khuếch đại dọc
+b. Tất cả đều đúng
+*c. 2 mạch khuếch đại dọc
+d. 2 mạch khuếch đại ngang 
+
+Đo chu kỳ của tín hiệu được tính bằng:
+a. Tất cả đều sai
+b. T = T’/ x
+*c. T = x.T’
+d. T = x / T’
+
+Dao động ký 2 tia có thể tạo ra 2 tia bằng cách:
+a. Dùng 1 chùm tia điện tử từ 1 nguồn phát chung và điều khiển tia này sẽ lái 2 tín hiệu về 2 bản cực A và B
+b. Tất cả đều đúng
+*c. Dùng 2 chùm tia điện tử từ 2 nguồn riêng biệt, việc điều khiển 2 tia này hoàn toàn độc lập
+d. Tất cả đều sai
+
+Dây đo dao động ký gồm:
+a. 2 loại là loại có mức điện áp 1:1 và 5:1
+b. 2 loại là loại có mức điện áp 10:1 và 25:1
+*c. 2 loại là loại có mức điện áp 1:1 và 10:1
+d. 2 loại là loại có mức điện áp 5:1 và 10:1
+
+Trong ống phóng điện tử, tim đèn có nhiệm vụ:
+a. Làm sáng ống phóng điện tử
+b. Tạo ra các điện tích
+c. Tất cả đều sai
+*d. Đốt nóng cathode của CRT
+
+Đo tần số trên dao động ký được thực hiện bằng cách:
+*a. Đo các đại lượng liên hệ rồi dùng các phép tính
+b. Chia tín hiệu đo cho tín hiệu chuẩn
+c. So sánh tín hiệu đo với tín hiệu chuẩn
+d. Nhân tín hiệu đo với tín hiệu chuẩn
+
+Ống phóng tia điện tử có độ nhạy khoảng?
+a. 0,2 ÷ 0,4 mm/V
+b. 0,3 ÷ 0,4 mm/V
+c. 0,2 ÷ 0,5 mm/V
+*d. 0,3 ÷ 0,5 mm/V
+
+Tần số là bao nhiêu với giá trị Time/Div là 0,5ms
+@img img/chuong-6-3.png
+a. 200Hz
+b. 25Hz
+*c. 250Hz
+d. 125Hz
+
+Trong dao động ký ống phóng tia điện tử có vai trò:
+a. Tất cả đều đúng
+*b. Là bộ phận trung tâm của dao động ký
+c. Các điện tử được phát ra từ Cathode bị nung nóng và tạo thành chùm tia hẹp
+d. Chùm tia được gia tốc về phía màn hình huỳnh quang nhờ các điện cực Anode
+
+Đo độ lớn điện áp của tín hiệu được tính bằng:
+*a. U = h.S
+b. U = h / S
+c. Tất cả đều sai
+d. U = S / h
+
+Khi đo góc lệch pha giữa 2 tín hiệu có cùng tần số, nếu
+kết quả trên màn hình dao động ký là một elip có 2 đỉnh
+nằm trong góc phần tư thứ 2 và 4 thì góc lệch pha là:
+*a. $90^0 < φ < 180^0$
+b. $90^0$
+c. $180^0 < φ < 270^0$
+d. $0^0 < φ < 90^0$
+
+Dao động ký 2 tia có ưu điểm:
+*a. Cùng lúc có thể cùng quan sát được cả 2 tín hiệu hoàn toàn khác nhau
+b. Có thể điều khiển ở 2 kênh A và B hoàn toàn độc lập và điều chỉnh các tia theo ý
+c. Tất cả đều đúng
+d. Cho phép so sánh các dạng sóng với nhau về biên độ, pha, chu kỳ
+
+Góc lệch pha φ đo bằng phương pháp Lissajous nằm trong khoảng:
+a. $0^0 < φ < 90^0$
+*b. $0^0 < φ < 180^0$
+c. $0^0 < φ < 360^0$
+d. $90^0 < φ < 180^0$
+
+Biến trở ${P_3} trong ống tia điện tử CRT có chức năng:
+*a. Thay đổi điện thế giữa hai bản cực lệch dọc
+b. Thay đổi điện trường cho các bản cực hội tụ $A_{1}, A_{2}, A_{3}$
+c. Thay đổi chùm tia điện tử theo chiều ngang
+d. Điều chỉnh độ sáng cho chùm tia điện tử
+
+Dao động ký 2 tia có thể quan sát được cùng lúc các tín hiệu:
+a. Quan sát cùng lúc 2 tín hiệu hoàn toàn khác nhau
+*b. Quan sát cùng lúc 2 tín hiệu
+c. Quan sát cùng lúc 2 tín hiệu giống nhau
+d. Tất cả đều sai
+
+
+Ghép trực tiếp DC (Direct Coupling) nghĩa là:
+a. Khóa S bật sang vị trí AC, tín hiệu AC được đưa vào máy đo
+b. Khóa S bật sang vị trí AC, tín hiệu AC và DC đều được đưa vào máy đo
+c. Khóa S bật sang vị trí DC, tín hiệu DC được đưa vào máy đo
+*d. Khóa S bật sang vị trí DC, tín hiệu AC và DC đều được đưa vào máy đo
+
+Anode $A_1$ trong ống CRT có nhiệm vụ:
+a. Tạo sự phân kỳ của chùm tia điện tử
+b. Làm lệch quỹ đạo của chùm tia điện tử
+*c. Làm tăng tốc cho chùm tia điện tử
+d. Làm hội tụ chùm tia điện tử
+
+Dao động ký dùng để quan sát tín hiệu tức thời, tuần hoàn chậm, quá độ v.v… dải tần số đến 150Mhz, tốc độ ghi đến 4000km/s:
+*a. Dao động ký có nhớ
+b. Dao động ký xử lý tốc độ nhanh
+c. Dao động ký vạn năng
+d. Dao động ký cài bộ vi xử lý up
+
+Biến trở $P_4$ trong ống tia điện tử CRT có chức năng:
+a. Thay đổi điện trường cho các bản cực hội tụ $A_{1}, A_{2}, A_{3}$
+b. Điều chỉnh độ sáng cho chùm tia điện tử
+c. Thay đổi điện thế giữa hai bản cực lệch dọc
+*d. Thay đổi chùm tia điện tử theo chiều ngang
+
+Khi đo góc lệch pha bằng phương pháp Lissajous, nếu trên màn hình dao động ký có dạng đường thẳng nằm ở góc phần tư 1-3 thì 2 tín hiệu:
+*a. Cùng pha
+b. Ngược pha
+c. Lệch pha $90^0$
+d. Lệch pha bất kỳ
+
+Biến trở $P_5$ trong ống tia điện tử CRT có chức năng:
+a. Thay đổi chùm tia điện tử theo chiều ngang
+b. Thay đổi điện thế giữa hai bản cực lệch dọc
+*c. Thay đổi điện áp bản cực phụ để điều chỉnh độ lệch chùm tia điện tử do từ trường nhiễu gây ra
+d. Thay đổi điện trường cho các bản cực hội tụ $A_{1}, A_{2}, A_{3}$
+
+Công thức nào để xác định tần số sóng sin nếu đường cong xuất hiện trên màn hình dao động ký có dạng 0? Biết f là tần số cần đo, $f_N$ là tần số tín hiệu chuẩn
+a. $f = 2f_N$
+*b. $f = f_N$
+c. $f = 3f_N$
+d. $f = 0,5f_N$
+
+Trong ống phóng điện tử, bản lệch dọc và ngang có nhiệm vụ:
+a. Tất cả đều sai
+b. Làm tăng vận tốc của chùm tia điện tử
+c. Tạo ra chùm tia điện tử đập vào màn huỳnh quang
+*d. Làm lệch quỹ đạo chuyển động của chùm tia điện tử
+
+Dao động ký dùng để quan sát và ghi lại tín hiệu xung ngắn, tín hiệu quá độ hoặc các xung tuần hoàn có tần số cao. Có dải tầng lên đến hàng chục Ghz:
+a. Dao động ký vạn năng
+b. Dao động ký có nhớ
+c. Dao động ký cài bộ vi xử lý up
+*d. Dao động ký xử lý tốc độ nhanh
+
+Dao động ký có đặc điểm có thể thay thế các mảng linh kiện (block) khác nhau tùy theo mục đích sử dụng là:
+*a. Dao động ký vạn năng
+b. Dao động ký xử lý tốc độ nhanh
+c. Dao động ký cài bộ vi xử lý up
+d. Dao động ký có nhớ
+
+Nhiệm vụ của mạch khuếch đại làm lệch tia điện tử là:
+a. Tạo điện áp vi sai đưa tới cặp phiếu làm lệch
+b. Làm lớn tín hiệu
+*c. Tất cả đều sai
+d. Tất cả đều đúng
+
+Trong các khối chức năng sau, khối nào góp phần điều khiển sự đồng bộ tín hiệu:
+a. Khối tín hiệu răng cưa
+b. Mạch vi phân
+c. Mạch kích Schmitt
+*d. Tất cả đều đúng
+
+Tính giá trị điện áp đỉnh với thông số Volts/Div là 0,5V
+@img img/chuong-6-4.png
+a. 4V
+b. 1V
+c. 2,5V
+*d. 2V
+
+Dao động ký 2 kênh có mấy trục khuếch đại X
+a. 2
+*b. 1
+c. 4
+d. 3
+
+Biến trở $P_1$ trong ống tia điện tử CRT có chức năng:
+a. Thay đổi chùm tia điện tử theo chiều ngang
+*b. Điều chỉnh độ sáng cho chùm tia điện tử
+c. Thay đổi điện trường cho các bản cực hội tụ $A_{1}, A_{2}, A_{3}$
+d. Thay đổi điện thế giữa hai bản cực lệch dọc
+
+Độ lệch của chùm tia điện tử theo chiều dọc hoặc ngang trong ống CRT phụ thuộc:
+a. Khoảng cách giữa hai bản cực của bản lệch dọc hoặc ngang
+*b. Điện áp giữa 2 bản cực của bản lệch dọc hoặc ngang
+c. Mật độ các điện tích
+d. Diện tích các bản cực
+
+Ghép gián tiếp AC (Alternative Coupling) nghĩa là:
+*a. Khóa $S_1$ bật sang vị trí AC, tín hiệu AC được đưa vào máy đo còn tín hiệu DC thì bị chặn lại bởi tụ điện $C_1$
+b. Khóa $S_1$ bật sang vị trí AC, tín hiệu AC được đưa vào máy đo còn tín hiệu DC thì bị chặn lại bởi tụ điện $C_2$
+c. Khóa $S_1$ bật sang vị trí AC, tín hiệu AC được đưa vào máy đo còn tín hiệu DC thì bị chặn lại bởi tụ điện $C_3$
+d. Khóa $S_1$ bật sang vị trí AC, tín hiệu AC và DC đều được đưa vào máy đo
+
+Trên màn hình dao dộng ký, có hai dạng sóng khác nhau. Dạng sóng A có biên độ 4,5 vạch chia thẳng đứng, sóng B đo được với biên độ 2 vạch chia. Với núm điều khiển Volt/Div tại 20mV. Thì điện áp đỉnh tới đỉnh của mỗi sóng là:
+@img img/chuong-6-5.png
+a. Sóng A: U = 60mV và Sóng B: U = 20mV
+*b. Sóng A: U = 90mV và Sóng B: U = 40mV
+c. Sóng A: U = 90mV và Sóng B: U = 20mV
+d. Sóng A: U = 900mV và Sóng B: U = 400mV
+
+Trình tự mở máy vận hành dao động ký gồm?
+a. 6 bước
+*b. 4 bước
+c. 5 bước
+d. 7 bước
