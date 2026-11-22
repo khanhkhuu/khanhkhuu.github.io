@@ -293,6 +293,7 @@ function updateExamSelectionUI() {
   const count = state.selectedExams.size;
   document.getElementById('examSelectedCount').textContent = `Đã chọn: ${count}`;
   document.getElementById('startSelectedBtn').disabled = count === 0;
+  document.getElementById('exportPdfBtn').disabled = count === 0;
 
   document.querySelectorAll('.folder-card[data-exam]').forEach(card => {
     const fileName = card.dataset.exam;
@@ -412,6 +413,250 @@ async function loadExamQuestions(subjectName, fileName) {
   if (!res.ok) throw new Error(`Không đọc được đề: ${fileName}`);
   const rawText = await res.text();
   return parseQuizTxt(rawText);
+}
+
+function examDisplayName(fileName) {
+  return fileName.replace(/\.txt$/i, '').replace(/_/g, ' ');
+}
+
+function escapeHtml(text) {
+  return String(text == null ? '' : text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function absoluteMediaUrl(relativePath) {
+  const resolved = resolveMediaUrl(relativePath);
+  if (!resolved) return '';
+  try {
+    return new URL(resolved, window.location.href).href;
+  } catch (_) {
+    return resolved;
+  }
+}
+
+function buildExportExamHtml(fileName, questions, startIndex) {
+  const title = escapeHtml(examDisplayName(fileName));
+  const answerKeys = [];
+  let html = `<section class="exam-block"><h2>${title}</h2>`;
+
+  questions.forEach((q, i) => {
+    const qNum = startIndex + i + 1;
+    const correctOpt = q.options.find(o => o.isCorrect);
+    if (correctOpt) answerKeys.push(`${qNum}${correctOpt.label.toUpperCase()}`);
+
+    html += `<article class="question-block">`;
+    html += `<div class="q-title"><span class="q-num">Câu ${qNum}.</span> ${escapeHtml(q.question)}</div>`;
+
+    if (q.images && q.images.length) {
+      html += `<div class="q-images">`;
+      q.images.forEach(img => {
+        const src = escapeHtml(absoluteMediaUrl(img.src));
+        const alt = escapeHtml(img.alt || 'Hình minh họa');
+        html += `<figure><img src="${src}" alt="${alt}" />`;
+        if (img.alt) html += `<figcaption>${escapeHtml(img.alt)}</figcaption>`;
+        html += `</figure>`;
+      });
+      html += `</div>`;
+    }
+
+    html += `<ul class="options">`;
+    q.options.forEach(opt => {
+      const mark = opt.isCorrect ? ' correct' : '';
+      const badge = opt.isCorrect ? ' <span class="correct-mark">✔ Đáp án đúng</span>' : '';
+      html += `<li class="option${mark}"><strong>${escapeHtml(opt.label.toUpperCase())}.</strong> ${escapeHtml(opt.text)}${badge}</li>`;
+    });
+    html += `</ul></article>`;
+  });
+
+  html += `</section>`;
+  return { html, answerKeys, count: questions.length };
+}
+
+function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml, answerKeyHtml }) {
+  const printWin = window.open('', '_blank');
+  if (!printWin) {
+    alert('Trình duyệt đã chặn cửa sổ mới. Hãy cho phép popup để xuất PDF.');
+    return;
+  }
+
+  const generatedAt = new Date().toLocaleString('vi-VN');
+  const docTitle = `Đề đáp án — ${subjectName}`;
+
+  printWin.document.write(`<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>${escapeHtml(docTitle)}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.css" />
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: #111;
+      background: #fff;
+      margin: 0;
+      padding: 28px 36px 48px;
+      line-height: 1.55;
+      font-size: 14px;
+    }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+    }
+    .toolbar p { margin: 0; color: #374151; font-size: 13px; }
+    .toolbar button {
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      background: #4f46e5;
+      color: #fff;
+    }
+    h1 { font-size: 22px; margin: 0 0 6px; }
+    .meta { color: #4b5563; margin: 0 0 22px; }
+    h2 {
+      font-size: 17px;
+      margin: 28px 0 14px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #111;
+      page-break-after: avoid;
+    }
+    .question-block {
+      margin: 0 0 18px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed #d1d5db;
+      page-break-inside: avoid;
+    }
+    .q-title { white-space: pre-wrap; margin-bottom: 8px; }
+    .q-num { font-weight: 700; }
+    .q-images { margin: 8px 0 10px; }
+    .q-images figure { margin: 0 0 8px; }
+    .q-images img {
+      max-width: 100%;
+      max-height: 280px;
+      object-fit: contain;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+    }
+    .q-images figcaption { font-size: 12px; color: #6b7280; margin-top: 4px; }
+    .options { list-style: none; padding: 0; margin: 0; }
+    .option { margin: 4px 0; padding: 4px 8px; border-radius: 6px; }
+    .option.correct {
+      background: #ecfdf5;
+      border: 1px solid #86efac;
+      font-weight: 600;
+    }
+    .correct-mark { color: #15803d; font-size: 12px; font-weight: 700; }
+    .answer-key {
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 2px solid #111;
+      page-break-inside: avoid;
+    }
+    .answer-key h2 { border-bottom: none; margin-top: 0; }
+    .answer-key p { margin: 0; white-space: pre-wrap; }
+    @media print {
+      body { padding: 12mm 14mm; font-size: 12.5px; }
+      .toolbar { display: none !important; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <p>Chọn <strong>Save as PDF / Lưu thành PDF</strong> trong hộp thoại in.</p>
+    <button type="button" onclick="window.print()">In / Lưu PDF</button>
+  </div>
+  <h1>${escapeHtml(docTitle)}</h1>
+  <p class="meta">${examCount} đề · ${questionCount} câu hỏi · Xuất lúc ${escapeHtml(generatedAt)}</p>
+  ${bodyHtml}
+  ${answerKeyHtml}
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.js"><\/script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/contrib/auto-render.min.js"><\/script>
+  <script>
+    var katexOptions = ${JSON.stringify(KATEX_OPTIONS)};
+    function readyPrint() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, katexOptions);
+      }
+      setTimeout(function () { window.print(); }, 350);
+    }
+    if (document.readyState === 'complete') readyPrint();
+    else window.addEventListener('load', readyPrint);
+  <\/script>
+</body>
+</html>`);
+  printWin.document.close();
+}
+
+async function exportSelectedExamsToPdf() {
+  const selected = [...state.selectedExams];
+  if (selected.length === 0) {
+    alert('Hãy chọn ít nhất 1 đề để xuất PDF.');
+    return;
+  }
+
+  const exportBtn = document.getElementById('exportPdfBtn');
+  exportBtn.disabled = true;
+  setLoader(true);
+
+  try {
+    let bodyHtml = '';
+    const allAnswerKeys = [];
+    let questionCount = 0;
+
+    for (const fileName of selected) {
+      const parsed = await loadExamQuestions(state.currentSubject, fileName);
+      if (!parsed.length) continue;
+      const built = buildExportExamHtml(fileName, parsed, questionCount);
+      bodyHtml += built.html;
+      allAnswerKeys.push(...built.answerKeys);
+      questionCount += built.count;
+    }
+
+    setLoader(false);
+
+    if (questionCount === 0) {
+      alert('Các đề đã chọn không có câu hỏi hợp lệ. Hãy kiểm tra lại định dạng *a. b. c. d.');
+      return;
+    }
+
+    const answerKeyHtml = `
+      <section class="answer-key">
+        <h2>Bảng đáp án nhanh</h2>
+        <p>${escapeHtml(allAnswerKeys.join('  ·  '))}</p>
+      </section>
+    `;
+
+    openExportPrintWindow({
+      subjectName: state.currentSubject,
+      examCount: selected.length,
+      questionCount,
+      bodyHtml,
+      answerKeyHtml
+    });
+  } catch (err) {
+    setLoader(false, err.message);
+  } finally {
+    updateExamSelectionUI();
+  }
 }
 
 // Bước 3: Tải các đề đã chọn và bắt đầu thi

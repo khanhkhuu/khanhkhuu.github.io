@@ -54,9 +54,14 @@
           <button type="button" class="btn-chip" onclick="deselectAllExams()">Bỏ chọn tất cả</button>
           <span id="examSelectedCount" class="exam-selected-count">Đã chọn: 0</span>
         </div>
-        <button type="button" id="startSelectedBtn" class="btn-primary btn-start-exams" onclick="startSelectedExams()" disabled>
-          ▶ Bắt đầu làm bài
-        </button>
+        <div class="exam-actions-right">
+          <button type="button" id="exportPdfBtn" class="btn-secondary btn-export-pdf" onclick="exportSelectedExamsToPdf()" disabled>
+            📄 Xuất PDF đề đáp án
+          </button>
+          <button type="button" id="startSelectedBtn" class="btn-primary btn-start-exams" onclick="startSelectedExams()" disabled>
+            ▶ Bắt đầu làm bài
+          </button>
+        </div>
       </div>
 
       <div id="loader" class="loader hidden">Đang tải dữ liệu...</div>
