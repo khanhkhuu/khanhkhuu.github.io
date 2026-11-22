@@ -35,8 +35,8 @@ c. Tuyến tính
 d. Parabol
 
 Quan hệ ngõ vào và ra của cơ cấu chỉ thị điện động là một hàm:
-*a. Parabol
-b. Phi tuyến
+a. Parabol
+*b. Phi tuyến
 c. Tuyến tính
 d. Tất cả đều sai
 
@@ -71,10 +71,10 @@ b. Thay đổi
 d. Xoay chiều
 
 Đối với cơ cấu từ điện, khi dòng điện ngõ vào tăng gấp đôi thì góc quay:
-a. Giảm
+a. Giảm ½
 *b. Tăng gấp đôi
 c. Tăng 4 lần
-d. Giảm
+d. Giảm ¼
 
 Nhược điểm của cơ cấu chỉ thị điện động là:
 a. Ảnh hưởng của từ trường bên ngoài lớn
@@ -89,8 +89,8 @@ b. Phòng thí nghiệm
 d. Sản xuất
 
 Đối với cơ cấu điện từ, khi dòng điện ngõ vào tăng gấp đôi thì góc quay:
-a. Giảm
-b. Giảm
+a. Giảm ½
+b. Giảm ¼
 *c. Tăng 4 lần
 d. Tăng gấp đôi
 
