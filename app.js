@@ -496,7 +496,7 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>${escapeHtml(docTitle)}</title>
+  <title>K Study by Khanh Khuu - ${escapeHtml(docTitle)}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.css" />
   <style>
     :root { color-scheme: light; }
