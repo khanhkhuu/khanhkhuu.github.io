@@ -1,0 +1,600 @@
+Hệ số B trong công thức Callerndar – Van Dusen:
+a. $– 5,775.10^7 [^{0}C^{-2}]$
+*b. $– 5,775.10^{-7} [^{0}C^{-2}]$ 
+c. $5,775.10^7 [^{0}C^{-2}]$
+d. $5,775.10^{-7} [^{0}C^{-2}]$
+
+Nhiệt điện trở kim loại tên tiếng anh là:
+a. Resistance Thermocouples Detector
+b. Resistance Thermal Detector
+*c. Resistance Temperature Detector 
+d. Resistance Temperature Metal
+
+Dải đo nhiệt độ của NTC:
+a. $0^0 C ~ 150^0 C$
+*b. $– 100^0  C ~ 700^0  C$ 
+c. $50^0 C ~ 150^0 C$
+d. $100^0 C ~ 700^0 C$
+
+Công thức Steinhart – Hart là:
+a. $\frac{1}{T} = A + B.\left(\ln R\right)^3 + C.\ln R$
+*b. $\frac{1}{T} = A + B.\ln R + C.\left(\ln R\right)^3$
+c. $\frac{1}{T} = A + B.\ln R + C.\left(\ln R\right)^2$
+d. $\frac{1}{T} = A + B.\ln R + C.\ln R$
+
+Điện trở của Thermistor 103AT tại $0^0 C$ là:
+a. 4,16kΩ
+b. 28,27kΩ
+*c. 27,28kΩ 
+d. 27,28Ω
+
+Nhiệt điện trở bán dẫn có linh kiện làm bằng:
+a. Vật liệu siêu dẫn
+b. Vật liệu dẫn điện
+c. Vật liệu từ
+*d. Vật liệu bán dẫn 
+
+Nhược điểm của cặp nhiệt ngẫu loại T:
+a. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
+b. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn
+c. Điện trở lớn
+*d. Trên $300^0 C$ thì đồng bị oxy hóa 
+
+Cặp nhiệt ngẫu có nguyên lý:
+a. Sự thay đổi của nhiệt điện làm thay đổi các thuộc tính về điện trở hoặc điện áp ra
+*b. Sự thay đổi của nhiệt độ làm thay đổi các thuộc tính về điện trở hoặc điện áp ra 
+c. Sự thay đổi của nhiệt điện trở làm thay đổi các thuộc tính về điện trở hoặc điện áp ra
+d. Sự thay đổi của từ nhiệt làm thay đổi các thuộc tính về điện trở hoặc điện áp ra
+
+Ưu điểm của RTD là:
+a. Độ nhạy cao, kích thước nhỏ
+b. Tích hợp dễ dàng
+*c. Độ chính xác cao, ổn định 
+d. Đo nhiệt độ rộng, phản ứng nhanh, giá rẻ
+
+RTD thường được làm từ vật liệu nào phổ biến nhất?
+a. Balco
+*b. Platin 
+c. Nickel
+d. Đồng
+
+NTC viết tắt của:
+a. Negative Thermal Coefcent
+*b. Negative Temperature Coefcent 
+c. Negative Thermocouples Coefcent
+d. Negatively Temperature Coefcent
+
+Nhược điểm của cặp nhiệt ngẫu loại J:
+a. Điện trở lớn
+b. Trên $300^0 C$ thì đồng bị oxy hóa
+c. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn
+*d. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
+
+Vật liệu nào sau đây được sử dụng làm PTC:
+a. Mn
+*b. $BaTiO_3$ 
+c. Cu
+d. Fe
+
+IC nào sau đây dùng để đo nhiệt độ:
+*a. LM35 
+b. LM324
+c. LM311
+d. LM3914
+
+Ưu điểm của IC LM35:
+a. Cần khuếch đại tín hiệu
+b. Dễ bị nhiễu
+c. Không phù hợp môi trường khắc nghiệt
+*d. Tiêu thụ năng lượng thấp 
+
+Vật liệu nào sau đây không được sử dụng làm NTC:
+a. Cu
+*b. Sn 
+c. Co
+d. Fe
+
+Cặp nhiệt ngẫu loại K có dải đo nhiệt độ:
+*a. $– 200^0 C ~ 1200^0 C$ 
+b. $– 200^0 C ~ 800^0 C$
+c. $– 200^0 C ~ 350^0 C$
+d. $– 200^0 C ~ 750^0 C$
+
+Loại nhiệt điện trở khi điện trở giảm thì nhiệt độ tăng:
+a. CTR
+*b. NTC 
+c. Tất cả đều sai
+d. PTC
+
+Nhược điểm IC LM35:
+*a. Cần khuếch đại tín hiệu 
+b. Độ chính xác cao, dễ sử dụng
+c. Không cần hiệu chỉnh bên ngoài
+d. Dải nhiệt độ rộng
+
+Hằng số Boltzmanm ký hiệu là:
+a. h
+*b. $k_B$ 
+c. c
+d. λ
+
+Loại nhiệt điện trở nào dùng để bù nhiệt độ:
+a. NTC, PTC
+b. CTR
+*c. NTC 
+d. PTC
+
+PTC viết tắt của:
+*a. Positive Temperature Coefcient 
+b. Polyester Temperature Coefcient
+c. Polyethylen Temperature Coefcient
+d. Polymer Temperature Coefcient
+
+Ưu điểm của Thermistor:
+a. Tích hợp dễ dàng
+*b. Độ nhạy cao, kích thước nhỏ 
+c. Độ chính xác cao,ổn định
+d. Đo nhiệt độ rộng,phản ứng nhanh,giá rẻ
+
+Ưu điểm của cặp nhiệt ngẫu loại K:
+a. Chịu được môi trường tính khử
+b. Điện áp Seebeck lớn nhất, không bị mòn bởi nhiệt độ
+*c. Độ tuyến tính tốt, thường được dùng nhất trong công nghiệp 
+d. Thường được sử dụng để đo nhiệt độ thấp
+
+Ưu điểm của cặp nhiệt ngẫu:
+a. Độ chính xác cao, ổn định
+b. Tích hợp dễ dàng
+c. Độ nhạy cao, kích thước nhỏ
+*d. Đo nhiệt độ rộng, phản ứng nhanh, giá rẻ 
+
+Công thức Callendar – Van Dusen
+*a. $R_T = R_0\left(1 + AT + BT^2 - 100CT^3 + CT^4\right)$
+b. $R_T = R_0\left(1 + AT + BT^2 - CT^3 + 100CT^4\right)$
+c. $R_T = R_0\left(1 + AT + BT^2 + 100CT^3 + CT^4\right)$
+d. $R_T = R_0\left(1 + AT + BT^2 - CT^3 + CT^4\right)$
+
+Công thức Steinhart – Hart dùng để:
+a. Xác định độ ẩm
+*b. Xác định điện trở theo nhiệt độ 
+c. Xác định nhiệt độ theo điện trở
+d. Xác định độ chính xác của cảm biến
+
+Công thức hệ số B:
+a. Tất cả đều sai
+b. $R_T = R_0 e^{B\left(\frac{1}{T_0} + \frac{1}{T}\right)}$
+*c. $R_T = R_0 e^{B\left(\frac{1}{T} - \frac{1}{T_0}\right)}$ 
+d. $R_T = R_0 e^{B\left(\frac{1}{T_0} - \frac{1}{T}\right)}$ 
+
+Cực dương của cặp nhiệt ngẫu loại T được làm bằng vật liệu:
+a. Chromel
+*b. Đồng 
+c. Sắt
+d. Platin, Rhodium
+
+Đặc tính điện trở - nhiệt độ của nhiệt điện trở kim loại sử dụng công thức:
+a. Công thức hệ số B
+*b. Công thức Callendar – Van Dusen 
+c. Công thức Steinhart – Hart
+d. Công thức Stefan – Boltzmann
+
+Nhược điểm của nhiệt kế bức xạ:
+*a. Giá thành cao 
+b. Không tiếp xúc
+c. Đa dạng ứng dụng
+d. Nhanh chóng
+
+Nhược điểm của RTD:
+a. Khoảng đo hẹp
+b. Độ chính xác thấp, phạm vi đo giới hạn
+c. Cần mối nối tham chiếu
+*d. Giá cao, phản ứng chậm 
+
+Cực âm của cặp nhiệt ngẫu loại K được làm bằng vật liệu:
+a. Constantan
+*b. Alumel 
+c. Rhodium
+d. Platin
+
+Một mạch đo sử dụng nhiệt điện trở và Opamp LM393 có thể đo nhiệt độ trong phạm vi:
+a. $– 50^0 C ~ 100^0 C$
+b. $0^0 C ~ 50^0 C$
+*c. $0^0 C ~ 100^0 C$ 
+d. $50^0 C ~ 100^0 C$
+
+Cực dương của cặp nhiệt ngẫu loại B, R và S được làm bằng vật liệu:
+*a. Platin, Rhodium 
+b. Sắt
+c. Đồng
+d. Chromel
+
+Mạch phân áp dùng trong đo nhiệt độ với nhiệt điện trở có nguyên lý hoạt động dựa trên:
+a. Điện trở và điện áp không đổi
+*b. Sự thay đổi điện áp theo nhiệt độ 
+c. Sự thay đổi điện dung theo nhiệt độ
+d. Sự thay đổi điện cảm theo nhiệt độ
+
+Nhược điểm của Diode/Transistor:
+a. Giá cao, phản ứng chậm
+b. Cần mối nối tham chiếu
+*c. Độ chính xác thấp, phạm vi đo giới hạn 
+d. Khoảng đo hẹp
+
+Hệ số A trong công thức Callerndar – Van Dusen:
+a. $– 3,908.10^3 [^0 C^{-1}]$
+*b. $3,908.10^{-3} [^0 C^{-1}]$ 
+c. $3,908.10^3 [^0 C^{-1}]$
+d. $3,908.10^3 [^0 C^{-1}]$
+
+CTR viết tắt của:
+a. Crystal Temperature Resistance
+*b. Critical Temperature Resistor 
+c. Critical Temperature Resistance
+d. Crystal Temperature Resistor
+
+Bước sóng của bức xạ phát ra ký hiệu là:
+a. h
+b. c
+*c. λ 
+d. $k_B$
+
+Cực dương của cặp nhiệt ngẫu loại K được làm bằng vật liệu:
+*a. Chromel 
+b. Platin, Rhodium
+c. Sắt
+d. Đồng
+
+Vi mạch khuếch đại thuật toán LM324:
+*a. Mạch khuếch đại điện áp 
+b. Mạch khuếch đại dòng điện
+c. Mạch khuếch đại nhiệt độ
+d. Mạch khuếch đại công suất
+
+Cặp nhiệt ngẫu tên tiếng anh là:
+a. Thermal Backpack
+b. Thermal Random Couples
+c. Thermistor
+*d. Thermocouples 
+
+Nhược điểm của IC chuyên dụng:
+a. Cần mối nối tham chiếu
+b. Khoảng đo hẹp
+c. Giá cao, phản ứng chậm
+*d. Phạm vi đo giới hạn, độ chính xác thấp hơn RTD 
+
+Loại nhiệt điện trở khi điện trở giảm đột ngột tại nhiệt độ xác định:
+a. PTC
+b. Tất cả đều sai
+*c. CTR 
+d. NTC
+
+Thang đo Fahrenheit được sử dụng ở:
+a. Châu Âu
+b. Việt Nam
+*c. Hoa Kỳ 
+d. Nhật Bản
+
+Giá trị độ nhạy tiêu biểu của nhiệt điện trở NTC trong khoảng:
+a. $– 4%/^0 C đến – 6%/^0 C$
+b. $– 2%/^0 C đến – 6%/^0 C$
+c. $– 2%/^0 C đến – 5%/^0 C$
+*d. $– 3%/^0 C đến – 6%/^0 C$ 
+
+Độ chính xác cần thiết của cảm biến nhiệt độ trong ứng dụng cụ thể thuộc yếu tố:
+a. Loại cảm biến tiếp xúc hay không tiếp xúc
+*b. Giới hạn sai số phép đo 
+c. Điều kiện, môi trường đo
+d. Khoảng nhiệt độ muốn đo
+
+Dải đo nhiệt độ của CTR:
+a. $– 100^0 C ~ 700^0 C$
+*b. $0^0 C ~ 150^0 C$ 
+c. $50^0 C ~ 150^0 C$
+d. $– 50^0 C ~ 150^0 C$
+
+Phạm vi đo của IC LM35:
+a. $55^0 C ~ 155^0 C$
+b. $– 55^0 C ~ 155^0 C$
+c. $55^0 C ~ 150^0 C$
+*d. $– 55^0 C ~ 150^0 C$ 
+
+RTD viết tắt là:
+a. Resistor Temperature Detector
+*b. Resistance Temperature Detector 
+c. Resistance Thermistor Detector
+d. Resistance Thermal Detector
+
+Cực âm của cặp nhiệt ngẫu loại E, J, T được làm bằng vật liệu:
+a. Platin
+b. Alumel
+*c. Constantan 
+d. Rhodium
+
+RTD có quan hệ điện trở - nhiệt độ gần như:
+a. Bậc hai
+b. Phi tuyến
+c. Bậc ba
+*d. Tuyến tính 
+
+Vật liệu nào sau đây được sử dụng làm CTR:
+a. BaTiO
+b. Al O
+*c. Họ oxyt Vanadium 
+d. Ni
+
+Công thức chuyển đổi từ độ Celsius sang độ Kevin là:
+*a. K = $^0 C$ + 273 
+b. K = $^0 C$ + 327
+c. K = $^0 C$ + 237
+d. K = $^0 C$ + 372
+
+Nhược điểm của Thermistor:
+a. Giá cao, phản ứng chậm
+b. Độ chính xác thấp, phạm vi đo giới hạn
+c. Cần mối nối tham chiếu
+*d. Khoảng đo hẹp 
+
+Điện áp nguồn cung cấp cho IC LM35:
+a. 5V ~ 25V
+b. 4V ~ 20V
+*c. 4V ~ 30V 
+d. 6V ~ 30V
+
+Ưu điểm của cặp nhiệt ngẫu loại E:
+a. Thường được sử dụng để đo nhiệt độ thấp phạm vi $- 200^0 C$ đến $100^0 C$
+b. Chịu được môi trường tính khử
+c. Độ tuyến tính tốt, thường được dùng nhất trong công nghiệp
+*d. Điện áp Seebeck lớn nhất, không bị mòn bởi nhiệt độ
+
+Độ nhạy của nhiệt điện trở bán dẫn gọi là:
+a. Hệ số TC hoặc TRC
+*b. Hệ số TC hoặc TCR 
+c. Hệ số CT
+d. Hệ số TC
+
+Ưu điểm của Diode/Transistor:
+a. Độ nhạy cao, kích thước nhỏ
+*b. Tích hợp dễ dàng 
+c. Đo nhiệt độ rộng, phản ứng nhanh, giá rẻ
+d. Độ chính xác cao, ổn định
+
+Cực dương của cặp nhiệt ngẫu loại J được làm bằng vật liệu:
+*a. Sắt 
+b. Chromel
+c. Đồng
+d. Platin, Rhodium
+
+Điện trở RTD thay đổi bao nhiêu phần trăm khi nhiệt độ thay đổi?
+*a. 0,4% 
+b. 0,3%
+c. 0,1%
+d. 0,2%
+
+Nhiệt kế bức xạ còn được gọi là:
+a. Thổ kế
+b. Nhiệt kế
+*c. Hỏa kế 
+d. Thủy kế
+
+Cặp nhiệt ngẫu loại J có dải đo nhiệt độ
+a. $– 200^0 C ~ 1200^0 C$
+*b. $– 200^0 C ~ 750^0 C$ 
+c. $– 200^0 C ~ 800^0 C$
+d. $– 200^0 C ~ 350^0 C$
+
+Thang đo dựa trên điểm đóng băng và điểm sôi của nước ở áp suất không khí tiêu chuẩn:
+a. Độ Rankine
+*b. Độ Celsius 
+c. Độ Kevin
+d. Độ Fahrenheit
+
+Ưu điểm của cặp nhiệt ngẫu loại T:
+*a. Ứng dụng ở môi trường oxy hóa, khử 
+b. Ứng dụng ở nhiệt độ cao
+c. Ứng dụng ở môi trường chân không
+d. Ứng dụng ở nơi có lượng oxy hạn chế
+
+RTD là:
+*a. Nhiệt điện trở kim loại 
+b. Nhiệt điện trở từ
+c. Nhiệt điện trở bán dẫn
+d. Nhiệt điện trở siêu dẫn
+
+Thermocouples hoạt động dựa trên nguyên lý:
+a. Thay đổi điện cảm theo nhiệt độ
+*b. Thay đổi điện trở theo nhiệt độ 
+c. Thay đổi điện dung theo nhiệt độ
+d. Thay đổi điện áp theo nhiệt độ
+
+Cặp nhiệt ngẫu loại E có dải đo nhiệt độ:
+a. $– 200^0 C ~ 750^0 C$
+*b. $– 200^0 C ~ 800^0 C$ 
+c. $– 200^0 C ~ 350^0 C$
+d. $– 200^0 C ~ 1200^0 C$
+
+Nhiệt điện trở bán dẫn tên tiếng anh là:
+*a. Thermistor 
+b. Thermocouples
+c. Thermal Random Couples
+d. Thermal Backpack
+
+Điện trở của Thermistor 103AT tại $50^0 C$ là:
+a. 0,9731kΩ
+b. 27,28kΩ
+c. 4,16Ω
+*d. 4,16kΩ 
+
+RTD hoạt động dựa trên nguyên lý:
+*a. Điện trở của kim loại thay đổi theo nhiệt độ 
+b. Điện trở của nhựa thay đổi theo nhiệt độ
+c. Điện trở của phi kim thay đổi theo nhiệt độ
+d. Điện trở của gỗ thay đổi theo nhiệt độ
+
+Ưu điểm của cặp nhiệt ngẫu loại J:
+a. Ứng dụng ở môi trường oxy hóa, khử
+*b. Ứng dụng ở nhiệt độ thấp 
+c. Ứng dụng ở môi trường chân không
+d. Ứng dụng ở nhiệt độ cao
+
+Hằng số Plank ký hiệu là:
+a. $k_B$
+b. c
+*c. h 
+d. λ
+
+Nhược điểm của cặp nhiệt ngẫu loại B, R và S:
+a. Trên $300^0 C$ thì đồng bị oxy hóa
+*b. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn 
+c. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
+d. Điện trở lớn
+
+Tại nhiệt độ $0^0 C$, giá trị điện trở của RTD là:
+a. 200Ω
+b. 300Ω
+*c. 100Ω 
+d. 400Ω
+
+Công thức Steinhart – Hart được công bố vào năm:
+a. 1973
+b. 1969
+*c. 1968 
+d. 1971
+
+Nhược điểm của cặp nhiệt ngẫu:
+a. Khoảng đo hẹp
+*b. Cần mối nối tham chiếu 
+c. Giá cao, phản ứng chậm
+d. Độ chính xác thấp, phạm vi đo giới hạn
+
+Hệ số C trong công thức Callerndar – Van Dusen:
+a. 4,183.10^{12} [^0 C^{-3}]
+b. – 4,183.10^{12} [^0 C^{-3}]
+*c. – 4,183.10^{-12} [^0 C^{-3}] 
+d. 4,183.10^{-12} [^0 C^{-3}]
+
+Ưu điểm của cặp nhiệt ngẫu loại B, R và S:
+a. Ứng dụng ở môi trường chân không
+b. Ứng dụng ở môi trường oxy hóa, khử
+*c. Ứng dụng ở nhiệt độ cao 
+d. Ứng dụng ở nơi có lượng oxy hạn chế
+
+Thang đo nhiệt độ bắt đầu từ nhiệt độ thấp nhất có thể
+đạt được, tương đương $– 273^0 C$
+a. Celsius
+b. Fahrenheit
+c. Rankine
+*d. Kevin 
+
+Để đo nhiệt độ từ xa không cần tiếp xúc, ta dùng loại cảm biến:
+a. Thermocouples
+*b. Cảm biến không tiếp xúc 
+c. Thermistor
+d. RTD
+
+Độ nhạy của nhiệt điện trở bán dẫn ký hiệu là:
+*a. α 
+b. c
+c. h
+d. $k_B$
+
+Ưu điểm của cặp nhiệt ngẫu loại N:
+a. Chống lại quá trình oxy hóa từ phosphor
+*b. Chống lại quá trình oxy hóa từ lưu huỳnh 
+c. Chống lại quá trình oxy hóa từ kẽm
+d. Chống lại quá trình oxy hóa từ sắt
+
+Nhược điểm của cặp nhiệt ngẫu loại E:
+a. Chỉ dùng ở nơi có nhiệt độ thấp
+*b. Chỉ dùng ở môi trường chân không, khí trơ, oxy hóa yếu 
+c. Chỉ dùng ở môi trường oxy hóa, khử
+d. Chỉ dùng ở nhiệt độ cao
+
+Cặp nhiệt ngẫu loại B có dải đo nhiệt độ:
+a. $500^0 C ~ 1200^0 C$
+b. $500^0 C ~ 800^0 C$
+c. $500^0 C ~ 1600^0 C$
+*d. $500^0 C ~ 1700^0 C$ 
+
+Điện trở của Thermistor 103AT tại $100^0 C$ là:
+a. 27,28kΩ
+b. 0,9731Ω
+*c. 0,9731kΩ 
+d. 4,16kΩ
+
+Cặp nhiệt ngẫu loại T có dải đo nhiệt độ:
+*a. $– 200^0 C ~ 350^0 C$ 
+b. $– 200^0 C ~ 1200^0 C$
+c. $– 200^0 C ~ 750^0 C$
+d. $– 200^0 C ~ 800^0 C$
+
+Để mạch đo với cảm biến nhiệt điện trở RTD hoạt động đúng, dòng điện qua cảm biến cần đạt:
+a. 1,5 mA
+b. 0,5 mA
+*c. 1 mA 
+d. 2 mA
+
+Quan hệ mật độ năng lượng theo bước sóng và nhiệt độ
+a. $I(\lambda, T)d\lambda = \frac{2hc}{\lambda}\frac{1}{e}$
+b. $I(\lambda, T)d\lambda = \frac{2hc}{\lambda^5}\frac{1}{e}$
+c. $I(\lambda, T)d\lambda = \frac{2hc^2}{\lambda}\frac{1}{e}$
+*d. $I(\lambda, T)d\lambda = \frac{2hc^2}{\lambda^5}\frac{1}{e}$
+
+Công thức chuyển đổi từ độ Celsius sang độ Fahrenheit:
+a. $F = 9/5^0 C + 23$
+b. $F = 5/9^0 C + 32$
+*c. $F = 9/5^0 C + 32$ 
+d. $F = 9/5^0 C + 273$
+
+Loại nhiệt điện trở ứng dụng làm công tắc nhiệt độ:
+*a. PTC, CTR 
+b. NTC, CTR
+c. NTC, PTC
+d. NTC, CTR, PTC
+
+Quan hệ điện trở - nhiệt độ của NTC sử dụng công thức:
+a. Công thức Sadi Carnot
+*b. Công thức Steinhart – Hart và công thức hệ số B 
+c. Công thức Steinhart – Hart
+d. Công thức Stefan – Boltzmann
+
+Đâu không phải là ưu điểm của nhiệt kế bức xạ:
+*a. Độ chính xác không phụ thuộc vào nhiều yếu tố 
+b. Không tiếp xúc
+c. Đa dạng ứng dụng
+d. Nhanh chóng
+
+Loại nhiệt điện trở khi điện trở tăng thì nhiệt độ tăng:
+a. NTC
+b. Tất cả đều sai
+*c. PTC 
+d. CTR
+
+Cặp nhiệt ngẫu có cấu tạo:
+a. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất khác nhau, hàn dính ba đầu
+*b. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất khác nhau, hàn dính một đầu, hai đầu còn lại tự do 
+c. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất giống nhau, hàn dính một đầu, hai đầu còn lại tự do
+d. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất khác nhau, hàn dính hai đầu, một đầu còn lại tự do
+
+Dải đo nhiệt độ của PTC:
+a. $– 100^0 C ~ 700^0 C$
+*b. $– 50^0 C ~ 150^0 C$ 
+c. $0^0 C ~ 150^0 C$
+d. $50^0 C ~ 150^0 C$
+
+Trong một mạch cầu Wheatstone, điện áp ngõ ra VOUT được xác định:
+a. $V_{OUT} = \left(\frac{R_3}{R_1 + R_3} - \frac{R_2}{R_T + R_2}\right)V_S$  
+*b. $V_{OUT} = \left(\frac{R_3}{R_T + R_3} - \frac{R_2}{R_1 + R_2}\right)V_S$   
+c. $V_{OUT} = \left(-\frac{R_3}{R_1 + R_3} + \frac{R_2}{R_T + R_2}\right)V_S$  
+d. $V_{OUT} = \left(-\frac{R_3}{R_T + R_3} + \frac{R_2}{R_1 + R_2}\right)V_S$
+
+Công thức Steinhart – Hart sử dụng bao nhiêu hằng số để xác định điện trở?
+*a. 3 
+b. 4
+c. 2
+d. 1
+
+Độ nhạy tuyến tính của IC LM35:
+*a. $10mV/^0 C$ 
+b. $5mV/^0 C$
+c. $20mV/^0 C$
+d. $15mV/^0 C$

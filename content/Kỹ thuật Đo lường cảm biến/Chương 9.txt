@@ -107,10 +107,10 @@ c. ΔP
 d. Δv
 
 Áp suất không khí được tính bằng:
-a. $P = P_0(1 - \frac{T_0}{Lh})^\frac{gM}{RL}$
-b. $P = P_0(1 - \frac{T_0}{Lh})^\frac{RL}{gM}$
-*c. $P = P_0(1 - \frac{Lh}{T_0})^\frac{gM}{RL}$
-d. $P = P_0(1 - \frac{Lh}{T_0})^\frac{RL}{gM}$
+a. $P = P_0\left(1 - \frac{T_0}{Lh}\right)^\frac{gM}{RL}$
+b. $P = P_0\left(1 - \frac{T_0}{Lh}\right)^\frac{RL}{gM}$
+*c. $P = P_0\left(1 - \frac{Lh}{T_0}\right)^\frac{gM}{RL}$
+d. $P = P_0\left(1 - \frac{Lh}{T_0}\right)^\frac{RL}{gM}$
 
 Đo huyết áp, nhịp tim và nồng độ máu sử dụng cảm biến:
 a. Cảm biến áp điện trở bán dẫn
