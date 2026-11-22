@@ -1,0 +1,487 @@
+Phát biểu nào sau đây là không đúng về cầu đo Wheastone
+a. Là thiết bị đo điện trở có độ chính xác cao
+b. Là thiết bị đo điện trở được chế tạo cầu đơn gồm 4 điện trở
+*c. Là thiết bị đo điện trở không cần nguồn cấp
+d. Là thiết bị đo điện trở có điện kế chỉ không có độ nhạy cao
+
+Khi đo điện trở lớn, vòng bảo vệ được dùng với mục đích:
+a. Loại bỏ điện cảm rò rỉ bề mặt
+*b. Loại bỏ dòng điện rò rỉ bề mặt
+c. Loại bỏ điện áp rò rỉ bề mặt
+d. Tất cả đều sai
+
+Khi đo điện trở phụ tải bằng Ohm kế, ta phải đo lúc:
+*a. Mạch đã được cắt nguồn
+b. Mạch đã được cắt 1 pha
+c. Mạch đang mang điện
+d. Mạch đang làm việc
+
+Ưu điểm của phương pháp đo điện trở dùng cầu cân bằng là:
+a. Giá thành thấp
+b. Dãy đo rộng
+*c. Độ chính xác cao
+d. Tốc độ đo cao
+
+Mắc tụ điện vào nguồn điện xoay chiều 5V; tần số 100Hz thì đo được dòng điện qua tụ là 148mA. Điện dung của tụ điện là:
+a. 47,1mF
+b. 47,1nF
+*c. 47,1 F
+d. 47,1F
+
+Điện trở R = 56Ω và cuộn dây L = 50mH được mắc nối tiếp với nhau vào nguồn điện 24V ; 100Hz. Dòng điện chạy trong mạch là 374mA. Điện áp U , U lần lượt là:
+a. 20,49V ; 11,75V
+b. 20,49V ; 11,57V
+*c. 20,94V ; 11,75V
+d. 20,94V ; 11,57V
+
+Hệ số Q của cuộn dây được xác định theo công thức:
+*a. $Q = \frac{\omega L}{R}$ nếu mô hình nối tiếp
+b. $Q = \frac{R}{\omega L}$ nếu mô hình nối tiếp
+c. $Q = \frac{\omega R}{L}$ nếu mô hình song song
+d. $Q = \frac{\omega L}{R}$ nếu mô hình song song
+
+Trên tụ điện ghi mã là 2A473J, phát biểu nào sau đây là đúng?
+a. Tụ điện có dòng làm việc là 2A, điện dung là 47nF và sai số 5%
+*b. Tụ điện làm việc ở điện áp tối đa là 100V, điện dung là 47nF và sai số 5%
+c. Tụ điện có dòng làm việc là 2A, điện dung là 473nF và sai số 5%
+d. Tụ điện làm việc ở điện áp tối đa là 100V, điện dung là 4,7nF và sai số 5%
+
+Trong Megaohm kế, phải sử dụng nguồn cung cấp có giá trị lớn là do:
+a. Phải có dòng điện lớn qua cơ cấu
+b. Lò xo phản kháng có độ cứng lớn
+*c. Điện trở cần đo có giá trị lớn
+d. Điện trở của tỉ số kế rất lớn
+
+Phát biểu nào sau đây là sai về cầu đo Kevin
+a. Là thiết bị đo điện trở có độ sụt áp do tiếp xúc thấp
+b. Là thiết bị đo điện trở có điện trở được chế tạo gồm 4 đầu
+c. Sai số phép đo có thể đạt 2%
+*d. Hoạt động cả với dòng xoay chiều
+
+Khi đo điện dung của tụ dùng cầu cân bằng thì sai số của phép đo phụ thuộc vào:
+*a. Độ chính xác các điện trở và điện dung mẫu
+b. Tần số nguồn
+c. Điện áp nguồn
+d. Nội trở điện kế
+
+Khi đo điện trở dùng phương pháp so sánh dòng thì sai số của phép đo phụ thuộc vào:
+*a. Nội trở ampere kế
+b. Nội trở volt kế
+c. Dòng điện trong mạch
+d. Điện áp nguồn
+
+Nếu 2 nhánh liên tiếp nhau của cầu đo tổng trở là điện trở, để cầu được cân bằng thì 2 nhánh còn lại:
+a. Có tính chất ngược nhau
+*b. Tất cả đều đúng
+c. Là điện cảm
+d. Là điện dung
+
+Khi đo điện trở dùng vôn kế và ampere kế, nếu điện trở cần đo có trị số nhỏ thì thực hiện cách mắc:
+a. Tất cả đều sai
+b. Volt kế mắc song song ampere kế
+*c. Volt kế mắc sau ampere kế
+d. Volt kế mắc trước ampere kế
+
+Khi đo điện cảm của cuộn dây dùng điện trở và volt kế. Điều chỉnh tần số nguồn sao cho điện áp trên cuộn dây bằng một nửa điện áp nguồn cấp. Bỏ qua các tổn hao, điện cảm của cuộn dây là:
+a. $L = \frac{R\sqrt{3}}{2\pi f}$
+*b. $L = \frac{R}{2\pi f\sqrt{3}}$
+c. $L = \frac{\sqrt{3}}{2\pi fR}$
+d. $L = \frac{R}{2\pi f}$
+
+Khi đo điện dung của tụ điện dùng volt kế và ampere kế, nếu tụ điện thuần dung thì điện dung được xác định
+*a. $C = \frac{I}{\omega U}$
+b. $C = \frac{\omega U}{I}$
+c. $C = \frac{\omega I}{U}$
+d. $C = \frac{U}{\omega I}$
+
+Hai cuộn dây L và L được mắc nối tiếp với nhau vào nguồn điện 15V ; 500Hz. Điện áp đo được trên cuộn dây L là 4V. Biết điện cảm L = 8mH. Điện cảm L là:
+a. 28mH
+*b. 22mH
+c. 25mH
+d. 32mH
+
+Khi đo điện trở dùng volt kế và ampere kế, nếu điện trở cần đo có trị số lớn thì thực hiện cách mắc:
+a. Volt kế mắc sau ampere kế
+b. Volt kế mắc song song ampere kế
+c. Tất cả đều sai
+*d. Volt kế mắc trước ampere kế
+
+Hai tụ điện $C_{1} = 0,22.10^{-6}F/50V, C_{2} = 0,1.10^{-6}F/100V$ được mắc song song vào nguồn điện xoay chiều. Nhận định nào sau đây là đúng?
+a. Điện dung tương đương của hai tụ điện là 32nF
+b. Khi điện áp nguồn cấp là 100V, điện áp mỗi tụ là 50V
+c. Nếu tăng tần số nguồn lên 2kHz thì dung kháng của tụ $C_{1}$ lớn hơn tụ $C_{2}$
+d. Khi tần số nguồn là 100Hz, dòng điện qua tụ $C_{1}$ lớn hơn tụ $C_{2}$
+
+Cho mạch đo điện trở dạng nối tiếp như hình vẽ. Biết $E_{b} = 3V, I_{m} = 100\mu\text{A}, R_{1} + R_{g} = 25kΩ$. Nếu dòng điện qua mạch đo bằng 50% $I_{m}$ thì giá trị điện trở $R_{x}$ là
+@img img/chuong-4-1.png
+a. 45kΩ
+b. 40kΩ
+c. 50kΩ
+*d. 35kΩ
+
+Hai cuộn dây $L_{1}$ = 12mH, $L_{2}$ = 20mH được mắc nối tiếp với nhau với nguồn điện 12V ; 1kHz. Nhận định nào sau đây là đúng?
+a. Dòng điện qua cuộn dây $L_{1}$ lớn hơn cuộn dây $L_{2}$
+b. Nếu điện áp cuộn dây $L_{1}$ là 7,5V thì điện áp cuộn dây $L_{2}$ là 3,5V
+c. Điện cảm tương đương của 2 cuộn dây là 7,5mH
+*d. Nếu tăng tần số nguồn lên 2kHz thì dòng điện trong mch sẽ giảm
+
+Khi sử dụng ampere kế và volt kế để đo gián tiếp điện trở. Nếu điện trở cần đo khá lớn so với điện trở nội của volt kế thì:
+a. Sai số được giảm thiểu
+b. Độ nhạy của máy cao hơn
+c. Dễ tính toán kết quả đo
+*d. Sai số lớn hơn, không chính xác
+
+Trong Ohm kế, biến trở điều chỉnh về 0Ω nhằm mục đích:
+a. Giảm sai số cá nhân
+*b. Hiệu chỉnh nguồn cung cấp cho mỗi mạch đo
+c. Hiệu chỉnh lại phần cơ khí của cơ cấu đo
+d. Tăng điện trở nội của máy đo
+
+Muốn kiểm tra chạm vỏ các thiết bị điện, dùng đồng hồ đo điện trở, đặt ở thang đo:
+a. X10 hoặc X10K
+b. X1K hoặc X10K
+c. X1 hoặc X1K
+*d. X1 hoặc X10
+
+Một cuộn dây dẫn bằng đồng dài 250m, có tiết diện $1mm^{2}$. Biết điện trở suất của đồng là $1,72.10^{-8}Ωm$. Điện trở của cuộn dây đồng là:
+a. R = 3,4Ω
+*b. R = 4,3Ω
+c. R = 34Ω
+d. R = 43Ω
+
+Khi đo điện trở bằng máy đo chỉ thị kim, góc quay của kim càng nhỏ thì kết luận:
+*a. Điện trở càng lớn
+b. Điện trở rất lớn
+c. Tùy loại máy đo
+d. Điện trở càng nhỏ
+
+Khi đo điện trở dùng ohm kế nối tiếp, nếu điện trở cần đo tăng 2 lần thì góc quay:
+a. Không thay đổi
+*b. Giảm gần 2 lần
+c. Tất cả đều sai
+d. Tăng 2 lần
+
+Cho mạch đo điện trở dạng nối tiếp như hình vẽ. Biết $E_{b} = 3V, R_{g} = 1kΩ, I_{m} = 50\mu\text{A}$. Giá trị điện trở $R_{1}$ cần mắc thêm vào mạch để khi $R_{X}$ = 0Ω để Ohm kế chỉ 0Ω
+@img img/chuong-4-2.png
+a. 5,9Ω
+*b. 59kΩ
+c. 59Ω
+d. 5,9kΩ
+
+Hệ số D của tụ điện được xác định theo công thức
+*a. $D = \omega CR$ nếu mô hình nối tiếp
+b. $D = \frac{1}{\omega CR}$ nếu mô hình nối tiếp
+c. $D = \frac{\omega }{CR}$ nếu mô hình song song
+d. $D = \omega CR$ nếu mô hình song song 
+
+Mắc 3 tụ điện $C_{1} = 270.10^{-6}F, C_{2} = 330.10^{-6}F, C_{3} = 470.10^{-6}F$ nối tiếp. Điện dung tương đương của 3 tụ điện là:
+a. 1,12mF
+b. 11,2mF
+c. 1,2nF
+*d. 112,84 $\mu\text{F}$
+
+Điều kiện cân bằng của cầu Wheatstone đo tổng trở là:
+a. Điện áp 2 đầu điện kế bằng nhau
+b. Dòng điện qua điện kế bằng 0
+*c. Tất cả đều đúng
+d. Tích tổng trở các nhánh đối nhau bằng nhau
+
+Khi đo điện trở dùng volt kế và ampere kế dạng mắc trước (rẽ ngắn) thì sai số phép đo chủ yếu do
+a. Nguồn cung cấp
+b. Nội trở volt kế
+c. Tất cả đều đúng
+*d. Nội trở ampere kế
+
+Khi đo điện trở dùng volt kế và ampere kế, với sơ đồ ampere kế mắc gần tải, nếu điện trở cần đo khá nhỏ so với điện trở nội của volt kế thì:
+a. Dễ tính toán kết quả đo
+b. Độ nhạy của máy cao hơn
+c. Sai số lớn hơn, không chính xác
+*d. Sai số được giảm thiểu
+
+Mắc tụ điện vào nguồn điện xoay chiều 12V; tần số 50Hz thì đo được dòng điện qua tụ là 126mA. Điện dung của tụ điện là:
+a. 3,03$\mu\text{F}$
+*b. 33,4$\mu\text{F}$
+c. 0,303F
+d. 0,033F
+
+Điều kiện cân bằng của cầu Kevin đo điện trở là:
+*a. Dòng điện qua điện kế bằng 0
+b. Tất cả đều sai
+c. Tích điện trở các nhánh đối nhau bằng 0
+d. Tích điện trở các nhánh kề nhau bằng 0
+
+Nếu 2 nhánh đối nhau của cầu đo tổng trở là điện trở, để cầu được cân bằng thì 2 nhánh còn lại:
+a. Là điện dung
+*b. Có tính chất ngược nhau
+c. Là điện cảm
+d. Tất cả đều sai
+
+Cho mạch đo điện trở dạng nối tiếp như hình vẽ. Biết $E_{b} = 1,5V, I_{m} = 100\mu\text{A}, R_{1} = 10kΩ, R_{g} = 5kΩ$. Giá trị của điện trở $R_{X}$ khi kim lệch ¼ độ lệch tối đa
+@img img/chuong-4-3.png
+a. 15kΩ
+b. 40kΩ
+*c. 45kΩ
+d. 30kΩ
+
+Khi đo điện cảm của cuộn dây dùng volt kế và ampere kế, nếu cuộn dây không thuần cảm thì điện cảm được xác định:
+*a. $L = \frac{U^2}{\omega}\frac{1}{\sqrt{U^2 I^2 - P^2}}$
+b. $L = \frac{\omega}{U^2}\sqrt{U^2 I^2 - P^2}$
+c. $L = \frac{U^2}{\omega}\sqrt{U^2 I^2 - P^2}$
+d. $L = \frac{\omega}{U^2}\frac{1}{\sqrt{U^2 I^2 - P^2}}$
+
+Thang đo của ohm kế song song thường:
+a. Chia đều
+*b. Chia không đều
+c. Tất cả đều sai
+d. Tùy thuộc vào quan hệ giữa điện trở cần đo và góc quay
+
+Điện kế trong các cầu đo dùng để:
+a. Đọc trị số điện trở cần đo
+b. Xác định dòng điện qua cầu
+c. Tất cả đều sai
+*d. Xác định cầu cân bằng hay chưa
+
+Cho mạch đo điện trở dùng volt kế và ampere kế, với ampere kế mắc gần tải như hình vẽ. Biết điện áp nguồn $U_S$ = 120V, nội trở của ampere kế là 10Ω, dòng điện đo được từ ampere kế là 2A. Sai số của phép đo là:
+@img img/chuong-4-4.png
+*a. 20%
+b. 12%
+c. 1,2%
+d. 2%
+
+Trị số điện trở đo được bằng phương pháp dùng cầu cân bằng:
+a. Chỉ phụ thuộc vào các điện trở mẫu
+b. Không phụ thuộc vào nguồn
+*c. Tất cả đều đúng
+d. Có độ chính xác cao
+
+Biết cuộn dây có mã đọc theo chuẩn Micro Henry. Điện cảm của cuộn dây có mã 563F là:
+a. 5,6mH ± 5%
+*b. 56mH ± 1%
+c. 563mH ± 3%
+d. 5,63$\mu\text{H}$ ± 10%
+
+Đo điện trở lớn người ta thường sử dụng phương pháp:
+*a. Đo bằng voltmeter và amperemeter hoặc megaohmeter
+b. Đo bằng cầu đo Wheastone và amperemeter
+c. Đo bằng cầu đo Wheastone và cầu đo Kelvin
+d. Đo bằng cầu đo Kevin và voltmeter
+
+Khi đo điện cảm dùng cầu cân bằng thì sai số của phép đo phụ thuộc vào:
+*a. Độ chính xác các điện trở và điện cảm mẫu
+b. Tần số nguồn
+c. Nội trở điện kế
+d. Điện áp nguồn
+
+Cuộn dây L = 18mH hoạt động ở tần số 800Hz có cảm kháng là:
+a. 90,34Ω
+b. 93,40Ω
+*c. 90,43Ω
+d. 94,03Ω
+
+Khi đo điện trở dùng phương pháp so sánh áp thì sai số của phép đo phụ thuộc vào:
+a. Dòng điện trong mạch
+b. Nội trở ampere kế
+*c. Nội trở volt kế
+d. Điện áp nguồn
+
+Khi đo điện trở dùng volt kế và ampere kế dạng mắc sau (rẽ dài) thì sai số phép đo chủ yếu do
+a. Nội trở ampere kế
+b. Tất cả đều đúng
+c. Nguồn cung cấp
+*d. Nội trở volt kế
+
+Điều kiện cân bằng của cầu Wheatstone đo điện trở là:
+a. Tích điện trở các nhánh đối nhau bằng 0
+*b. Tất cả đều sai
+c. Dòng điện qua điện kế khác 0
+d. Tích điện trở các nhánh kề nhau bằng 0
+
+Trong cầu Kelvin thường dùng điện trở 4 đầu là để:
+*a. Cả A và B đều đúng
+b. Tránh sự xuất hiện hiệu ứng nhiệt điện
+c. Cả A và B đều sai
+d. Có độ chính xác cao
+
+Khi đo điện cảm của cuộn dây dùng volt kế và ampere kế, nếu cuộn dây thuần cảm thì điện cảm được xác định:
+a. $L = \frac{I}{\omega U}$
+*b. $L = \frac{U}{\omega I}$
+c. $L = \frac{\omega I}{U}$
+d. $L = \frac{\omega U}{I}$
+
+Thang đo của ohm kế nối tiếp thường chia không đều là do:
+a. Tất cả đều sai
+b. Quan hệ giữa điện trở cần đo và góc quay là hàm tuyến tính
+c. Nguồn cung cấp giảm khi sử dụng
+d. Quan hệ giữa điện trở cần đo và góc quay là hàm phi tuyến
+
+Cho mạch đo điện trở dùng cầu chia dòng như hình vẽ, chỉ số trên volt kế $\text{A}_1, \text{A}_2$ lần lượt là 8mA và 12,5mA. Biết điện trở $R_1$ = 18kΩ. Tìm giá trị điện trở $R_X$
+@img img/chuong-4-5.png
+a. 12,51kΩ
+b. 11,25kΩ
+*c. 11,52kΩ
+d. 15,21kΩ
+
+
+Cho mạch đo điện trở dùng cầu phân áp như hình vẽ, chỉ số trên volt kế $V_1$ , $V_2$ lần lượt là 12,5V và 8,6V. Biết điện trở $R_1$ = 68kΩ. Tìm giá trị điện trở $R_X$
+@img img/chuong-4-6.png
+a. 47,68kΩ
+*b. 46,78kΩ
+c. 48,76kΩ
+d. 46,87kΩ
+
+Nhược điểm của phương pháp đo điện trở dùng cầu cần bằng là:
+a. Không phụ thuộc vào nội trở của điện kế
+*b. Chế tạo phức tạp
+c. Không phụ thuộc vào nguồn
+d. Giá thành cao
+
+Máy đo Megaohm thường dùng để:
+a. Đo điện trở tiếp đất của thiết bị
+b. Đo điện trở và điện áp
+*c. Đo điện trở cách điện của thiết bị
+d. Đo các điện trở lớn hàng trăm kiloohm
+
+Tụ điện C = 10nF, hoạt động ở tần số 1kHz có dung kháng là:
+a. 12,95Ω
+b. 12,59Ω
+c. 15,29Ω
+*d. 15,92Ω
+
+Khi sử dụng ampere kế và volt kế để đo gián tiếp điện trở. Nếu điện trở cần đo khá nhỏ so với điện trở nội của ampere kế thì:
+a. Độ nhạy của máy cao hơn
+b. Sai số được giảm thiểu
+*c. Sai số lớn hơn, không chính xác
+d. Dễ tính toán kết quả đo
+
+Trong Megaohm kế chuyên dùng dạng kim, khi $R_X$ có trị số bất kỳ thì góc quay:
+*a. Tỉ lệ với thương 2 dòng điện trong 2 cuộn dây
+b. Tỉ lệ với tổng 2 dòng điện trong 2 cuộn dây
+c. Tỉ lệ với tích 2 dòng điện trong 2 cuộn dây
+d. Tỉ lệ với hiệu 2 dòng điện trong 2 cuộn dây
+
+Khi đo điện trở dùng volt kế và ampere kế , nếu điện trở cần đo có trị số lớn thì thực hiện cách mắc:
+a. Trước và sau
+b. Tất cả đều sai
+*c. Trước
+d. Sau
+
+Mắc cuộn dây vào nguồn điện xoay chiều 9V; tần số 200Hz thì đo được dòng điện qua cuộn là 560mA. Điện cảm của cuộn dây là:
+*a. 12,8mH
+b. 0,128mH
+c. 1,28mH
+d. 128mH
+
+Khi đo điện trở dùng ohm kế song song, nếu điện trở cần đo tăng 2 lần thì góc quay:
+a. Giảm 2 lần
+b. Không thay đổi
+*c. Tăng 2 lần
+d. Tất cả đều sai
+
+Khi điện trở cần đo có giá trị lớn, Ohm kế để ở thang đo quá nhỏ thì kim chỉ thị sẽ
+a. Kim dao động quanh vị trí 0Ω
+b. Đọc bình thường, rất chính xác
+*c. Kim quay rất ít gần như chỉ ở vô cùng
+d. Quay nhiều vượt khỏi thang đo
+
+Khi đo điện dung của tụ điện dùng volt kế và ampere kế, nếu tụ điện không thuần dung thì điện dung được xác định
+a. $C = \frac{I^2}{\omega}\sqrt{U^2 I^2 - P^2}$
+*b. $C = \frac{I^2}{\omega}\frac{1}{\sqrt{U^2 I^2 - P^2}}$
+c. $C = \frac{\omega}{I}\frac{1}{\sqrt{U^2 I^2 - P^2}}$
+d. $C = \frac{\omega}{I}\sqrt{U^2 I^2 - P^2}$
+
+Cho mạch đo điện trở dạng nối tiếp như hình vẽ. Biết $E_b = 1,5V, I_m = 75\mu\text{A}, R_{1} + R_{g} = 20kΩ$. Giá trị dòng điện qua cơ cấu đo khi điện trở R_{X} = 47kΩ
+@img img/chuong-4-7.png
+a. 23,92$\mu\text{A}$
+b. 22,93$\mu\text{A}$
+*c. 22,39$\mu\text{A}$
+d. 29,32$\mu\text{A}$
+
+Khi đo điện trở bằng máy đo chỉ thị kim, trị số phải được đọc từ
+a. Giữa ra hai biên
+b. Trái qua phải
+*c. Tại vị trí kim dừng lại
+d. Phải qua trái
+
+Phát biểu nào sau đây là đúng về cầu đo Wheastone
+a. Là thiết bị đo điện trở có điện trở được chế tạo gồm 4 đầu
+b. Là thiết bị đo điện trở có độ chính xác cao với dòng đo xoay chiều
+c. Là thiết bị đo điện trở có bảo vệ ngắn mạch cho cơ cấu chỉ thị
+*d. Là thiết bị đo điện trở có điện kế chỉ không có độ nhạy cao
+
+Khi đo điện cảm của cuộn dây dùng điện trở và volt kế. Điều chỉnh tần số nguồn sao cho điện áp trên cuộn dây và điện áp trên điện trở là bằng nhau. Bỏ qua các tổn hao, điện cảm của cuộn dây là
+a. $L = \frac{\sqrt{3}}{2\pi fR}$
+b. $L = \frac{R}{2\pi f\sqrt{3}}$
+*c. $L = \frac{R}{2\pi f}$
+d. $L = \frac{R\sqrt{3}}{2\pi f}$
+
+Mắc 3 tụ điện $C_{1} = 0,1.10^{-6}F, C_{2} = 2,2.10^{-6}F, C_{3} = 4,7.10^{-6}F$ song song. Điện dung tương đương của 3 tụ điện là:
+a. 7nF
+*b. 7000nF
+c. 0,007mF
+d. 0,7nF
+
+Muốn đo điện cảm người ta có thể sử dụng kết hợp các dụng cụ đo như sau:
+*a. Tất cả đều đúng
+b. Voltmeter và Amperemeter
+c. Cầu cân bằng
+d. Voltmeter, Amperemeter và Wattmeter
+
+Điện kế dùng trong cầu đo tổng trở là điện kế:
+*a. Xoay chiều
+b. Cả một chiều và xoay chiều
+c. Tất cả đều sai
+d. Một chiều
+
+Khi đo điện trở, góc quay của kim càng lớn thì kết luận
+a. Điện trở càng lớn
+b. Điện trở rất lớn
+*c. Điện trở càng nhỏ
+d. Tùy loại máy đo
+
+Trong ohm kế nối tiếp, khi thay đổi tầm đo thì dòng điện qua cơ cấu chỉ thị:
+a. Đạt giá trị cực tiểu
+*b. Không thay đổi
+c. Thay đổi
+d. Đạt giá trị cực đại
+
+Khi đo điện dung của tụ điện dùng điện trở và volt kế. Điều chỉnh tần số nguồn sao cho điện áp trên tụ điện bằng một nửa điện áp nguồn cấp. Bỏ qua các tổn hao, điện dung của tụ điện là:
+a. $C = \frac{1}{2\pi fR}$
+b. $C = \frac{R}{2\pi f}$
+c. $C = \frac{R\sqrt{3}}{2\pi f}$
+*d. $C = \frac{\sqrt{3}}{2\pi fR}$
+
+Mắc 3 cuộn dây $L_1 = 10mH, L_2 = 8,2mH, L_3 = 5,6mH$ song song. Điện cảm tương đương của 3 cuộn dây là:
+a. 249mH
+*b. 2,49mH✓
+c. 0,249mH
+d. 24,9mH
+
+Khi đo điện dung dùng volt kế và ampere kế, giá trị đo phụ thuộc vào:
+*a. Tất cả đều đúng
+b. Nội trở volt kế
+c. Nội trở ampere kế
+d. Tần số nguồn
+
+Dùng Ohm kế, loại có biến trở để điều chỉnh, đặt ở thang đo thấp, điều chỉnh kim chỉ 0Ω; khi chuyển sang thang đo lớn hơn kim không còn vị trí cũ, là do:
+a. Nguồn pin bị yếu nhiều
+b. Điện trở que đo có giá trị âm
+c. Biến trở điều chỉnh bị hỏng
+*d. Nội trở của mỗi thang đo là khác nhau
+
+Khi đo điện dung của tụ điện dùng điện trở và volt kế. Điều chỉnh tần số nguồn sao cho điện áp trên tụ điện và điện áp trên điện trở là bằng nhau. Bỏ qua các tổn hao, điện dung của tụ điện là
+a. $C = \frac{R}{2\pi f}$
+b. $C = \frac{R\sqrt{3}}{2\pi f}$
+*c. $C = \frac{1}{2\pi fR}$
+d. $C = \frac{\sqrt{3}}{2\pi fR}$
+
+Sử dụng Ohm kế loại nối tiếp để đo điện trở $R_X$ , nếu điện trở $R_X$ rất lớn so với thang đo thì góc quay của kim sẽ:
+a. Trung bình
+b. Nhỏ nhất
+c. Rất lớn
+*d. Rất nhỏ
+
+Dung lượng của tụ điện có mã 332J là:
+a. $332\mu\text{F}$ ± 5%
+b. 0,33nF ± 10%
+c. 3,3mF ± 10%
+*d. 3,3nF ± 5%
