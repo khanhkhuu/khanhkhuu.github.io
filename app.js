@@ -601,11 +601,15 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
     h1 { font-size: 22px; margin: 0 0 6px; }
     .meta { color: #4b5563; margin: 0 0 22px; }
     h2 {
-      font-size: 17px;
+      color: #211580;
+      font-size: 20px;
+      font-weight: 800;
       margin: 28px 0 14px;
       padding-bottom: 6px;
-      border-bottom: 2px solid #111;
+      border-bottom: 2px solid #120e7e;
       page-break-after: avoid;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
     .question-block {
       margin: 0 0 18px;
