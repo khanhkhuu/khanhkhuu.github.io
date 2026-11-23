@@ -467,10 +467,10 @@ c. Giá cao, phản ứng chậm
 d. Độ chính xác thấp, phạm vi đo giới hạn
 
 Hệ số C trong công thức Callerndar – Van Dusen:
-a. 4,183.10^{12} [^0 C^{-3}]
-b. – 4,183.10^{12} [^0 C^{-3}]
-*c. – 4,183.10^{-12} [^0 C^{-3}] 
-d. 4,183.10^{-12} [^0 C^{-3}]
+a. $4,183.10^{12} [^0 C^{-3}]$
+b. $– 4,183.10^{12} [^0 C^{-3}]$
+*c. $– 4,183.10^{-12} [^0 C^{-3}]$ 
+d. $4,183.10^{-12} [^0 C^{-3}]$
 
 Ưu điểm của cặp nhiệt ngẫu loại B, R và S:
 a. Ứng dụng ở môi trường chân không
