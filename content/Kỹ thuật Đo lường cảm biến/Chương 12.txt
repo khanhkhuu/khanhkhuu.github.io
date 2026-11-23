@@ -11,10 +11,10 @@ b. Resistance Thermal Detector
 d. Resistance Temperature Metal
 
 Dải đo nhiệt độ của NTC:
-a. $0^0 C ~ 150^0 C$
-*b. $– 100^0 C ~ 700^0  C$ 
-c. $50^0 C ~ 150^0 C$
-d. $100^0 C ~ 700^0 C$
+a. $0^\circ C \sim 150^\circ C$
+*b. $– 100^\circ C \sim 700^\circ  C$ 
+c. $50^\circ C \sim 150^\circ C$
+d. $100^\circ C \sim 700^\circ C$
 
 Công thức Steinhart – Hart là:
 a. $\frac{1}{T} = A + B.\left(\ln R\right)^3 + C.\ln R$
@@ -22,7 +22,7 @@ a. $\frac{1}{T} = A + B.\left(\ln R\right)^3 + C.\ln R$
 c. $\frac{1}{T} = A + B.\ln R + C.\left(\ln R\right)^2$
 d. $\frac{1}{T} = A + B.\ln R + C.\ln R$
 
-Điện trở của Thermistor 103AT tại $0^0 C$ là:
+Điện trở của Thermistor 103AT tại $0^\circ C$ là:
 a. 4,16kΩ
 b. 28,27kΩ
 *c. 27,28kΩ 
@@ -38,7 +38,7 @@ Nhược điểm của cặp nhiệt ngẫu loại T:
 a. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
 b. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn
 c. Điện trở lớn
-*d. Trên $300^0 C$ thì đồng bị oxy hóa 
+*d. Trên $300^\circ C$ thì đồng bị oxy hóa 
 
 Cặp nhiệt ngẫu có nguyên lý:
 a. Sự thay đổi của nhiệt điện làm thay đổi các thuộc tính về điện trở hoặc điện áp ra
@@ -66,7 +66,7 @@ d. Negatively Temperature Coefcent
 
 Nhược điểm của cặp nhiệt ngẫu loại J:
 a. Điện trở lớn
-b. Trên $300^0 C$ thì đồng bị oxy hóa
+b. Trên $300^\circ C$ thì đồng bị oxy hóa
 c. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn
 *d. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
 
@@ -95,10 +95,10 @@ c. Co
 d. Fe
 
 Cặp nhiệt ngẫu loại K có dải đo nhiệt độ:
-*a. $– 200^0 C ~ 1200^0 C$ 
-b. $– 200^0 C ~ 800^0 C$
-c. $– 200^0 C ~ 350^0 C$
-d. $– 200^0 C ~ 750^0 C$
+*a. $– 200^\circ C \sim 1200^\circ C$ 
+b. $– 200^\circ C \sim 800^\circ C$
+c. $– 200^\circ C \sim 350^\circ C$
+d. $– 200^\circ C \sim 750^\circ C$
 
 Loại nhiệt điện trở khi điện trở giảm thì nhiệt độ tăng:
 a. CTR
@@ -197,10 +197,10 @@ c. Rhodium
 d. Platin
 
 Một mạch đo sử dụng nhiệt điện trở và Opamp LM393 có thể đo nhiệt độ trong phạm vi:
-a. $– 50^0 C ~ 100^0 C$
-b. $0^0 C ~ 50^0 C$
-*c. $0^0 C ~ 100^0 C$ 
-d. $50^0 C ~ 100^0 C$
+a. $– 50^\circ C \sim 100^\circ C$
+b. $0^\circ C \sim 50^\circ C$
+*c. $0^\circ C \sim 100^\circ C$ 
+d. $50^\circ C \sim 100^\circ C$
 
 Cực dương của cặp nhiệt ngẫu loại B, R và S được làm bằng vật liệu:
 *a. Platin, Rhodium 
@@ -221,10 +221,10 @@ b. Cần mối nối tham chiếu
 d. Khoảng đo hẹp
 
 Hệ số A trong công thức Callerndar – Van Dusen:
-a. $– 3,908.10^3 [^0 C^{-1}]$
-*b. $3,908.10^{-3} [^0 C^{-1}]$ 
-c. $3,908.10^3 [^0 C^{-1}]$
-d. $3,908.10^3 [^0 C^{-1}]$
+a. $– 3,908.10^3 [^\circ C^{-1}]$
+*b. $3,908.10^{-3} [^\circ C^{-1}]$ 
+c. $3,908.10^3 [^\circ C^{-1}]$
+d. $3,908.10^3 [^\circ C^{-1}]$
 
 CTR viết tắt của:
 a. Crystal Temperature Resistance
@@ -275,10 +275,10 @@ b. Việt Nam
 d. Nhật Bản
 
 Giá trị độ nhạy tiêu biểu của nhiệt điện trở NTC trong khoảng:
-a. $– 4%/^0 C đến – 6%/^0 C$
-b. $– 2%/^0 C đến – 6%/^0 C$
-c. $– 2%/^0 C đến – 5%/^0 C$
-*d. $– 3%/^0 C đến – 6%/^0 C$ 
+a. $– 4%/^\circ C đến – 6%/^\circ C$
+b. $– 2%/^\circ C đến – 6%/^\circ C$
+c. $– 2%/^\circ C đến – 5%/^\circ C$
+*d. $– 3%/^\circ C đến – 6%/^\circ C$ 
 
 Độ chính xác cần thiết của cảm biến nhiệt độ trong ứng dụng cụ thể thuộc yếu tố:
 a. Loại cảm biến tiếp xúc hay không tiếp xúc
@@ -287,16 +287,16 @@ c. Điều kiện, môi trường đo
 d. Khoảng nhiệt độ muốn đo
 
 Dải đo nhiệt độ của CTR:
-a. $– 100^0 C ~ 700^0 C$
-*b. $0^0 C ~ 150^0 C$ 
-c. $50^0 C ~ 150^0 C$
-d. $– 50^0 C ~ 150^0 C$
+a. $– 100^\circ C \sim 700^\circ C$
+*b. $0^\circ C \sim 150^\circ C$ 
+c. $50^\circ C \sim 150^\circ C$
+d. $– 50^\circ C \sim 150^\circ C$
 
 Phạm vi đo của IC LM35:
-a. $55^0 C ~ 155^0 C$
-b. $– 55^0 C ~ 155^0 C$
-c. $55^0 C ~ 150^0 C$
-*d. $– 55^0 C ~ 150^0 C$ 
+a. $55^\circ C \sim 155^\circ C$
+b. $– 55^\circ C \sim 155^\circ C$
+c. $55^\circ C \sim 150^\circ C$
+*d. $– 55^\circ C \sim 150^\circ C$ 
 
 RTD viết tắt là:
 a. Resistor Temperature Detector
@@ -323,10 +323,10 @@ b. $Al_2 O_3$
 d. Ni
 
 Công thức chuyển đổi từ độ Celsius sang độ Kevin là:
-*a. K = $^0 C$ + 273 
-b. K = $^0 C$ + 327
-c. K = $^0 C$ + 237
-d. K = $^0 C$ + 372
+*a. K = $^\circ C$ + 273 
+b. K = $^\circ C$ + 327
+c. K = $^\circ C$ + 237
+d. K = $^\circ C$ + 372
 
 Nhược điểm của Thermistor:
 a. Giá cao, phản ứng chậm
@@ -335,13 +335,13 @@ c. Cần mối nối tham chiếu
 *d. Khoảng đo hẹp 
 
 Điện áp nguồn cung cấp cho IC LM35:
-a. 5V ~ 25V
-b. 4V ~ 20V
-*c. 4V ~ 30V 
-d. 6V ~ 30V
+a. $5V \sim 25V$
+b. $4V \sim 20V$
+*c. $4V \sim 30V$ 
+d. $6V \sim 30V$
 
 Ưu điểm của cặp nhiệt ngẫu loại E:
-a. Thường được sử dụng để đo nhiệt độ thấp phạm vi $- 200^0 C$ đến $100^0 C$
+a. Thường được sử dụng để đo nhiệt độ thấp phạm vi $- 200^\circ C$ đến $100^\circ C$
 b. Chịu được môi trường tính khử
 c. Độ tuyến tính tốt, thường được dùng nhất trong công nghiệp
 *d. Điện áp Seebeck lớn nhất, không bị mòn bởi nhiệt độ
@@ -377,10 +377,10 @@ b. Nhiệt kế
 d. Thủy kế
 
 Cặp nhiệt ngẫu loại J có dải đo nhiệt độ
-a. $– 200^0 C ~ 1200^0 C$
-*b. $– 200^0 C ~ 750^0 C$ 
-c. $– 200^0 C ~ 800^0 C$
-d. $– 200^0 C ~ 350^0 C$
+a. $– 200^\circ C \sim 1200^\circ C$
+*b. $– 200^\circ C \sim 750^\circ C$ 
+c. $– 200^\circ C \sim 800^\circ C$
+d. $– 200^\circ C \sim 350^\circ C$
 
 Thang đo dựa trên điểm đóng băng và điểm sôi của nước ở áp suất không khí tiêu chuẩn:
 a. Độ Rankine
@@ -407,10 +407,10 @@ c. Thay đổi điện dung theo nhiệt độ
 d. Thay đổi điện áp theo nhiệt độ
 
 Cặp nhiệt ngẫu loại E có dải đo nhiệt độ:
-a. $– 200^0 C ~ 750^0 C$
-*b. $– 200^0 C ~ 800^0 C$ 
-c. $– 200^0 C ~ 350^0 C$
-d. $– 200^0 C ~ 1200^0 C$
+a. $– 200^\circ C \sim 750^\circ C$
+*b. $– 200^\circ C \sim 800^\circ C$ 
+c. $– 200^\circ C \sim 350^\circ C$
+d. $– 200^\circ C \sim 1200^\circ C$
 
 Nhiệt điện trở bán dẫn tên tiếng anh là:
 *a. Thermistor 
@@ -418,7 +418,7 @@ b. Thermocouples
 c. Thermal Random Couples
 d. Thermal Backpack
 
-Điện trở của Thermistor 103AT tại $50^0 C$ là:
+Điện trở của Thermistor 103AT tại $50^\circ C$ là:
 a. 0,9731kΩ
 b. 27,28kΩ
 c. 4,16Ω
@@ -443,12 +443,12 @@ b. c
 d. λ
 
 Nhược điểm của cặp nhiệt ngẫu loại B, R và S:
-a. Trên $300^0 C$ thì đồng bị oxy hóa
+a. Trên $300^\circ C$ thì đồng bị oxy hóa
 *b. Kém trong môi trường có tính khử, dễ bị nhiễm bẩn 
 c. Dễ bị rỉ, cần ống bảo vệ bên ngoài để tăng tuổi thọ
 d. Điện trở lớn
 
-Tại nhiệt độ $0^0 C$, giá trị điện trở của RTD là:
+Tại nhiệt độ $0^\circ C$, giá trị điện trở của RTD là:
 a. 200Ω
 b. 300Ω
 *c. 100Ω 
@@ -467,10 +467,10 @@ c. Giá cao, phản ứng chậm
 d. Độ chính xác thấp, phạm vi đo giới hạn
 
 Hệ số C trong công thức Callerndar – Van Dusen:
-a. $4,183.10^{12} [^0 C^{-3}]$
-b. $– 4,183.10^{12} [^0 C^{-3}]$
-*c. $– 4,183.10^{-12} [^0 C^{-3}]$ 
-d. $4,183.10^{-12} [^0 C^{-3}]$
+a. $4,183.10^{12} [^\circ C^{-3}]$
+b. $– 4,183.10^{12} [^\circ C^{-3}]$
+*c. $– 4,183.10^{-12} [^\circ C^{-3}]$ 
+d. $4,183.10^{-12} [^\circ C^{-3}]$
 
 Ưu điểm của cặp nhiệt ngẫu loại B, R và S:
 a. Ứng dụng ở môi trường chân không
@@ -479,7 +479,7 @@ b. Ứng dụng ở môi trường oxy hóa, khử
 d. Ứng dụng ở nơi có lượng oxy hạn chế
 
 Thang đo nhiệt độ bắt đầu từ nhiệt độ thấp nhất có thể
-đạt được, tương đương $– 273^0 C$
+đạt được, tương đương $– 273^\circ C$
 a. Celsius
 b. Fahrenheit
 c. Rankine
@@ -510,22 +510,22 @@ c. Chỉ dùng ở môi trường oxy hóa, khử
 d. Chỉ dùng ở nhiệt độ cao
 
 Cặp nhiệt ngẫu loại B có dải đo nhiệt độ:
-a. $500^0 C ~ 1200^0 C$
-b. $500^0 C ~ 800^0 C$
-c. $500^0 C ~ 1600^0 C$
-*d. $500^0 C ~ 1700^0 C$ 
+a. $500^\circ C \sim 1200^\circ C$
+b. $500^\circ C \sim 800^\circ C$
+c. $500^\circ C \sim 1600^\circ C$
+*d. $500^\circ C \sim 1700^\circ C$ 
 
-Điện trở của Thermistor 103AT tại $100^0 C$ là:
+Điện trở của Thermistor 103AT tại $100^\circ C$ là:
 a. 27,28kΩ
 b. 0,9731Ω
 *c. 0,9731kΩ 
 d. 4,16kΩ
 
 Cặp nhiệt ngẫu loại T có dải đo nhiệt độ:
-*a. $– 200^0 C ~ 350^0 C$ 
-b. $– 200^0 C ~ 1200^0 C$
-c. $– 200^0 C ~ 750^0 C$
-d. $– 200^0 C ~ 800^0 C$
+*a. $– 200^\circ C \sim 350^\circ C$ 
+b. $– 200^\circ C \sim 1200^\circ C$
+c. $– 200^\circ C \sim 750^\circ C$
+d. $– 200^\circ C \sim 800^\circ C$
 
 Để mạch đo với cảm biến nhiệt điện trở RTD hoạt động đúng, dòng điện qua cảm biến cần đạt:
 a. 1,5 mA
@@ -540,10 +540,10 @@ c. $I(\lambda, T)d\lambda = \frac{2hc^2}{\lambda}\frac{1}{e}$
 *d. $I(\lambda, T)d\lambda = \frac{2hc^2}{\lambda^5}\frac{1}{e}$
 
 Công thức chuyển đổi từ độ Celsius sang độ Fahrenheit:
-a. $F = 9/5^0 C + 23$
-b. $F = 5/9^0 C + 32$
-*c. $F = 9/5^0 C + 32$ 
-d. $F = 9/5^0 C + 273$
+a. $F = 9/5^\circ C + 23$
+b. $F = 5/9^\circ C + 32$
+*c. $F = 9/5^\circ C + 32$ 
+d. $F = 9/5^\circ C + 273$
 
 Loại nhiệt điện trở ứng dụng làm công tắc nhiệt độ:
 *a. PTC, CTR 
@@ -576,10 +576,10 @@ c. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất giống
 d. Gồm 2 chất liệu kim loại bằng vật liệu và bản chất khác nhau, hàn dính hai đầu, một đầu còn lại tự do
 
 Dải đo nhiệt độ của PTC:
-a. $– 100^0 C ~ 700^0 C$
-*b. $– 50^0 C ~ 150^0 C$ 
-c. $0^0 C ~ 150^0 C$
-d. $50^0 C ~ 150^0 C$
+a. $– 100^\circ C \sim 700^\circ C$
+*b. $– 50^\circ C \sim 150^\circ C$ 
+c. $0^\circ C \sim 150^\circ C$
+d. $50^\circ C \sim 150^\circ C$
 
 Trong một mạch cầu Wheatstone, điện áp ngõ ra VOUT được xác định:
 a. $V_{OUT} = \left(\frac{R_3}{R_1 + R_3} - \frac{R_2}{R_T + R_2}\right)V_S$  
@@ -594,7 +594,7 @@ c. 2
 d. 1
 
 Độ nhạy tuyến tính của IC LM35:
-*a. $10mV/^0 C$ 
-b. $5mV/^0 C$
-c. $20mV/^0 C$
-d. $15mV/^0 C$
+*a. $10mV/^\circ C$ 
+b. $5mV/^\circ C$
+c. $20mV/^\circ C$
+d. $15mV/^\circ C$

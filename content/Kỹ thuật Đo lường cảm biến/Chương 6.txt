@@ -25,16 +25,16 @@ c. Tất cả đều đúng
 *d. Tín hiệu quét ngang được đưa từ ngoài vào
 
 Khi đo góc lệch pha của 2 tín hiệu dùng dao động ký thì góc lệch pha được xác định? Biết T là chu kỳ, Δt là khoảng lệch của 2 tín hiệu
-a. $φ = (T/Δt).360^0$
-*b. $φ = (Δt/T).360^0$
-c. $φ = 360^0 /(Δt.T)$
-d. $φ = (Δt/360^0).T$
+a. $φ = (T/Δt).360^\circ$
+*b. $φ = (Δt/T).360^\circ$
+c. $φ = 360^\circ /(Δt.T)$
+d. $φ = (Δt/360^\circ).T$
 
 Khi đo góc lệch pha giữa 2 tín hiệu có cùng tần số, nếu kết quả trên màn hình dao động ký là một elip có 2 đỉnh nằm trong góc phần tư thứ 1 và 3 thì góc lệch pha là:
-a. $180^0 < φ < 270^0$
-b. $90^0$
-c. $90^0 < φ < 180^0$
-*d. $0^0 < φ < 90^0$
+a. $180^\circ < φ < 270^\circ$
+b. $90^\circ$
+c. $90^\circ < φ < 180^\circ$
+*d. $0^\circ < φ < 90^\circ$
 
 Biến trở $P_2$ trong ống tia điện tử CRT có chức năng:
 a. Thay đổi chùm tia điện tử theo chiều ngang
@@ -163,10 +163,10 @@ d. U = S / h
 Khi đo góc lệch pha giữa 2 tín hiệu có cùng tần số, nếu
 kết quả trên màn hình dao động ký là một elip có 2 đỉnh
 nằm trong góc phần tư thứ 2 và 4 thì góc lệch pha là:
-*a. $90^0 < φ < 180^0$
-b. $90^0$
-c. $180^0 < φ < 270^0$
-d. $0^0 < φ < 90^0$
+*a. $90^\circ < φ < 180^\circ$
+b. $90^\circ$
+c. $180^\circ < φ < 270^\circ$
+d. $0^\circ < φ < 90^\circ$
 
 Dao động ký 2 tia có ưu điểm:
 *a. Cùng lúc có thể cùng quan sát được cả 2 tín hiệu hoàn toàn khác nhau
@@ -175,10 +175,10 @@ c. Tất cả đều đúng
 d. Cho phép so sánh các dạng sóng với nhau về biên độ, pha, chu kỳ
 
 Góc lệch pha φ đo bằng phương pháp Lissajous nằm trong khoảng:
-a. $0^0 < φ < 90^0$
-*b. $0^0 < φ < 180^0$
-c. $0^0 < φ < 360^0$
-d. $90^0 < φ < 180^0$
+a. $0^\circ < φ < 90^\circ$
+*b. $0^\circ < φ < 180^\circ$
+c. $0^\circ < φ < 360^\circ$
+d. $90^\circ < φ < 180^\circ$
 
 Biến trở ${P_3} trong ống tia điện tử CRT có chức năng:
 *a. Thay đổi điện thế giữa hai bản cực lệch dọc
@@ -220,7 +220,7 @@ c. Thay đổi điện thế giữa hai bản cực lệch dọc
 Khi đo góc lệch pha bằng phương pháp Lissajous, nếu trên màn hình dao động ký có dạng đường thẳng nằm ở góc phần tư 1-3 thì 2 tín hiệu:
 *a. Cùng pha
 b. Ngược pha
-c. Lệch pha $90^0$
+c. Lệch pha $90^\circ$
 d. Lệch pha bất kỳ
 
 Biến trở $P_5$ trong ống tia điện tử CRT có chức năng:
