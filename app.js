@@ -499,7 +499,9 @@ function buildExportExamHtml(fileName, questions, startIndex, compact = false) {
 
   questions.forEach((q, i) => {
     const qNum = startIndex + i + 1;
-    html += buildExportQuestionHtml(q, `Câu ${qNum}.`, compact);
+    html += buildExportQuestionHtml(q, `Câu ${qNum}.`, compact, {
+      showInitial: true,
+    });
   });
 
   html += `</section>`;
