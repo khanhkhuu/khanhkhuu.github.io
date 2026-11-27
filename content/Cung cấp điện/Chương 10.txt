@@ -1,0 +1,304 @@
+Ánh sáng ngày trời đầy mây, ánh sáng giàu bức xạ xanh da trời có nhiệt độ màu trong khoảng:
+a. 3000 – 4500$^o$K
+b. 6000 – 8000$^o$K
+c. 4500 – 5000$^o$K
+d. 2500 – 3000$^o$K
+
+Độ rọi E là:
+a. Mật độ không gian của quang thông do nguồn sáng bức xạ
+b. Là hàm phân bố phổ của năng lượng bức xạ
+c. Công suất của nguồn sáng
+*d. Mật độ quang thông trên bề mặt được chiếu sáng 
+
+Hiệu suất phát quang của bóng đèn:
+a. Tỷ số quang thông phát ra và độ rọi trên mặt phẳng làm việc
+b. Tỷ số quang thông phát ra trên công suất bóng đèn
+*c. Tỷ số quang thông phát ra trên công suất tiêu thụ của bộ đèn
+d. Tỷ số năng lượng ánh sáng hữu ích trên tổng năng lượng ánh sáng phát ra 
+
+Con người cảm nhận được ánh sáng với bước sóng trong phạm vi:
+a. 360mm đến 720mm
+b. 380mm đến 720mm
+c. 360mm đến 780mm
+*d. 380mm đến 760mm
+
+Câu 5: Hình dưới đây thể hiện đặc điểm phản xạ và xuyên thấu nào của vật liệu?
+@img images/c10-1.png
+*a. Phản xạ hoàn toàn
+b. Phản xạ hỗn hợp định hướng
+c. Phản xạ định hướng
+d. Xuyên thấu hoàn toàn
+
+Dùng thiết bị nào dưới đây để đo độ rọi của các công trình chiếu sáng? 
+*a. Lux kế 
+b. Volt kế 
+c. Lumen kế 
+d. Ampe kế
+
+Loại đèn thường sử dụng chiếu sáng cho sân vận động:
+*a. Natri cao áp 
+b. Halogen 
+c. Natri hạ áp 
+d. Metal halide
+
+Hệ số hấp thụ sáng là tỉ số giữa:
+a. $\frac{F_i}/{F_𝜏}$
+*b. $\frac{F_𝜏}/{F_i}$
+c. $\frac{F_𝛼}/{F_i}$
+d. $\frac{F_𝜌}/{F_i}$
+
+Cường độ sáng là:
+A. Là hàm phân bố phổ của năng lượng bức xạ 
+*B. Mật độ không gian của quang thông do nguồn sáng bức xạ 
+C. Công suất của nguồn sáng 
+D. Mật độ quang thông trên bề mặt được chiếu sáng
+
+Công thức tính độ rọi là:
+a. S = $\frac{E}{F}$
+b. S = $\frac{E}{S}$
+*c. S = $\frac{F}{S}$
+d. S = $\frac{S}{F}$
+
+Chỉ số hoàn màu viết tắt là:
+a. LLD
+b. LLF
+c. HID
+d. CRI
+Câu 13: Hệ màu RGB trộn 3 màu:
+Đỏ, vàng, xanh
+Đỏ, xanh da trời, xanh lá cây
+Đỏ, đen, trắng
+Vàng, trắng, đỏ
+Câu 14: Quang thông là gì?
+Lượng ánh sáng do nguồn sáng phát ra
+Thông lượng trong hệ ánh sáng
+Lượng ánh sáng do vật thu năng lượng bức xạ hấp thụ được
+Lượng ánh sáng hữu ích mà mắt nhận được Câu 15: Biểu thức xác định độ tương phản C là:
+C = 𝐿𝑣−𝐿𝑛
+𝐿𝑣
+C = 𝐿𝑣−𝐿𝑛
+𝐿𝑛
+C = 𝐿𝑛−𝐿𝑣
+𝐿𝑛
+C = 𝐿𝑛−𝐿𝑣
+𝐿𝑣
+Câu 16: Phát biểu nào sau đây là sai?
+Biểu đồ Kruithof biểu hiện quan hệ giữa nhiệt độ màu và độ rọi
+Những nơi có yêu cầu độ rọi cao cần các nguồn sáng có nhiệt độ màu lớn
+Mặt trời lặn, đèn nung sáng có nhiệt độ màu từ 6000 – 8000 độ K
+Ánh sáng ban ngày khi trời sáng có nhiệt độ màu từ 4500 – 5000 độ K
+Câu 17: Trong kĩ thuật chiếu sáng, chỉ số hoàn màu dùng cho các công việc bình thường, khi chất lượng nhìn màu không thật đặc biệt là:
+≈ 66
+
+≥ 95
+< 85
+≥ 85
+Câu 18: Hình dưới đây là loại đèn nào?
+
+
+
+
+
+
+
+
+Đèn hơi Natri
+Đèn hơi thủy ngân
+Đèn HID
+Đèn nung sáng
+Câu 19: Bóng đèn huỳnh quang loại 40W có quang thông là 2500 Lumen. Tính hiệu suất phát quang của bóng đèn này:
+57.5Lm/W
+62.5Lm/W
+65Lm/W
+60Lm/W
+Câu 20: Ưu điểm lớn nhất của đèn Natri hạ áp:
+Độ chói thấp
+Chỉ số hoàn màu cao
+Hiệu suất phát quang cao
+Khởi động nhanh
+Câu 21: Hình dưới đây là loại đèn nào?
+
+Đèn Sodium cao áp
+Đèn nung sáng
+Đèn Sodium hạ áp
+Đèn phóng điện HID
+Câu 22: Phát biểu nào sau đây là sai khi nói về đèn nung sáng?
+Sản sinh ánh sáng ấm và chỉ số hoàn màu cao
+Dòng điện đi qua tim đèn đốt nóng nên phát ra ánh sáng
+Có tuổi thọ cao nhưng hiệu suất sáng cao
+Tim đèn thường được làm bằng tungstene Câu 23: Hình bên dưới đây là loại đèn nào?
+
+
+
+
+
+
+
+Đèn Metal halide
+Đèn phóng điện HID
+Đèn huỳnh quang
+Đèn Sodium hạ áp
+Câu 24: Phát biểu nào sai khi nói về đèn phóng điện HID?
+Không cần mồi đèn
+Ống thủy tinh bên trong có hai cực Anode và Catode
+Thường có công suất cao, thường dùng ở nơi cần ánh sáng rộng
+Tùy theo loại hơi kim loại mà có các loại đèn phóng điện khác nhau Câu 25: Phát biểu nào sai khi nói về đèn hơi Natri?
+Đèn hơi Natri áp suất cao thường dùng đường hầm, đường cao tốc
+Đèn hơi Natri chia làm hai loại: loại áp suất cao và loại áp suất thấp
+Đèn hơi Natri áp suất thấp có ánh sáng vàng cam
+Đèn hơi Natri áp suất cao có ánh sáng trắng Câu 26: Hệ màu XYZ có đặc điểm:
+Đặc tính của màu sắc được định bởi thành phần X
+X, Y, Z đại diện cho 4 màu Cyan, Magenta, Yellow, Black
+
+Các tọa độ màu sắc của màu thực nằm trong tam giác màu
+Màu cơ bản của hệ không phải màu thực
+Câu 27: Loại đèn nào dưới đây là đèn phóng điện cao áp:
+Đèn Halogen
+Đèn Metal Halide
+Đèn huỳnh quang
+Đèn hơi thủy ngân
+Câu 28: Phần mềm thiết kế chiếu sáng là:
+Photoshop
+Proteus
+Dialux
+Ecodial
+Câu 29: Ánh sáng màu tím có bước sóng từ:
+0.38𝜇m – 0.42𝜇m
+0.42𝜇m – 0.45𝜇m
+0.42𝜇m – 0.78𝜇m
+0.45𝜇m – 0.78𝜇m
+Câu 30: Loại đèn nào dưới đây là đèn phóng điện hạ áp:
+Đèn Halogen
+Đèn Metal Halide
+Đèn huỳnh quang
+Đèn hơi thủy ngân
+Câu 31: Đèn LED có đặc điểm:
+Phát sáng nhanh và cần có bộ tăng áp
+Ánh sáng phát ra không phụ thuộc vào môi trường
+Hiệu suất phát quang và tuổi thọ cao
+Chỉ số hoàn màu thay đổi theo thời gian và điều chỉnh được công suất
+Câu 32: Cần chú ý điều gì khi vận hành đèn Metal Halide, Natri cao áp, Natri hạ áp?
+Thời gian khởi động lâu
+Quang thông suy giảm rất nhanh
+Không cần mồi đèn
+Ballast phải có công suất lớn Câu 33: Đặc điểm của chỉ số hoàn màu:
+
+Càng cao khi hiệu suất phát sáng cao
+
+Đèn Natri cao áp
+Đèn huỳnh quang
+Đèn Natri hạ áp
+Đèn Metal Halide
+Câu 40: Bộ đèn huỳnh quang gồm 2 bóng, có công suất mỗi bóng là 40W, công suất bộ đèn là:
+100W
+90W
+120W
+80W
+Câu 41: Loại đèn HPS là:
+Đèn Natri áp suất cao
+Đèn Halogen công suất cao
+Đèn cao áp công suất cao
+Đèn Metal Halide công suất cao
+Câu 42: Bộ đèn huỳnh quang gồm 2 bóng, có công suất mỗi bóng là 65W, công suất bộ đèn là:
+130W
+156W
+143W
+195W
+Câu 43: Đèn nung sáng có nhược điểm:
+Công suất thấp
+Quang hiệu thấp và tuổi thọ không cao
+Quang thông giảm đáng kể khi gần hết tuổi thọ
+Phụ thuộc vào nhiệt độ môi trường bên ngoài Câu 44: Đèn Natri có nhược điểm:
+Thời gian mồi đèn lâu
+Chỉ số hoàn màu thấp
+Tuổi thọ thấp
+Cần nhiều thiết bị phụ trợ
+Câu 45: Đối với chiếu sáng ngoài trời và đường phố, loại đèn nào không dùng cho đường cao tốc?
+
+Natri hạ áp
+Thủy ngân cao áp
+Metal Halide
+Sodium hạ áp
+Câu 46: Đối với chiếu sáng khu công nghiệp, ở hầm mỏ và kho chứa than không dùng loại đèn nào?
+Thủy ngân cao áp
+Metal Halide
+Sodium hạ áp
+Natri cao áp
+Câu 47: Đối với chiếu sáng trong nhà, ở xưởng in sử dụng loại đèn nào?
+Thủy ngân cao áp
+Metal Halide
+Natri hạ áp
+Cả 3 đáp án
+Câu 48: Đối với các công trình, ở công viên và bãi cỏ sử dụng loại đèn nào?
+Sodium cao áp
+Metal Halide
+Natri cao áp
+Cả 3 đáp án
+Câu 49: Một bóng đèn hơi Sodium hạ áp, công suất 90W có quang thông là:
+33000L
+8000Lm
+22500Lm
+135000Lm
+Câu 50: Đường phân bố của các kiểu chiếu sáng dưới đây lần lượt là:
+
+
+
+Hỗn hợp, trực tiếp, gián tiếp
+Gián tiếp, hỗn hợp, trực tiếp
+Trực tiếp, hỗn hợp, gián tiếp
+Hỗn hợp, gián tiếp, trực tiếp
+
+Câu 51: Để hạn chế chói lóa và chất lượng màu sắc cho phòng y tế thì cần độ rọi là bao nhiêu?
+500Lux
+750Lux
+1000Lux
+300Lux
+Câu 52: Theo TCVN 7114, đối với chế đá quý cần bao nhiêu độ rọi?
+1500Lux
+2000Lux
+1000Lux
+500Lux
+Câu 53: Theo TCVN 7114, đối với phòng học vẽ kỹ thuật thì độ rọi yêu cầu là?
+750Lux
+500Lux
+200Lux
+1500Lux
+Câu 54: Hệ số LLF của đèn phụ thuộc vào:
+Tuổi thọ của đèn
+Các loại ballast khác nhau trên hiệu sáng phát sáng của đèn
+Bộ đèn bị bám bẩn
+Tất cả đáp án
+Câu 55: Cho diện tích phòng học như hình dưới, mật độ công suất 12W/m2 đèn huỳnh quang 40W. Cần bao nhiêu bóng cho phòng học này?
+60 bóng
+40 bóng
+22 bóng
+30 bóng
+Câu 56: Bóng đèn huỳnh quang loại 40W có quang thông 2500 là Lumen. Tính hiệu suất phát quang của bóng đèn này:
+62.5Lm/W
+60Lm/W
+65Lm/W
+57.5Lm/W
+
+Câu 57: Độ đồng đều chất lượng chiếu sáng trong nhà cần đạt:
+
+
+𝐸𝑚𝑎𝑥 ≤ 1.8 và
+𝐸𝑚𝑖𝑛
+𝐸𝑚𝑎𝑥 ≤ 1.6 và
+𝐸𝑡𝑏
+C. 𝐸𝑚𝑎𝑥 ≤ 1.8 và
+𝐸𝑡𝑏
+D. 𝐸𝑚𝑎𝑥 ≤ 1.6 và
+𝐸𝑚𝑖𝑛
+𝐸𝑡𝑏
+𝐸𝑚𝑖𝑛
+𝐸𝑡𝑏
+𝐸𝑚𝑖𝑛
+𝐸𝑡𝑏
+𝐸𝑚𝑖𝑛
+𝐸𝑡𝑏
+𝐸𝑚𝑖𝑛
+≤ 1.8
+≤ 1.6
+≤ 1.8
+≤ 1.6

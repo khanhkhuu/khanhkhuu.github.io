@@ -1,0 +1,29 @@
+Khí cụ điện nào dưới đây là thiết bị ngắt dòng rò đất?
+a. ACB
+*b. ELCB
+c. RCD
+d. MCB
+
+Công dụng chính của Contactor là gì?
+a. Bảo vệ mất pha giúp giám sát pha điện, hoặc cắt nguồn tải động cơ tự động
+b. Đóng ngắt mạch điện khi quá tải
+*c. Đóng ngắt các tiếp điểm, tạo liên lạc trong mạch điện bằng nút nhấn
+d. Làm trễ quá trình đóng và mở các tiếp điểm
+
+Aptomat nào dưới đây có bộ phận dập hồ quang bằng chân không?
+a. MCB
+b. MCCB
+*c. VCB
+d. ACB
+
+FCO có chức năng gì?
+a. Bảo vệ ngắn mạch máy biến áp
+b. Bảo vệ chống dòng rò máy biến áp
+*c. Bảo vệ quá tải và ngắn mạch máy biến áp
+d. Bảo vệ thấp áp máy biến áp 
+
+Chức năng của RCBO là gì?
+*a. CB bảo vệ chống dòng rò và bảo vệ chống quá tải
+b. CB bảo vệ chống thấp áp và quá áp
+c. CB bảo vệ chống dòng rò
+d. CB bảo vệ mất pha và giúp giám sát mạch điện
