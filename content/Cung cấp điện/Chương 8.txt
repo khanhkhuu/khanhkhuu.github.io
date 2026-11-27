@@ -1,0 +1,240 @@
+Yếu tố quan trọng nhất khi lựa chọn dây dẫn cho lưới điện phân phối hạ áp:
+*a. Mật độ dòng điện
+b. Chiều dài dây dẫn
+c. Độ sụt áp trên dây dẫn
+d. Nhiệt độ của dây dẫn 
+
+Dây A70 nghĩa là:
+a. Dây đồng tiết diện 70$mm^2$
+*b. Dây nhôm tiết diện 70$mm^2$
+c. Cáp điện lực tiết diện 70$mm^2$
+d. Cáp đồng tiết diện 70 $mm^2$
+
+Tại sao có hệ số hiệu chỉnh K khi lựa chọn dây dẫn?
+*a. Do thực tế lắp đặt dây cáp khác với điều kiện định mức của nhà sản xuất
+b. Theo yêu cầu của người thiết kế
+c. Theo yêu cầu của nhà sản xuất
+d. Do nhiệt độ môi trường thay đổi liên tục, dây dẫn giảm dòng điện 
+
+Điều kiện lựa chọn dây dẫn mạng hạ áp:
+a. $K.I_b <= I_z$
+b. $K.I_z <= I_b$
+*c. $K.I_z >= I_b$
+d. $K.I_b = I_z$
+
+Cáp đi trên máng cáp không đục lỗ, mã số kí hiệu đi dây/cáp khi lắp đặt là:
+a. B
+*b. C
+c. E
+d. F
+
+Hệ số hiệu chỉnh K khi dây đi âm sàn:
+a. K = $K_{4}K_{5}K_{6}$
+b. K = $K_{1}K_{2}$
+*c. K = $K_{4}K_{5}K_{6}K_{7}$
+d. K = $K_{1}K_{2}K_{3}K_{4}$
+
+Phương pháp chọn dây dẫn nào sau đây áp dụng cho lưới điện phân phối hạ áp:
+a. Phương pháp chọn dây/cáp theo mật độ dòng kinh tế
+*b. Phương pháp chọn dây/cáp theo dòng điện phát nóng
+c. Phương pháp chọn dây/cáp theo khối lượng kim loại màu cực tiểu
+d. Phương pháp chọn dây/cáp theo tổn thất điện áp
+
+Để cấp điện cho động cơ 3 pha hạ áp, cáp nên dùng:
+a. LV – ABC
+b. CV
+*c. CVV
+d. CVX
+
+Phương pháp nào dưới đây thường áp dụng cho lưới điện khu công nghiệp:
+*a. Phương pháp chọn dây/cáp theo mật độ dòng kinh tế
+b. Phương pháp chọn dây/cáp theo dòng điện phát nóng
+c. Phương pháp chọn dây/cáp theo khối lượng kim loại màu cực tiểu
+d. Phương pháp chọn dây/cáp theo tổn thất điện áp
+
+Dòng điện cho phép trên dây dẫn/cáp $I_z$ trong mọi trường hợp phải:
+*a. Dòng điện tải < $I_z$
+b. Dòng điện của CB > $I_z$
+c. Dòng điện tải < $I_z$ < Dòng điện của CB
+d. Dòng điện của CB < $I_z$ < Dòng điện tải
+
+Theo tiêu chuẩn IEC, khi đi dây có mã số B2. Dây đồng có tiết diện $35mm^2$ có khả năng tải dòng:
+a. 99A
+*b. 119A
+c. 110A
+d. 83A
+
+Để cấp điện cho động cơ 3 pha hạ áp kiểu đi dây trên thang cáp, nên dùng loại cáp nào?
+a. LV – ABC
+b. CV
+c. CXV
+*d. CVV
+
+Loại tiết diện dây dẫn nào không có trong thực tế?
+a. $95mm^2$
+*b. $60mm^2$
+c. $11mm^2$
+d. $70mm^2$
+
+Vật liệu nào sau đây được dùng làm vật liệu cách điện?
+*a. Tất cả các đáp án
+b. PE
+c. PVC
+d. XLPE
+
+Trên thang cáp có 3 mạch, xếp chồng 3 lớp cách điện, hệ số điều chỉnh K2 là:
+a. $K_2$ = 0.72 x 0.8
+*b. $K_2$ = 0.72 x 0.73
+c. $K_2$ = 0.82 x 0.8
+d. $K_2$ = 0.82 x 0.73
+
+Phương pháp chọn dây dẫn nào dưới đây áp dụng cho lưới điện có công suất nhỏ, $T_{max}$ thấp:
+a. Phương pháp chọn dây/cáp theo dòng điện phát nóng
+b. Phương pháp chọn dây/cáp theo tổn thất điện áp
+c. Phương pháp chọn dây/cáp theo mật độ dòng kinh tế
+*d. Phương pháp chọn dây/cáp theo khối lượng kim loại màu cực tiểu
+
+Để cấp điện cho động cơ xoay chiều 3 pha 400V, loại dây thường được sử dụng là:
+a. Cáp 2 lõi
+b. Cáp 1 lõi
+c. Cáp 4 lõi
+*d. Cáp 3 lõi
+
+Trên vỏ cáp chống cháy có kí hiệu gì?
+a. CVV
+*b. FR
+c. CV
+d. CXV
+
+Máy biến áp cho S = 750kVA, cáp xuất hạ áp được kí hiệu:
+a. 3x1Cx750$mm^2$ Cu/PVC
+b. 3x4Cx200$mm^2$ Cu/PVC/XLPE
+c. 4x3x1Cx200$mm^2$ Cu/PVC
+*d. 4x4Cx200$mm^2$ Cu/PVC
+
+Loại dây/cáp hạ áp sử dụng phổ biến của lưới phân phối hạ áp điện lực 3 pha là:
+*a. LV – ABC
+b. AS
+c. Duplex
+d. AC
+
+Để cấp điện cho động cơ 3 pha hạ áp nên dùng loại cáp:
+*a. CVV
+b. CXV
+c. CV
+d. LV - ABC
+
+Trên bản vẽ có ghi kí hiệu 1x4Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+*a. 10m
+b. 30m
+c. 40m
+d. 20m
+
+Khi sản xuất lõi cáp trung thế, loại vật liệu dây được sử dụng rộng rãi là:
+a. Dây nhôm lõi thép AC/AS
+b. Dây nhôm A
+c. Dây nhôm lõi thép tăng cường ACSR
+*d. Dây đồng C
+
+Trên bản vẽ có ghi kí hiệu 4x1Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+*a. 16m
+b. 50m
+c. 25m
+d. 40m
+
+Máy biến áp cho S = 250kVA. Cáp xuất hạ áp được kí hiệu:
+a. 4x1Cx150$mm^2$ Cu/PVC
+b. 1x4Cx200$mm^2$ Cu/PVC/XLPE
+c. 4x1Cx200$mm^2$ Cu/PVC
+*d. 1x4Cx200$mm^2$ Cu/PVC
+
+Để cấp điện khu dân cư, lưới điện hạ áp đi ngầm, kiểu đu dây trong mương cáp, nên dùng loại cáp nào?
+a. CVV
+*b. LV – ABC
+c. CV
+d. CXV
+
+Khi tiết diện dây pha là 120$mm^2$ thì chọn tiết diện dây dây PE bằng:
+a. 90$mm^2$
+b. 70$mm^2$
+c. 80$mm^2$
+*d. 60$mm^2$
+
+Việc kiểm tra điều kiện ổn định nhiệt sẽ đảm bảo:
+a. Chiều dài dây tối đa an toàn
+*b. Dây không bị cháy khi ngắn mạch xảy ra
+c. Sụt áp trong phạm vi cho phép
+d. Dòng điện không vượt quá giới hạn
+
+Hãy mô tả cấu tạo của cáp theo thứ tự 1 – 2 – 3 – 4 trong hình:
+@img images/c8-1.png
+a. Ruột dẫn bằng đồng – Vỏ bọc bên ngoài – Lớp độn – Cách điện
+b. Ruột dẫn bằng đồng – Lớp độn – Cách điện – Vỏ bọc bên ngoài
+c. Lớp độn - Ruột dẫn bằng đồng – Cách điện – Vỏ bọc bên ngoài
+*d. Ruột dẫn bằng đồng – Cách điện – Lớp độn – Vỏ bọc bên ngoài 
+
+Để cấp điện cho động cơ xoay chiều 1 pha, cáp nên dùng là:
+a. Cáp 3 lõi
+*b. Cáp 2 lõi
+c. Cáp 1 lõi
+d. Cáp 4 lõi
+
+Theo tiêu chuẩn IEC, khi đi dây có mã số C. Dây nhôm có tiết diện 240$mm^2$ có khả năng tải dòng:
+a. 350A
+b. 464A
+c. 305A
+*d. 403A
+
+Để cấp điện cho động cơ xoay chiều 3 pha có dây N, loại dây thường sử dụng là:
+a. Cáp 3 lõi
+b. Cáp 2 lõi
+*c. Cáp 4 lõi
+d. Cáp 1 lõi
+
+Tại sao Busway lại linh hoạt và ưu việt hơn cáp:
+*a. Tất cả đều đúng
+b. Chịu đựng ngắn mạch cao
+c. Chỉ cần 1 hoặc 2 lớp cách điện
+d. Kích thước bó gọn, trọng lượng rất nhẹ
+
+Phương pháp chọn dây dẫn nào sau đây áp dụng cho lưới điện truyền tải, công suất lớn:
+a. Phương pháp chọn dây/cáp theo dòng điện phát nóng
+b. Phương pháp chọn dây/cáp theo tổn thất điện áp
+*c. Phương pháp chọn dây/cáp theo mật độ dòng điện không đổi
+d. Phương pháp chọn dây/cáp theo khối lượng kim loại màu cực tiểu
+
+Đối với cáp nhiều lõi, thông thường thì lõi dây trung tính hoặc dây PE:
+a. Lớn hơn tiết diện dây pha
+b. Bằng tiết diện dây pha
+c. Nhỏ hơn tiết diện dây pha
+*d. Theo tiêu chuẩn quy định
+
+Câu 36 Loại dây/cáp hạ áp được sử dụng phổ biến của lưới phân phối hạ áp điện lực cấp cho hộ gia đình là?
+a. AS
+b. AC
+*c. Duplex
+d. LV – ABC
+
+Hệ số hiệu chỉnh K khi dây đi trên thang cáp:
+a. $K = K_{1}K_{2}$
+b. $K = K_{4}K_{5}K_{6}$
+*c. $K = K_{1}K_{2}K_{3}$
+d. $K = K_{1}K_{2}K_{3}K_{4}$
+
+Khi dây pha có tiết diện 25$mm^2$, dây bảo vệ PE có tiết diện:
+a. $11mm^2$
+*b. $16mm^2$
+c. $20mm^2$
+d. $25mm^2$
+
+Đường dây trên không trong mạng điện phân phối lưới hạ áp, loại dây được sử dụng rộng rãi là:
+a. Dây nhôm A
+b. Dây nhôm lõi thép tăng cường ACSR
+*c. Dây nhôm lõi thép AC/AS
+d. Dây đồng C
+
+Trên bản vẽ có ghi kí hiệu 1x3Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 25m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+a. 32m
+b. 50m
+c. 16m
+*d. 25m

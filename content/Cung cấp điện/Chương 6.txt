@@ -1,144 +1,144 @@
-Câu 1: Một khách hàng có nhu cầu sử dụng phụ tải 120A lắp đặt TI nào là hợp lý nhất?
+Một khách hàng có nhu cầu sử dụng phụ tải 120A lắp đặt TI nào là hợp lý nhất?
 a. 100/5A
 b. 200/5A
 c. 250/5A
 *d. 150/5A
 
-Câu 2: Công thức tính tỉ số biến áp là:
+Công thức tính tỉ số biến áp là:
 *a. $K = \frac{U_\text{sơ cấp}}{U_\text{đm thứ cấp}}$
 b. $K = \frac{U_\text{sơ cấp}}{U_\text{đm thứ cấp không tải}}$
 c. $K = \frac{U_\text{sơ cấp}}{U_\text{đm thứ cấp đầy tải}}$
 d. $K = \frac{𝑈_\text{sơ cấp}}{U_\text{đm thứ cấp nấc 1}}$
 
-Câu 3: Trạm biến áp phân phối trên lưới 22kV gồm các thiết bị trung áp chính:
+Trạm biến áp phân phối trên lưới 22kV gồm các thiết bị trung áp chính:
 a. PT, CT(nếu đo đếm gián tiếp), APFC
 b. MBA, LA, FCO(hoặc LBFCO), PT, CT
 c. MBA, LA, FCO(hoặc LLBFCO, máy cắt), MCCB, ACB
 *d. MBA, LA, FCO(hoặc LBFCO), PT, CT, CB, điện kế
 
-Câu 4: Tâm phụ tải thường được xác định để lắp đặt?
+Tâm phụ tải thường được xác định để lắp đặt?
 a. Vị trí đặt tủ động lực
 b. Vị trí để đặt hệ thống nối đất
 c. Vị trí đặt tủ phân phối
 *d. Vị trí đặt MBA
 
-Câu 5: Mục đích điều chỉnh bộ phận áp MBA:
+Mục đích điều chỉnh bộ phận áp MBA:
 a. Điều chỉnh điện áp phía cao áp tương ứng với giá trị định mức hạ áp
 b. Tăng điện áp phía cao áp
 c. Tăng điện áp phía hạ áp
 *d. Điều chỉnh điện áp phía hạ áp tương ứng với giá trị định mức hạ áp 
 
-Câu 6: Điều gì sai đối với trạm biến áp giàn?
+Điều gì sai đối với trạm biến áp giàn?
 a. MBA luôn là 1 MBA loại 3 pha
 b. Điện áp biến đổi là điện áp trung/hạ
 c. Các thiết bị phân phối và MBA được đặt trên giá giữa hai cột
 *d. Là trạm khách hàng và trạm công cộng
 
-Câu 7: Phụ tải loại 1 có $S_{max}$ = 800kVA, công suất MBA được chọn:
+Phụ tải loại 1 có $S_{max}$ = 800kVA, công suất MBA được chọn:
 a. 2 máy 400kVA
 *b. 2 máy 630kVA
 c. 2 máy 750kVA
 d. 2 máy 800kVA
 
-Câu 8: Máy phát điện phân phối điều chỉnh điện áp
+Máy phát điện phân phối điều chỉnh điện áp
 a. Dưới tải
 b. Có điện và không tải
 c. Không tải
 *d. Có điện và có tải
 
-Câu 9: Nguyên tắc đấu ghép 3 MBA 1 vận hành 3 pha 4 dây, câu nào sau đây sai:
+Nguyên tắc đấu ghép 3 MBA 1 vận hành 3 pha 4 dây, câu nào sau đây sai:
 a. Xác định 3 đầu cuộn dây làm dây pha, 3 đầu cuối cuộn đấu chung làm điểm trung tính
 b. Mỗi MBA đấu dây vận hành kiểu 1 pha 3 dây
 c. Mỗi MBA đấu dây vận hành kiểu 1 pha
 *d. Chọn bất kì 1 đấu dây của mỗi MBA và đấu chung với nhau để làm dây trung tính 
 
-Câu 10: Trên nhãn MBA lực, hệ thống làm mát kí hiệu ONAN có nghĩa là gì?
+Trên nhãn MBA lực, hệ thống làm mát kí hiệu ONAN có nghĩa là gì?
 *a. Làm mát bằng dầu và đối lưu không khí tự nhiên
 b. Làm mát tự nhiên bằng dầu và không khí
 c. Làm mát tự nhiên bằng dầu và làm mát cưỡng bức bằng không khí
 d. Làm mát cưỡng bức bằng dầu và không khí
 
-Câu 11: Theo quy định ban hành và bảo dưỡng trạm biến áp phân phối (1786/QĐ_EVN_KTLĐ ngày 28/06/2004) quy định trạm biến áp:
+Theo quy định ban hành và bảo dưỡng trạm biến áp phân phối (1786/QĐ_EVN_KTLĐ ngày 28/06/2004) quy định trạm biến áp:
 a. Trạm có MBA lực biến đổi điện áp sơ cấp từ lớn hơn 1kV đến 22kV sang điện áp thứ cấp có điện áp nhỏ hơn hoặc bằng 1kV
 b. Trạm có MBA lực biến đổi điện áp sơ cấp từ lớn hơn 1kV đến 22kV sang điện áp thấp có điện áp nhỏ hơn hoặc bằng 1kV
 *c. Trạm có MBA lực biến đổi điện áp sơ cấp từ 1kV đến 35kV sang điện áp thứ cấp có điện áp nhỏ hơn hoặc bằng 1kV
 d. Trạm có MBA lực biến đổi điện áp sơ cấp từ lớn hơn 1kV đến 35kV sang điện áp thứ cấp có điện áp nhỏ hơn hoặc bằng 1kV
 
-Câu 12: Kết cấu trạm treo và trạm giàn được sử dụng khi công suất trạm:
+Kết cấu trạm treo và trạm giàn được sử dụng khi công suất trạm:
 a. S <= 200kV
 *b. S <= 400kV
 c. S <= 800kV
 d. Không giới hạn công suất trạm
 
-Câu 13: ONAF theo IEC là kí hiệu phương thức làm mát nào của MBA?
+ONAF theo IEC là kí hiệu phương thức làm mát nào của MBA?
 a. MBA khô, không khí đối lưu tự nhiên
 b. Dầu làm mát tuần hoàn cưỡng bức, không khí bên ngoài đối lưu tự nhiên
 c. Dầu làm mát tuần hoàn tự nhiên, không khí bên ngoài đối lưu tự nhiên
 *d. Máy biến áp tuần hoàn dầu tự nhiên, thông gió cưỡng bức
 
-Câu 14: Vì sao máy biến điện áp (PT) tuyệt đối không được vận hành ở chế độ ngắn mạch?
+Vì sao máy biến điện áp (PT) tuyệt đối không được vận hành ở chế độ ngắn mạch?
 a. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực và có số vòng dây phía sơ cấp nhiều hơn rất nhiều so với phía thứ cấp nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
 b. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
 c. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì dòng điện phía sơ cấp và thứ cấp của PT tăng cao gây hư hỏng thiết bị
 *d. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì điện áp phía sơ cấp của PT tăng cao gây hư hỏng thiết bị
 
-Câu 15: Giá trị của hệ số quá tải lúc bình thường của MBA là:
+Giá trị của hệ số quá tải lúc bình thường của MBA là:
 *a. $K^{bt}_{qt} = 1 + (1 - K_{đk}) \text{x} 0.3$
 b. Tùy thuộc vào nhiệt độ và loại MBA
 c. 1.3
 d. 1.4
 
-Câu 16: Với mỗi MBA có bố trí đầu phân áp:
+Với mỗi MBA có bố trí đầu phân áp:
 a. Tất cả các vị trí điều chỉnh của đầu phân áp chỉ có một tỉ số biến áp
 b. Tất cả các vị trí điều chỉnh của đầu phân áp đều có cùng một công suất định mức
 c. Ứng với mỗi vị trí điều chỉnh của đầu phân áp sẽ có một tỉ số biến áp
 *d. Ứng với mỗi vị trí điều chỉnh của đầu phân áp sẽ có trị số dòng điện định mức khác nhau
 
-Câu 17: Việc xác định cực tính cuộn dây MBA 1 pha có ý nghĩa:
+Việc xác định cực tính cuộn dây MBA 1 pha có ý nghĩa:
 a. Xác định đúng cực tính như trên nameplate
 *b. Phục vụ cho việc đấu dây vận hành MBA một cách đúng đắn
 c. Không cần thực hiện vì có thể biết dựa vào nameplate hoặc phiếu vàng
 d. Không có tác dụng gì cụ thể 
 
-Câu 18: MBA lực dùng để:
+MBA lực dùng để:
 a. Nâng công suất nguồn
 *b. Tăng hoặc giảm điện áp
 c. Nâng cao hệ số tải
 d. Giảm điện áp
 
-Câu 19: Một hộ tiêu thụ sử dụng các thiết bị sau. Chọn dung lượng MBA để cung cấp điện cho hộ tiêu thụ đó:
+Một hộ tiêu thụ sử dụng các thiết bị sau. Chọn dung lượng MBA để cung cấp điện cho hộ tiêu thụ đó:
 @img images/c6-1.png
 a. 10kVA
 *b. 25kVA
 c. 20kVA
 d. 15kVA
 
-Câu 20: Một hộ tiêu thụ sử dụng các thiết bị sau. Chọn dung lượng MBA để cung cấp điện cho hộ tiêu thụ đó:
+Một hộ tiêu thụ sử dụng các thiết bị sau. Chọn dung lượng MBA để cung cấp điện cho hộ tiêu thụ đó:
 @img images/c6-2.png
 a. 200kVA
 *b. 180kVA
 c. 160kVA
 d. 250kVA
 
-Câu 21: Công suất MBA cung cấp cho phụ tải loại 1 được chọn theo biểu thức:
+Công suất MBA cung cấp cho phụ tải loại 1 được chọn theo biểu thức:
 a. $S >= \frac{S_{max}}{𝐾_{qtbt}}$
 b. $S >= \frac{S_{max}}{(n−1)K_{qtbt}}$
 *c. $S >= \frac{S_{max}}{(n−1)K_{qtsc}}$
 d. $S >= \frac{S_{max}}{K_{qtsc}}$
 
-Câu 22: Hai MBA 1 pha ghép lại để tạo ra hệ thống hạ thế 1P – 3W, có điện áp:
+Hai MBA 1 pha ghép lại để tạo ra hệ thống hạ thế 1P – 3W, có điện áp:
 a. Pha với trung tính 200V ($U_p$ 200V), pha với pha 380V ($U_d$ 380V)
 *b. Tùy cách đấu nối mà có điện áp phù hợp
 c. Pha với trung tính 200V ($U_p$ 220V), pha với pha 0V ($U_d$ 0V)
 d. Pha với trung tính 200V ($U_p$ 220V), pha với pha 440V ($U_d$ 400V) 
 
-Câu 23: Hệ số quá tải của MBA sản xuất theo tiêu chuẩn IEC là:
+Hệ số quá tải của MBA sản xuất theo tiêu chuẩn IEC là:
 a. 1.2
 b. 1.5
 c. 1.4
 *d. 1.3
 
-Câu 24: Thực hiện các thí nghiệm dưới:
+Thực hiện các thí nghiệm dưới:
 1. Thí nghiệm không tải
 2. Thí nghiệm đầy tải
 3. Thí nghiệm quá tải
@@ -149,38 +149,38 @@ b. Câu 2, 3
 c. Câu 1, 3
 d. Câu 1, 2
 
-Câu 25: MBA phân phối được lắp đặt trên các:
+MBA phân phối được lắp đặt trên các:
 a. Đường dây 66kV lưới 66kV
 b. Đường dây 220kV lưới 220kV
 *c. Đường dây 22kV lưới 22kV
 d. Đường dây 110V lưới 110V
 
-Câu 26: Dòng điện định mức ở phía cao áp của MBA 3 pha 22/0.4 – 630kVA là:
+Dòng điện định mức ở phía cao áp của MBA 3 pha 22/0.4 – 630kVA là:
 a. $I =	\frac{6300}{(√3 × 0.4)} (A)$
 *b. $I = \frac{630}{(√3 × 22)} (A)$
 c. $I = \frac{63000}{(√3 × 22000)} (A)$
 d. $I =	\frac{630}{(√3 × 0.4)} (A)$
 
-Câu 27: Một hộ tiêu thụ sử dụng các thiết bị sau: động cơ 1 pha kết nối với pha B – N; đèn kết nối pha C – N. Chọn dung lượng máy biến áp 3 pha để cấp hộ tiêu thụ trên:
+Một hộ tiêu thụ sử dụng các thiết bị sau: động cơ 1 pha kết nối với pha B – N; đèn kết nối pha C – N. Chọn dung lượng máy biến áp 3 pha để cấp hộ tiêu thụ trên:
 @img images/c6-3.png
 a. 37.5kVA
 b. 100kVA
 *c. 50kVA
 d. 75kVA
 
-Câu 28: Cách điện dung trong các loại MBA có thể sử dụng:
+Cách điện dung trong các loại MBA có thể sử dụng:
 a. Epoxy
 b. Khí $SF_6$
 c. Chân không
 *d. Dầu biến áp
 
-Câu 29: Ở điều kiện làm việc làm bình thường của MBA theo IEC, quá tải sự cố của MBA:
+Ở điều kiện làm việc làm bình thường của MBA theo IEC, quá tải sự cố của MBA:
 a. Phụ thuộc vào phụ tải trước khi sự cố xảy ra
 b. Phụ thuộc vào tuổi thọ MBA
 *c. Phụ thuộc đồ thị phụ tải, nhiệt độ môi trường xung quanh và sự non tải lúc thấp điểm trong ngày, tuần, tháng, mùa
 d. Không phụ thuộc vào phụ tải trước sự cố của MBA
 
-Câu 30: MBA có vị trí chỉnh nấc điện áp sơ cấp(cấp 1, 2, 3, 4, 5; nấc 3 là 100% điện áp):
+MBA có vị trí chỉnh nấc điện áp sơ cấp(cấp 1, 2, 3, 4, 5; nấc 3 là 100% điện áp):
 *a. 3 tỉ số biến
 b. Duy nhất 1 tỉ số biến
 c. 5 tỉ số biến
