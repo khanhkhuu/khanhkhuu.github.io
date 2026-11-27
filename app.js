@@ -539,7 +539,7 @@ function buildMergedExportHtml(examGroups, compact = false) {
 function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml, compact = false, merged = false }) {
   const printWin = window.open('', '_blank');
   if (!printWin) {
-    alert('Trình duyệt đã chặn cửa sổ mới. Hãy cho phép popup để xuất PDF.');
+    alert('Trình duyệt đã chặn cửa sổ mới. Hãy cho phép popup để xem đề đáp án.');
     return;
   }
 
@@ -588,7 +588,48 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       padding: 10px 12px;
       margin-bottom: 20px;
     }
+    .toolbar-left {
+      display: flex;
+      flex: 1;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      min-width: 220px;
+    }
     .toolbar p { margin: 0; color: #374151; font-size: 13px; }
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      min-width: 200px;
+      max-width: 420px;
+    }
+    .search-wrap input {
+      flex: 1;
+      min-width: 0;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 9px 12px;
+      font-size: 14px;
+      outline: none;
+      background: #fff;
+    }
+    .search-wrap input:focus {
+      border-color: #4f46e5;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+    }
+    .search-count {
+      color: #4b5563;
+      font-size: 12px;
+      white-space: nowrap;
+      min-width: 4.5em;
+    }
+    .toolbar-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
     .toolbar button {
       border: none;
       border-radius: 8px;
@@ -597,6 +638,11 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       cursor: pointer;
       background: #4f46e5;
       color: #fff;
+    }
+    .toolbar button.btn-ghost {
+      background: #fff;
+      color: #374151;
+      border: 1px solid #cbd5e1;
     }
     h1 { font-size: 22px; margin: 0 0 6px; }
     .meta { color: #4b5563; margin: 0 0 22px; }
@@ -620,6 +666,10 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
     .question-block.compact {
       margin: 0 0 8px;
       padding-bottom: 6px;
+    }
+    .question-block.is-hidden,
+    .exam-block.is-hidden {
+      display: none !important;
     }
     .q-title { white-space: pre-wrap; margin-bottom: 8px; }
     .question-block.compact .q-title { margin-bottom: 4px; }
@@ -674,10 +724,20 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       font-weight: 500;
     }
     .correct-mark { color: #15803d; font-size: 12px; font-weight: 700; }
+    .empty-search {
+      display: none;
+      margin: 24px 0;
+      padding: 14px 16px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 10px;
+      color: #6b7280;
+      background: #f9fafb;
+    }
+    .empty-search.visible { display: block; }
     @media print {
       body { padding: 12mm 14mm; font-size: 12.5px; }
       body.compact-mode { padding: 8mm 10mm; font-size: 11.5px; line-height: 1.35; }
-      .toolbar { display: none !important; }
+      .toolbar, .empty-search { display: none !important; }
       a { color: inherit; text-decoration: none; }
       .question-block.compact { margin: 0 0 5px; padding-bottom: 4px; }
     }
@@ -685,24 +745,84 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
 </head>
 <body class="${compact ? 'compact-mode' : ''}${merged ? ' merged-mode' : ''}">
   <div class="toolbar">
-    <p>Chọn <strong>Save as PDF / Lưu thành PDF</strong> trong hộp thoại in.${modeLabel ? ` <em>(${escapeHtml(modeParts.join(' · '))})</em>` : ''}</p>
-    <button type="button" onclick="window.print()">In / Lưu PDF</button>
+    <div class="toolbar-left">
+      <div class="search-wrap">
+        <input type="search" id="answerSearch" placeholder="Tìm câu hỏi hoặc đáp án..." autocomplete="off" />
+        <span class="search-count" id="searchCount">${questionCount}/${questionCount}</span>
+      </div>
+      ${modeLabel ? `<p><em>${escapeHtml(modeParts.join(' · '))}</em></p>` : ''}
+    </div>
+    <div class="toolbar-actions">
+      <button type="button" class="btn-ghost" id="clearSearchBtn">Xóa tìm</button>
+      <button type="button" onclick="window.print()">In / Lưu PDF</button>
+    </div>
   </div>
   <h1>${escapeHtml(docTitle)}</h1>
   <p class="meta">${examCount} đề · ${questionCount} câu hỏi${modeLabel} · Xuất lúc ${escapeHtml(generatedAt)}</p>
+  <div id="emptySearch" class="empty-search">Không tìm thấy câu hỏi khớp từ khóa.</div>
   ${bodyHtml}
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/katex.min.js"><\/script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.19.1/dist/contrib/auto-render.min.js"><\/script>
   <script>
     var katexOptions = ${JSON.stringify(KATEX_OPTIONS)};
-    function readyPrint() {
+    var totalQuestions = ${questionCount};
+
+    function normalizeSearch(text) {
+      return String(text || '')
+        .toLocaleLowerCase('vi-VN')
+        .normalize('NFD')
+        .replace(/[\\u0300-\\u036f]/g, '')
+        .replace(/đ/g, 'd');
+    }
+
+    function filterQuestions(rawQuery) {
+      var query = normalizeSearch(rawQuery).trim();
+      var blocks = document.querySelectorAll('.question-block');
+      var shown = 0;
+
+      blocks.forEach(function (block) {
+        var haystack = normalizeSearch(block.textContent || '');
+        var match = !query || haystack.indexOf(query) !== -1;
+        block.classList.toggle('is-hidden', !match);
+        if (match) shown += 1;
+      });
+
+      document.querySelectorAll('.exam-block').forEach(function (section) {
+        var visibleInside = section.querySelectorAll('.question-block:not(.is-hidden)').length;
+        section.classList.toggle('is-hidden', visibleInside === 0);
+      });
+
+      var countEl = document.getElementById('searchCount');
+      if (countEl) countEl.textContent = shown + '/' + totalQuestions;
+
+      var emptyEl = document.getElementById('emptySearch');
+      if (emptyEl) emptyEl.classList.toggle('visible', shown === 0);
+    }
+
+    function readyView() {
       if (typeof renderMathInElement === 'function') {
         renderMathInElement(document.body, katexOptions);
       }
-      setTimeout(function () { window.print(); }, 350);
+
+      var input = document.getElementById('answerSearch');
+      var clearBtn = document.getElementById('clearSearchBtn');
+      if (input) {
+        input.addEventListener('input', function () {
+          filterQuestions(input.value);
+        });
+        input.focus();
+      }
+      if (clearBtn && input) {
+        clearBtn.addEventListener('click', function () {
+          input.value = '';
+          filterQuestions('');
+          input.focus();
+        });
+      }
     }
-    if (document.readyState === 'complete') readyPrint();
-    else window.addEventListener('load', readyPrint);
+
+    if (document.readyState === 'complete') readyView();
+    else window.addEventListener('load', readyView);
   <\/script>
 </body>
 </html>`);
@@ -712,7 +832,7 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
 async function exportSelectedExamsToPdf() {
   const selected = [...state.selectedExams];
   if (selected.length === 0) {
-    alert('Hãy chọn ít nhất 1 đề để xuất PDF.');
+    alert('Hãy chọn ít nhất 1 đề để xuất đề đáp án.');
     return;
   }
 
