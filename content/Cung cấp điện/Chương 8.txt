@@ -5,10 +5,10 @@ c. Độ sụt áp trên dây dẫn
 d. Nhiệt độ của dây dẫn 
 
 Dây A70 nghĩa là:
-a. Dây đồng tiết diện 70$mm^2$
-*b. Dây nhôm tiết diện 70$mm^2$
-c. Cáp điện lực tiết diện 70$mm^2$
-d. Cáp đồng tiết diện 70 $mm^2$
+a. Dây đồng tiết diện 70mm$^2$
+*b. Dây nhôm tiết diện 70mm$^2$
+c. Cáp điện lực tiết diện 70mm$^2$
+d. Cáp đồng tiết diện 70 mm$^2$
 
 Tại sao có hệ số hiệu chỉnh K khi lựa chọn dây dẫn?
 *a. Do thực tế lắp đặt dây cáp khác với điều kiện định mức của nhà sản xuất
@@ -107,10 +107,10 @@ c. CV
 d. CXV
 
 Máy biến áp cho S = 750kVA, cáp xuất hạ áp được kí hiệu:
-a. 3x1Cx750$mm^2$ Cu/PVC
-b. 3x4Cx200$mm^2$ Cu/PVC/XLPE
-c. 4x3x1Cx200$mm^2$ Cu/PVC
-*d. 4x4Cx200$mm^2$ Cu/PVC
+a. 3x1Cx750mm$^2$ Cu/PVC
+b. 3x4Cx200mm$^2$ Cu/PVC/XLPE
+c. 4x3x1Cx200mm$^2$ Cu/PVC
+*d. 4x4Cx200mm$^2$ Cu/PVC
 
 Loại dây/cáp hạ áp sử dụng phổ biến của lưới phân phối hạ áp điện lực 3 pha là:
 *a. LV – ABC
@@ -124,7 +124,7 @@ b. CXV
 c. CV
 d. LV - ABC
 
-Trên bản vẽ có ghi kí hiệu 1x4Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+Trên bản vẽ có ghi kí hiệu 1x4Cx25mm$^2$ E16mm$^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
 *a. 10m
 b. 30m
 c. 40m
@@ -136,17 +136,17 @@ b. Dây nhôm A
 c. Dây nhôm lõi thép tăng cường ACSR
 *d. Dây đồng C
 
-Trên bản vẽ có ghi kí hiệu 4x1Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+Trên bản vẽ có ghi kí hiệu 4x1Cx25mm$^2$ E16mm$^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 10m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
 *a. 16m
 b. 50m
 c. 25m
 d. 40m
 
 Máy biến áp cho S = 250kVA. Cáp xuất hạ áp được kí hiệu:
-a. 4x1Cx150$mm^2$ Cu/PVC
-b. 1x4Cx200$mm^2$ Cu/PVC/XLPE
-c. 4x1Cx200$mm^2$ Cu/PVC
-*d. 1x4Cx200$mm^2$ Cu/PVC
+a. 4x1Cx150mm$^2$ Cu/PVC
+b. 1x4Cx200mm$^2$ Cu/PVC/XLPE
+c. 4x1Cx200mm$^2$ Cu/PVC
+*d. 1x4Cx200mm$^2$ Cu/PVC
 
 Để cấp điện khu dân cư, lưới điện hạ áp đi ngầm, kiểu đu dây trong mương cáp, nên dùng loại cáp nào?
 a. CVV
@@ -154,11 +154,11 @@ a. CVV
 c. CV
 d. CXV
 
-Khi tiết diện dây pha là 120$mm^2$ thì chọn tiết diện dây dây PE bằng:
-a. 90$mm^2$
-b. 70$mm^2$
-c. 80$mm^2$
-*d. 60$mm^2$
+Khi tiết diện dây pha là 120mm$^2$ thì chọn tiết diện dây dây PE bằng:
+a. 90mm$^2$
+b. 70mm$^2$
+c. 80mm$^2$
+*d. 60mm$^2$
 
 Việc kiểm tra điều kiện ổn định nhiệt sẽ đảm bảo:
 a. Chiều dài dây tối đa an toàn
@@ -179,7 +179,7 @@ a. Cáp 3 lõi
 c. Cáp 1 lõi
 d. Cáp 4 lõi
 
-Theo tiêu chuẩn IEC, khi đi dây có mã số C. Dây nhôm có tiết diện 240$mm^2$ có khả năng tải dòng:
+Theo tiêu chuẩn IEC, khi đi dây có mã số C. Dây nhôm có tiết diện 240mm$^2$ có khả năng tải dòng:
 a. 350A
 b. 464A
 c. 305A
@@ -221,7 +221,7 @@ b. $K = K_{4}K_{5}K_{6}$
 *c. $K = K_{1}K_{2}K_{3}$
 d. $K = K_{1}K_{2}K_{3}K_{4}$
 
-Khi dây pha có tiết diện 25$mm^2$, dây bảo vệ PE có tiết diện:
+Khi dây pha có tiết diện 25mm$^2$, dây bảo vệ PE có tiết diện:
 a. $11mm^2$
 *b. $16mm^2$
 c. $20mm^2$
@@ -233,7 +233,7 @@ b. Dây nhôm lõi thép tăng cường ACSR
 *c. Dây nhôm lõi thép AC/AS
 d. Dây đồng C
 
-Trên bản vẽ có ghi kí hiệu 1x3Cx25$mm^2$ E16$mm^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 25m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
+Trên bản vẽ có ghi kí hiệu 1x3Cx25mm$^2$ E16mm$^2$ Cu/XLPE/PVC. Chiều dài đoạn dây cần thi công 25m, tổng chiều dài cáp dây dẫn bảo vệ cần mua:
 a. 32m
 b. 50m
 c. 16m
