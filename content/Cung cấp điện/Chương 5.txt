@@ -1,0 +1,165 @@
+Trong sơ đồ mạng phân phối với máy phát dự phòng, công suất máy phát điện
+a. Theo tư vấn của nhà bán máy phát điện
+b. Theo suất đầu tư của chủ đầu tư
+*c. Bằng tổng công suất các thiết bị quan trọng
+d. Bằng với công suất máy biến áp
+
+Ưu điểm chính của thanh dẫn (Bus Duct) so với cáp (Cable) là:
+*a. Dễ lắp đặt và sửa chữa
+b. Dễ sửa chữa
+c. Giá thành hợp lý
+d. Kích thước nhỏ, tải dòng lớn 
+
+Lưới hệ thống là lưới có điện áp
+a. Từ 35kV trở lên
+b. Từ 500kV trở lên
+*c. Từ 220kV trở lên
+d. Từ 66kV đến 22kV
+
+Sơ đồ mạng phân phối hạ áp nào được sử dụng rộng rãi ở Việt Nam
+a. Hình tia (MBA -> MDB -> Busway -> Thiết bị)
+b. Tất cả đáp án đều đúng
+*c. Hình tia (MBA -> MDB -> DB -> Thiết bị)
+d. Hình tia (MBA -> Busway chính -> Busway phụ -> Thiết bị)
+
+Tiêu chuẩn quốc tế về điện áp cho lưới hạ thế 3 pha 4 dây theo IEC 38 1983 là:
+*a. 230/400V
+b. 230/380V
+c. 220/400V
+d. 220/380V
+
+Hiện nay mạng phân phối trung thế thường sử dụng:
+a. Dây nhôm lõi thép
+*b. Tất cả đều đúng
+c. Dây nhôm
+d. Cáp xoắn bọc cách điện
+
+Câu nào sau đây sai đối với thanh dẫn (Bus Duct):
+a. Phân phối điện cho các thiết bị đặt dọc theo phân xưởng
+*b. Sử dụng khi cần có độ an toàn về điện cao
+c. Sử dụng cho các tuyến phân phối chính có dòng làm việc hàng trăm Ampe
+d. Sử dụng làm trục dẫn xuyên tầng trong tòa nhà cao tầng
+
+Hình dưới đây là tủ hạ thế nào?
+@img images/c5-1.png
+a. Tủ phân phối hạ áp chính (MLVS)
+*b. Trung tâm điều khiển động cơ (MCC)
+c. Tủ phân phối cuối (Final – distribution swtichboards)
+d. Tủ phân phối phụ (Sub- distribution switchboards)
+
+Hệ thống phân phối mạng cao áp có điện áp định mức từ 60-110kV không sử dụng loại cột nào sau đây?
+a. Cột bê tông cốt thép
+b. Cột ống thép
+c. Cột lá thép
+*d. Cột gỗ ống thép
+
+Nhược điểm của cột bê tông cốt thép khi dùng cho đường dây điện áp lên đến 500kV?
+a. Kém bền hơn cột gỗ
+b. Giá thành rất cao
+*c. Trọng lượng lớn và độ bền uốn nhỏ
+d. Khó trong việc lắp đặt
+
+Sơ đồ mạng cung cấp điện dưới đây là sơ đồ mạng tiêu chuẩn nào?
+@img images/c5-2.png
+a. Mạng chọn lọc sơ cấp
+*b. Mạng hình tia
+c. Mạng điện cấp đôi
+d. Mạng lưới
+
+Cáp hạ áp bọc PVC đơn lõi thường được sử dụng cho:
+*a. Tải công suất lớn cân bằng
+b. Tải công suất nhỏ, cân bằng
+c. Tải công suất nhỏ, không cân bằng
+d. Tải công suất lớn, không cân bằng
+
+Hình dưới đây là sơ đồ phân phối nào?
+@img images/c5-3.png
+a. Mạng phân nhánh hình tia sử dụng các thanh dẫn điện lắp ghép (BTS) ở mức phân phối thứ 2
+b. Mạng phân nhánh hình tia với cách đi dây thông thường ở 3 mức
+c. Sơ đồ hình tia không phân nhánh
+*d. Mạng phân nhánh hình tia sử dụng các thanh dẫn điện lắp ghép và dây dẫn ở cuối lưới
+
+Loại dây nào ít được sử dụng trong mạng phân phối hạ thế trong nhà:
+*a. Cu/PVC
+b. Cáp xoắn bọc cách điện (LB – ABC)
+c. Cu/PVC-PVC
+d. Cu/PVC-XLPE
+
+Mạng phân phối trung áp thường sử dụng dây:
+a. Nhôm bọc PVC
+b. Đồng bọc XLPE
+c. LV – ABC
+*d. Nhôm xoắn lõi thép
+
+Nhiệt độ cho phép của lõi đối với cáp cách điện bằng XLPE là:
+a. 60 độ C
+*b. 90 độ C
+c. 70 độ C
+d. 80 độ C
+
+Phương án đi dây/ cáp nổi thường được sử dụng khi:
+a. Yêu cầu thiết bị có thể thay đổi
+b. Yêu cầu đơn giản hóa trong lắp đặt và sửa chữa
+*c. Tất cả các đáp án
+d. Cấu hình mạng điện có thể thay đổi
+
+Hệ thống thu thập dữ liệu và điều khiển viết tắt tiếng Anh là:
+a. DCS
+b. PLCS
+c. EPS
+*d. SCADA
+
+Nhược điểm của sơ đồ phân nhánh hình tia:
+a. Độ tin cậy cung cấp điện thấp
+b. Không chọn được kích thước dây dẫn với mức giảm dần cho tới cuối mạch
+c. Tất cả các phương án
+*d. Khi sự cố xảy ra trong đường cấp điện từ tủ điện chính sẽ cắt điện tất cả các mạch và tủ điện phía sau
+
+Lưới điện phân phối là lưới điện có cấp điện áp:
+a. Từ 15kV đến 35kV
+b. Từ 1kV đến 25kV
+c. Từ 0.4kV đến 22kV
+*d. Từ 35kV trở xuống
+
+LA trong sơ đồ trạm biến áp là thiết bị:
+a. Bảo vệ chống quá dòng điện tải
+b. Bảo vệ chống sét đánh trực tiếp
+*c. Bảo vệ chống sét lan truyền
+d. Bảo vệ chống chạm đất trong cuộn dây MBA
+
+Sơ đồ mạng cung cấp điện dưới đây là sơ đồ mạng tiêu chuẩn nào?
+@img images/c5-4.png
+a. Mạng hình tia
+b. Mạng chọn lọc sơ cấp
+c. Mạng cấp điện đôi
+*d. Mạng lưới
+
+Theo tiêu chuẩn IEC 364-5-52 (1993), tiến hành đi dây ngầm không cố định phải thỏa phương pháp Qc số
+*a. 81
+b. 61
+c. 31
+d. 23A
+
+Ở Việt Nam, hiện nay Busway thường được sử dụng cho:
+a. Mạng điện cấp cho tải
+b. Tất cả đều đúng
+*c. Trục phân phối chính
+d. Trục phân phối phụ
+
+DB là viết tắt của:
+a. Tủ điều khiển
+*b. Tủ phân phối phụ
+c. Tủ phân phối chính
+d. Tất cả đều đúng
+
+Ưu điểm sơ đồ hình tia không phân nhánh:
+*a. Độ tin cậy cung cấp điện cao
+b. Tất cả đều đúng
+c. Là sơ đồ phổ biến với kích cỡ dây giảm dần tại các điểm phân nhánh
+d. Sơ đồ này rất đơn giản khi số lượng mạch lớn
+
+Lưới phân phối trung áp tại Việt Nam được chuẩn hóa là:
+a. 15kV
+b. 35kV
+*c. 22kV
+d. 66kV
