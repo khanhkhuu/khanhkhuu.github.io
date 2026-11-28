@@ -80,7 +80,7 @@ Vì sao máy biến điện áp (PT) tuyệt đối không được vận hành 
 a. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực và có số vòng dây phía sơ cấp nhiều hơn rất nhiều so với phía thứ cấp nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
 b. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
 c. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì dòng điện phía sơ cấp và thứ cấp của PT tăng cao gây hư hỏng thiết bị
-*d. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì điện áp phía sơ cấp của PT tăng cao gây hư hỏng thiết bị
+*d. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì điện áp phía sơ cấp của PT tăng cao gây hỏng thiết bị
 
 Giá trị của hệ số quá tải lúc bình thường của MBA là:
 *a. $K^{bt}_{qt} = 1 + (1 - K_{đk}) \text{x} 0.3$
@@ -126,7 +126,7 @@ b. $S >= \frac{S_{max}}{(n−1)K_{qtbt}}$
 *c. $S >= \frac{S_{max}}{(n−1)K_{qtsc}}$
 d. $S >= \frac{S_{max}}{K_{qtsc}}$
 
-Hai MBA 1 pha ghép lại để tạo ra hệ thống hạ thế 1P – 3W, có điện áp:
+Hai MBA 1 pha ghép lại để tạo ra hệ thống hạ thế 1P-3W, có điện áp:
 a. Pha với trung tính 200V ($U_p$ 200V), pha với pha 380V ($U_d$ 380V)
 *b. Tùy cách đấu nối mà có điện áp phù hợp
 c. Pha với trung tính 200V ($U_p$ 220V), pha với pha 0V ($U_d$ 0V)
@@ -155,13 +155,13 @@ b. Đường dây 220kV lưới 220kV
 *c. Đường dây 22kV lưới 22kV
 d. Đường dây 110V lưới 110V
 
-Dòng điện định mức ở phía cao áp của MBA 3 pha 22/0.4 – 630kVA là:
+Dòng điện định mức ở phía cao áp của MBA 3 pha 22/0,4kV – 630kVA là:
 a. $I =	\frac{6300}{(√3 × 0.4)} (A)$
 *b. $I = \frac{630}{(√3 × 22)} (A)$
 c. $I = \frac{63000}{(√3 × 22000)} (A)$
 d. $I =	\frac{630}{(√3 × 0.4)} (A)$
 
-Một hộ tiêu thụ sử dụng các thiết bị sau: động cơ 1 pha kết nối với pha B – N; đèn kết nối pha C – N. Chọn dung lượng máy biến áp 3 pha để cấp hộ tiêu thụ trên:
+Một hộ tiêu thụ sử dụng các thiết bị sau: động cơ 1 pha kết nối với pha B-N; đèn kết nối pha C-N. Chọn dung lượng máy biến áp 3 pha để cấp cho hộ tiêu thụ trên:
 @img images/c6-3.png
 a. 37.5kVA
 b. 100kVA
@@ -174,13 +174,13 @@ b. Khí $SF_6$
 c. Chân không
 *d. Dầu biến áp
 
-Ở điều kiện làm việc làm bình thường của MBA theo IEC, quá tải sự cố của MBA:
+Ở điều kiện làm việc bình thường của MBA theo IEC, quá tải sự cố của MBA:
 a. Phụ thuộc vào phụ tải trước khi sự cố xảy ra
 b. Phụ thuộc vào tuổi thọ MBA
 *c. Phụ thuộc đồ thị phụ tải, nhiệt độ môi trường xung quanh và sự non tải lúc thấp điểm trong ngày, tuần, tháng, mùa
 d. Không phụ thuộc vào phụ tải trước sự cố của MBA
 
-MBA có vị trí chỉnh nấc điện áp sơ cấp(cấp 1, 2, 3, 4, 5; nấc 3 là 100% điện áp):
+MBA có vị trí chỉnh nấc điện áp sơ cấp (cấp 1, 2, 3, 4, 5; nấc 3 là 100% điện áp):
 *a. 3 tỉ số biến
 b. Duy nhất 1 tỉ số biến
 c. 5 tỉ số biến

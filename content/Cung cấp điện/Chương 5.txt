@@ -70,7 +70,7 @@ Cáp hạ áp bọc PVC đơn lõi thường được sử dụng cho:
 *a. Tải công suất lớn cân bằng
 b. Tải công suất nhỏ, cân bằng
 c. Tải công suất nhỏ, không cân bằng
-d. Tải công suất lớn, không cân bằng
+d. Tải công suất lớn không cân bằng
 
 Hình dưới đây là sơ đồ phân phối nào?
 @img images/c5-3.png
@@ -152,7 +152,7 @@ a. Tủ điều khiển
 c. Tủ phân phối chính
 d. Tất cả đều đúng
 
-Ưu điểm sơ đồ hình tia không phân nhánh:
+Ưu điểm của sơ đồ hình tia không phân nhánh:
 *a. Độ tin cậy cung cấp điện cao
 b. Tất cả đều đúng
 c. Là sơ đồ phổ biến với kích cỡ dây giảm dần tại các điểm phân nhánh
@@ -163,3 +163,9 @@ a. 15kV
 b. 35kV
 *c. 22kV
 d. 66kV
+
+Lưới điện truyền tải là lưới có cấp điện áp?
+a. Từ 66kV đến 220kV
+*b. Từ 220kV trở lên
+c. Từ 500kV trở lên
+d. Từ 35kV trở lên
