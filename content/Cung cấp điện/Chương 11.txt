@@ -1,0 +1,239 @@
+Câu 1: Câu nào sai đối với tụ bù?
+*a. Mức tiêu hao công suất thấp
+b. Có thể phát Q chính xác theo yêu cầu
+c. Đơn giản trong lắp đặt và vận hành
+d. Vốn đầu tư thấp
+
+Câu 2: Chất liệu điện môi để tạo bù hạ áp?
+a. Dầu
+*b. Polypropylence
+c. Hợp kim nhôm
+d. Cuộn dây
+
+Câu 3: Máy biến áp có S = 630 kVA, điện áp ngắn mạch là U$_n$ = 4%. Tổng công suất của thiết bị sinh sóng hài là G$_H$ = 250 kVA. Biện pháp sử dụng tụ điện để lọc sóng hài là:
+*a. Tụ tiêu chuẩn có điện áp 450V + cuộn kháng lọc sóng hài
+b. Tụ tiêu chuẩn có điện áp 450V
+c. Tụ tiêu chuẩn
+d. Mạch lọc
+
+Câu 4: Tác dụng của công suất phản kháng
+a. Tạo công suất tác dụng để có lực quay
+b. Tạo công suất có ích cho trục động cơ
+c. Không có tác dụng gì
+*d. Tạo từ thông trong động cơ
+
+Câu 5: Máy biến áp có S = 1000 kVA, điện áp ngắn mạch là U$_n$ = 6%. Tổng công suất của thiết bị sinh sóng hài là G$_H$ = 200 kVA. Biện pháp sử dụng tụ điện để lọc sóng hài là:
+a. Tụ tiêu chuẩn
+b. Tụ tiêu chuẩn có điện áp 450V + cuộn kháng lọc sóng hài
+*c. Tụ tiêu chuẩn có điện áp 450V
+d. Mạch lọc
+
+Câu 6: Hệ số được xác định bằng:
+a. Là tỷ số $\frac{Q}{P}$
+b. Là tỷ số $\frac{P}{Q}$
+*c. Là tỷ số $\frac{P}{S}$
+d. Là tỷ số $\frac{Q}{S}$
+
+Câu 7: Thiết bị đóng cắt khi thực hiện bù ứng động
+a. MCCB, ACB
+*b. MCCB, Contactor
+c. FCO, cầu chì
+d. Không cần thiết bị đóng cắt
+
+Câu 8: Vị trí lắp đặt tụ bù thường dùng:
+*a. Tất cả các đáp án trên
+b. Tại trạm
+c. Tại tủ điện
+d. Tại vị trí tải
+
+Câu 9: Bù tại trạm là phương pháp bù
+*a. Bù tập trung
+b. Bù nhóm
+c. Cả 3 phương án trên
+d. Bù riêng lẻ
+
+Câu 10: Bù tại tủ điện phân phối khu vực là phương pháp bù
+*a. Bù riêng lẻ
+b. Bù nhóm
+c. Bù tập trung
+d. Cả 3 phương án trên
+
+Câu 11: Điều nào sau đây là sai khi nói về tụ bù?
+a. Tổn thất công suất trong tụ điện rất nhỏ, khoảng 0,5 W/kVAr
+b. Tuổi thọ ngắn (8-10 năm) và độ bền kém (dễ hư hỏng)
+*c. Công suất phản kháng phát ra không phụ thuộc vào điện áp đặt vào tụ
+d. Giá thành thấp
+
+Câu 12: Điều nào sau đây là sai khi nói về máy bù đồng bộ?
+a. Có thể phát ra hay thu công suất phản kháng
+*b. Tổn thất trong máy bù rất nhỏ
+c. Công suất phản kháng phát ra không phụ thuộc điện áp của mạng
+d. Chỉ được đặt ở cấp trung áp vì máy bù thường được chế tạo với cấp điện áp này
+
+Câu 13: Cho trạm biến áp có S$_{MBA}$ = 1000 kVA, Q$_{bù}$ = 40% S$_{MBA}$. Chọn số lượng và dung lượng tụ bù ứng động
+a. 8 x 50 kVAr
+b. 3 x 50 kVAr
+*c. 5 x 50 kVAr
+d. 1 x 400 kVAr
+
+Câu 14: Phương pháp bù nào được cân nhắc đến khi công suất động cơ đáng kể so với công suất mạng điện
+*a. Bù riêng lẻ
+b. Cả 3 phương án trên
+c. Bù nhóm
+d. Bù tập trung
+
+Câu 15: Cho trạm biến áp có S$_{MBA}$ = 1000 kVA, Q$_{bù}$ = 40% S$_{MBA}$. Chọn thiết bị bảo vệ cho tụ bù
+a. ACB 1000A – 42kA
+b. MCCB 125A – 25kA
+*c. MCCB 125A – 32kA
+d. ACB 100A – 32kA
+
+Câu 16: Muốn nâng cao hệ số công suất tại một điểm, ta cần:
+a. Giảm S
+*b. Giảm Q
+c. Giảm P
+d. Giảm P và Q đi qua nó
+
+Câu 17: Bộ tụ bù có dung lượng Q$_{bù}$ = 50kVAr, chọn MCCB có dòng thích hợp:
+*a. 125 A
+b. 100 A
+c. 50 A
+d. 12 A
+
+Câu 18: Biện pháp phi kỹ thuật để nâng cao hệ số công suất:
+a. Giảm dòng điện đi trên dây dẫn
+b. Sử dụng tụ bù công suất phản kháng
+*c. Phạt khi tải có hệ số công suất thấp
+d. Sử dụng máy bù đồng bộ
+
+Câu 19: Việc bù công suất phản kháng được thực hiện tại
+a. Động cơ bước
+*b. Máy biến áp
+c. Tủ điện phân phối chính
+d. Động cơ cảm ứng
+
+Câu 20: Ưu điểm của tụ bù hạ áp
+a. Có khả năng phát và thu công suất phản kháng
+*b. Có thể điều chỉnh theo cấp
+c. Công suất phản kháng đặt ra phụ thuộc vào điện áp đặt trên tụ
+d. Giá thành thấp
+
+Câu 21: Biện pháp giảm lượng dòng công suất phản kháng chạy trên dây tải điện hạ thế người ta thường làm:
+a. Di dời phụ tải về nguồn gần nhất
+b. Lắp đặt máy bù
+c. Không cho khách hàng dùng thiết bị có tiêu thụ Q
+*d. Lắp đặt tụ bù ở tâm phụ tải
+
+Câu 22: Dung lượng tụ bù nào sau đây không đúng?
+a. 40 kVAr
+b. 60 kVAr
+*c. 70 kVAr
+d. 50 kVAr
+
+Câu 23: Dựa vào IEC hãy xác định dung lượng tụ bù tối đa tại đầu cực động cơ cảm ứng 110kW, 400V để không gây ra hiện tượng tự kích tại tốc độ 1000 vòng/phút
+*a. 33 kVAr
+b. 47 kVAr
+c. 39 kVAr
+d. 52 kVAr
+
+Câu 24: Tụ điện thường gắn thêm cuộn dây để làm gì?
+a. Lọc nhiễu
+*b. Lọc sóng hài
+c. Giảm tính cảm của tụ
+d. Giảm tính dung của tụ
+
+Câu 25: So với máy bù đồng bộ thì tụ bù có nhược điểm
+*a. Bù trơn
+b. Khó điều khiển
+c. Không theo bù cấp được
+d. Mắc tiền
+
+Câu 26: Phát biểu nào sai khi nói về biện pháp làm giảm sóng hài lên tụ:
+a. Tụ điện có điện áp tăng 10% và nối tiếp với cuộn kháng lọc sóng hài
+b. Sử dụng mạch lọc sóng hài
+c. Các thiết bị đóng cắt được thiết kế dư từ 1.3 đến 1.5 giá trị định mức
+*d. Sử dụng tụ có dung lượng lớn và điện áp cao 
+
+Câu 27: Người ta thường dùng tụ bù tĩnh SVC khi:
+a. Bù ở lưới điện trung áp và hạ áp
+b. Bù ở lưới điện hạ áp
+c. Bù ở lưới điện áp cao – trung áp
+*d. Bù ở lưới điện cao áp
+
+Câu 28: Máy biến áp có S$_{MBA}$ = 630kVA, mang tải 1 có P$_1$ = 450kW, cos𝜑$_1$= 0.8(tính cảm). Gắn thêm một tải 2 có P$_2$ = 100kW, cos𝜑$_2$= 0.8(tính cảm). Cần bù thêm bao nhiêu để máy biến áp không bị quá tải? (Làm tròn lấy phần nguyên, không lấy phần thập phân)
+a. 130 kVAr
+b. 110 kVAr
+c. 142 kVAr
+*d. 105kVAr
+
+Câu 29: Hệ số công suất của đèn huỳnh quang khi không có tụ bù và có tụ bù theo thứ tự lần lượt là:
+a. 0.5 và 0.96
+b. 0.5 và 0.9
+c. 0.6 và 0.9
+*d. 0.5 và 0.93
+
+Câu 30: Dựa vào IEC và dung lượng tụ bù thực tế, hãy chọn tụ bù cho động cơ có công suất 90kW để tăng hệ số công suất từ 0.75 lên 0.96
+a. 30kVAr
+*b. 50kVAr
+c. 40kVAr
+d. 50kVAr(lặp không chọn)
+
+Câu 31: Tên gọi tiếng anh của thiết bị bù tĩnh là:
+a. Static Var Compensator
+b. Shunt Var Capacity
+c. Shunt Var Compensator
+*d. Static Var Capacity
+
+Câu 32: Đặc điểm nào sau đây là sai khi nói về bù nền?
+*a. Dùng bộ điều khiển khi muốn tự động điều chỉnh bù của tụ
+b. Đóng tụ bán tự động bằng contactor
+c. Bật đồng thời khi đóng điện vào tải
+d. Đóng tụ bằng tay nhờ CB hoặc LBS 
+
+Câu 33: Công thức xác định dung lượng bù:
+a. Q$_{bù}$ = S(tan𝜑$_{trước}$ – tan𝜑$_{sau}$)
+*b. Q$_{bù}$ = P(tan𝜑$_{trước}$ – tan𝜑$_{sau}$)
+c. Q$_{bù}$ = S(tan𝜑$_{sau}$ – tan𝜑$_{trước}$)
+d. Q$_{bù}$ = P(tan𝜑$_{sau}$ – tan𝜑$_{trước}$)
+
+Câu 34: Bộ điều khiển tụ bù ứng động không tồn tại cấp bù nào sau đây?
+a. 4
+*b. 7
+c. 8
+d. 6
+
+Câu 35: Các cấp bù của bộ điều khiển bù ứng động gồm:
+a. 4, 5, 6, 7, 12
+b. 5, 6, 7, 8, 12
+*c. 4, 6, 8, 10, 12
+d. 4, 5, 6, 7, 9, 12
+
+Câu 36: Dung lượng tụ bù nào sau đây không đúng?
+a. 35 kVAr
+b. 50 kVAr
+c. 25 kVAr
+*d. 45 kVAr
+
+Câu 37: Dựa vào IEC hãy xác định dung lượng bù tối đa tại đầu cực động cơ cảm ứng 60HP, 400V để không gây ra hiện tượng tự kích tại tốc độ 1500 vòng/phút
+a. 14 kVAr
+b. 17 kVAr
+*c. 13 kVAr
+d. 11 kVAr
+
+Câu 38: Máy biến áp có S = 500 kVA, điện áp ngắn mạch là U$_n$ = 4%. Tổng công suất của thiết bị sinh sóng hài là G$_H$ = 60 kVA. Biện pháp sử dụng tụ điện để lọc sóng hài là:
+*a. Tụ tiêu chuẩn
+b. Mạch lọc
+c. Tụ tiêu chuẩn có điện áp 450V + cuộn kháng lọc sóng hài
+d. Tụ tiêu chuẩn có điện áp 450V
+
+Câu 39: Phát biểu nào sai khi nói về phương án bù ứng động?
+a. Kết hợp với bộ điều khiển để thay đổi cấp tụ bù
+*b. Đóng tụ 24/24
+c. Bù với dung lượng lớn
+d. Đóng tụ bằng Contactor theo từng cấp
+
+Câu 40: Máy biến áp có S$_{MBA}$ = 1000kVA, mang tải 1 có P$_1$ = 560kW, cos𝜑$_1$= 0.8(tính cảm). Gắn thêm một tải 2 có P$_2$ = 350kW, cos𝜑$_2$= 0.7(tính cảm). Cần bù thêm bao nhiêu để máy biến áp không bị quá tải? (Làm tròn lấy phần nguyên, không lấy phần thập phân)
+a. 250 kVAr
+b. 350 kVAr
+*c. 400 kVAr
+d. 300 kVAr

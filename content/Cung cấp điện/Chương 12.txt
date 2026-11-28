@@ -1,0 +1,123 @@
+Trong sơ đồ bảo vệ nào dây trung tính cũng là dây bảo vệ và được gọi là PEN?
+a. TT
+b. IT
+c. TN – S
+*d. TN – C
+
+Ưu điểm chính của cầu chì so với CB là gì?
+a. Rẻ và khả năng cảm biến dòng rò
+b. Rẻ và có chức năng cách ly
+*c. Rẻ và có khả năng cắt dòng ngắn mạch quá lớn
+d. Rẻ và có khả năng bảo vệ quá tải tốt 
+
+FCO có chức năng là gì?
+a. Bảo vệ chống dòng rò máy biến áp
+b. Bảo vệ thấp áp máy biến áp
+c. Bảo vệ ngắn mạch máy biến áp
+*d. Bảo vệ quá tải và ngắn mạch máy biến áp 
+
+Chức năng của RCBO là gì?
+a. CB bảo vệ mất pha và giúp giám sát mạch điện
+b. CB bảo vệ chống dòng rò
+c. CB bảo vệ chống thấp áp và quá áp
+*d. CB bảo vệ chống dòng rò và bảo vệ chống quá tải 
+
+Hình dưới đây là khí cụ nào?
+@img images/c12-1.png
+a. Relay nhiệt
+b. RCCB
+*c. Contactor
+d. ELCB
+
+Công dụng chính của Contactor là gì?
+*a. Đóng ngắt các tiếp điểm, tạo liên lạc trong mạch điện bằng nút nhấn
+b. Bảo vệ mất pha giúp giám sát pha điện, hoặc cắt nguồn tải động cơ tự động
+c. Làm trễ quá trình đóng và mở các tiếp điểm sau một thời gian chỉ định
+d. Đóng ngắt mạch điện khi quá tải
+
+Công cụ nào dưới đây có thời gian kiểm tra định kỳ 6 tháng/ 1 lần
+a. Sào đo điện
+b. Các công cụ thi công có tay cầm cách điện
+c. Kìm cách điện
+*d. Găng tay cách điện
+
+Tiêu chuẩn IEC nào quy định về các thiết bị bảo vệ dòng rò?
+a.  IEC 479 – 2
+b.  IEC 60989
+c.  IEC 60898
+*d.  IEC 60364
+
+Khí cụ điện nào là máy cắt không khí?
+*a.  ACB
+b.  MCB
+c.  VCB
+d.  MCCB
+
+Khí cụ điện nào dưới đây là thiết bị ngắt dòng rò đất?
+a.  MCB
+b.  RCD
+c.  ACB
+*d.  ELCB
+
+Khí cụ điện nào dưới đây có dòng cắt ngắn mạch lớn (có thể lên tới 80kA)
+a.  VCB
+b.  MCB
+c.  ACB
+*d.  MCCB
+
+Khi xảy ra chạm đất với thiết bị điện ngoài trời, phải cấm người dân đến gần chỗ bị chạm với khoảng cách là bao nhiêu mét?
+a.  4 – 6 mét
+b.  2 – 4 mét
+c.  6 – 8 mét
+*d.  8 – 10 mét
+
+Cấp bảo vệ chống xâm nhập nào dưới đây mang ý nghĩa “chống hoàn toàn bụi xâm nhập và chống xâm nhập của nước khi ngâm liên tục”?
+*a.  IP 68
+b.  IP 64
+c.  IP 66
+d.  IP 62
+
+Aptomat nào dưới đây có bộ phận dập hồ quang bằng chân không?
+a.  MCB
+*b.  VCB
+c.  ACB
+d.  MCCB
+
+Sơ đồ bảo vệ nối đất dưới đây là sơ đồ gì?
+@img images/c12-2.png
+a.  Sơ đồ TN – C
+b.  Sơ đồ IT trung tính cách ly
+c.  Sơ đồ TT
+*d.  Sơ đồ TN – S
+
+Vì lý do an toàn, không lắp đặt thiết bị bảo vệ chống quá tải cho mạch nào sau đây?
+a.  Mạch cấp nguồn cho nam châm của thiết bị nâng/hạ
+b.  Mạch thứ cấp của máy biến dòng
+*c.  Tất cả các đáp án
+d.  Mạch kích từ của máy điện quay
+
+Sơ đồ bảo vệ nối đất dưới đây là sơ đồ gì?
+@img images/c12-3.png
+a.  Sơ đồ TN – S
+*b.  Sơ đồ IT trung tính cách ly
+c.  Sơ đồ TN – C
+d.  Sơ đồ TT
+
+Sơ đồ bảo vệ nối đất dưới đây là sơ đồ gì?
+@img images/c12-4.png
+a.  Sơ đồ TN – C
+*b.  Sơ đồ TT
+c.  Sơ đồ IT trung tính cách ly
+d.  Sơ đồ TN – S
+
+Công cụ nào dưới đây có thời gian kiểm tra định kỳ 3 năm/1 lần?
+a.  Các công cụ thi công có tay cầm cách điện
+*b.  Sào đo điện
+c.  Găng tay cách điện
+d.  Kìm cách điện
+
+Theo tiêu chuẩn IEC 60364 – 4 – 1 thì giá trị điện áp một chiều không được vượt quá bao nhiêu Volt để đảm bảo an toàn khi xảy ra chạm điện?
+a.  50 V
+*b.  120 V
+c.  100 V
+d.  40 V
