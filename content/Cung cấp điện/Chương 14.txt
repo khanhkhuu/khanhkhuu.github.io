@@ -1,0 +1,91 @@
+Kỹ thuật chống sét lan truyền trên đường tín hiệu nào sử dụng các Alavanche Diode làm phần tử tản sét
+a. Ống phóng khí
+b. TDS
+*c. SAD
+d. Diode Zenner
+
+Theo tiêu chuẩn trong và ngoài nước, điện trở nối đất của hệ thống chống sét phải nhỏ hơn bao nhiêu?
+a. 20Ω
+b. 15Ω
+*c. 10Ω
+d. 5Ω
+
+Công nghệ ống phóng khí có giá trị điện áp một chiều trong khoảng bao nhiêu volt?
+a. 100 – 300
+b. 125 – 300
+c. 50 – 300
+*d. 75 – 300
+
+Phần mềm nào dưới đây được dùng để tính toán chống sét?
+a. Proteus
+b. DIALux
+*c. BENJI
+d. Photoshop
+
+Phương pháp chống sét SAD có ưu điểm nào sau đây?
+*a. Thời gian tác động rất nhanh
+b. Bảo vệ thiết bị có công suất lớn
+c. Có khả năng ghép nhiều tổ hợp nâng cao khả năng tản sét, nhưng giá thành rẻ
+d. Khả năng tản dòng sét nhỏ
+
+Đây là biện pháp chống sét đánh trực tiếp nào?
+@img images/c14-1.png
+a. Kim thu sét
+*b. Lồng thu sét
+c. Kim phóng điện sớm ESE
+d. Dây chống sét
+
+Biên độ dòng sét có giá trị không vượt quá bao nhiêu kA?
+a. 350 – 400
+*b. 200 – 300
+c. 250 – 300
+d. 300 – 350
+
+Công nghệ tản sét nào dưới đây dùng các phiến oxit kim loại để làm phần tử tản sét?
+a. SAD
+b. Khe phóng điện
+c. TDS
+*d. MOV
+
+Giá trị xung áp cực đại của ống phóng khí trong khoảng bao nhiêu volt?
+a. 200 – 400
+b. 600 – 800
+c. 800 – 1000
+*d. 400 – 600
+
+Tốc độ đáp ứng của thiết bị cắt sét phải thỏa điều kiện nào sau đây?
+a. < 10 ns
+b. < 2 ns
+*c. < 5 ns
+d. < 15 ns
+
+Hình dưới đây là phương pháp chống sét nào?
+@img images/c14-2.png
+a. Lồng thu sét
+*b. Kim thu sét
+c. Dây chống sét
+d. Kim phóng điện sớm ESE
+
+Ưu điểm của kỹ thuật ống phóng khí là:
+a. Điện dung thấp.
+b. Khả năng chịu dòng cao
+*c. Tất cả các đáp án đều dúng
+d. Trạng thái tổng trở ngắt cao
+
+Cáp Ericore loại E1 sử dụng khi chiều dài tản sét dưới bao nhiêu mét?
+*a. 60
+b. 40
+c. 30
+d. 50
+
+Khi đầu thu sét được lắp trên công trình có độ cao trên 28m thì cần sử dụng tối thiểu bao nhiêu dây dẫn sét?
+*a. 2
+b. 1
+c. 3
+d. 4
+
+Tiết diện dây dẫn sét tối thiểu không được nhỏ hơn bao nhiêu mm$^2$?
+*a. 50
+b. 70
+c. 40
+d. 60
