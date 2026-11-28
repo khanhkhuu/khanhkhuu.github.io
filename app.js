@@ -639,11 +639,6 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       background: #4f46e5;
       color: #fff;
     }
-    .toolbar button.btn-ghost {
-      background: #fff;
-      color: #374151;
-      border: 1px solid #cbd5e1;
-    }
     h1 { font-size: 22px; margin: 0 0 6px; }
     .meta { color: #4b5563; margin: 0 0 22px; }
     h2 {
@@ -753,7 +748,6 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       ${modeLabel ? `<p><em>${escapeHtml(modeParts.join(' · '))}</em></p>` : ''}
     </div>
     <div class="toolbar-actions">
-      <button type="button" class="btn-ghost" id="clearSearchBtn">Xóa tìm</button>
       <button type="button" onclick="window.print()">In / Lưu PDF</button>
     </div>
   </div>
@@ -805,20 +799,23 @@ function openExportPrintWindow({ subjectName, examCount, questionCount, bodyHtml
       }
 
       var input = document.getElementById('answerSearch');
-      var clearBtn = document.getElementById('clearSearchBtn');
       if (input) {
         input.addEventListener('input', function () {
           filterQuestions(input.value);
         });
         input.focus();
       }
-      if (clearBtn && input) {
-        clearBtn.addEventListener('click', function () {
-          input.value = '';
-          filterQuestions('');
-          input.focus();
-        });
-      }
+
+      document.addEventListener('paste', function (e) {
+        if (!input) return;
+        var text = (e.clipboardData || window.clipboardData).getData('text');
+        if (text == null) return;
+        e.preventDefault();
+        input.value = String(text);
+        filterQuestions(input.value);
+        input.focus();
+        input.select();
+      });
     }
 
     if (document.readyState === 'complete') readyView();
