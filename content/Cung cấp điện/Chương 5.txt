@@ -10,12 +10,6 @@ b. Dễ sửa chữa
 c. Giá thành hợp lý
 d. Kích thước nhỏ, tải dòng lớn 
 
-Lưới hệ thống là lưới có điện áp
-a. Từ 35kV trở lên
-b. Từ 500kV trở lên
-*c. Từ 220kV trở lên
-d. Từ 66kV đến 22kV
-
 Sơ đồ mạng phân phối hạ áp nào được sử dụng rộng rãi ở Việt Nam
 a. Hình tia (MBA -> MDB -> Busway -> Thiết bị)
 b. Tất cả đáp án đều đúng
