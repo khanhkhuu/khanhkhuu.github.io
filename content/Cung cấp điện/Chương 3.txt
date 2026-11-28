@@ -35,7 +35,7 @@ c. 2kW/hộ
 d. 5kW/hộ
 
 Tìm giá trị $\text{T}_{max}$ là
-@img images/chuong-3-gia-tri-t-max.png
+@img images/c3-1.png
 a. 6500 giờ
 b. 6605 giờ
 *c. 6570 giờ
@@ -90,7 +90,7 @@ c. Dòng điện của phụ tải theo thời gian
 d. Công suất tính toán của phụ tải
 
 Cho đồ thị phụ tải ngày dưới đây, tính hệ số điện kín của đồ thị phụ Tải
-@img images/chuong-3-cho-do-thi-phu-tai.png
+@img images/c3-2.png
 a. 0.74
 b. 0.72
 c. 0.73
@@ -121,7 +121,7 @@ c. Mức độ sử dụng đồng thời của nhóm phụ tải
 d. Mức độ tin cậy của đồ thị phụ tải
 
 Cho biết hình dưới đây là dạng đồ thị phụ tải gì
-@img images/chuong-3-cho-biet-hinh-duoi-day.png
+@img images/c3-3.png
 a. Đồ thị phụ tải hàng tháng
 *b. Đồ thị phụ tải hàng ngày dạng bậc thang
 c. Đồ thị phụ tải hàng năm
