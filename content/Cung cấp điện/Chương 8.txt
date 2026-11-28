@@ -209,7 +209,7 @@ b. Bằng tiết diện dây pha
 c. Nhỏ hơn tiết diện dây pha
 *d. Theo tiêu chuẩn quy định
 
-Câu 36 Loại dây/cáp hạ áp được sử dụng phổ biến của lưới phân phối hạ áp điện lực cấp cho hộ gia đình là?
+Loại dây/cáp hạ áp được sử dụng phổ biến của lưới phân phối hạ áp điện lực cấp cho hộ gia đình là?
 a. AS
 b. AC
 *c. Duplex

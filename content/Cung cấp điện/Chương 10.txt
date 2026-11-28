@@ -22,7 +22,7 @@ b. 380mm đến 720mm
 c. 360mm đến 780mm
 *d. 380mm đến 760mm
 
-Câu 5: Hình dưới đây thể hiện đặc điểm phản xạ và xuyên thấu nào của vật liệu?
+Hình dưới đây thể hiện đặc điểm phản xạ và xuyên thấu nào của vật liệu?
 @img images/c10-1.png
 *a. Phản xạ hoàn toàn
 b. Phản xạ hỗn hợp định hướng
@@ -334,7 +334,7 @@ b. 60Lm/W
 c. 65Lm/W
 d. 57.5Lm/W
 
-Câu 57: Độ đồng đều chất lượng chiếu sáng trong nhà cần đạt:
+Độ đồng đều chất lượng chiếu sáng trong nhà cần đạt:
 a. $\frac{E_{max}}{E_{min}}$ ≤ 1.8 và $\frac{E_{tb}}{E_{min}}$ ≤ 1.8 
 *b. $\frac{E_{max}}{E_{tb}}$ ≤ 1.6 và $\frac{E_{tb}}{E_{min}}$ ≤ 1.6
 c. $\frac{E_{max}}{E_{tb}}$ ≤ 1.8 và $\frac{E_{tb}}{E_{min}}$ ≤ 1.8
