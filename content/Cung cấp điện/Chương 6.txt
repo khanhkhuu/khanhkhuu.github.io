@@ -40,7 +40,7 @@ a. 2 máy 400kVA
 c. 2 máy 750kVA
 d. 2 máy 800kVA
 
-Máy phát điện phân phối điều chỉnh điện áp
+Máy phát điện phân phối điều chỉnh điện áp:
 a. Dưới tải
 b. Có điện và không tải
 c. Không tải
@@ -77,10 +77,10 @@ c. Dầu làm mát tuần hoàn tự nhiên, không khí bên ngoài đối lưu
 *d. Máy biến áp tuần hoàn dầu tự nhiên, thông gió cưỡng bức
 
 Vì sao máy biến điện áp (PT) tuyệt đối không được vận hành ở chế độ ngắn mạch?
-a. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực và có số vòng dây phía sơ cấp nhiều hơn rất nhiều so với phía thứ cấp nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
-b. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
-c. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì dòng điện phía sơ cấp và thứ cấp của PT tăng cao gây hư hỏng thiết bị
-*d. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì điện áp phía sơ cấp của PT tăng cao gây hỏng thiết bị
+a. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
+b. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì dòng điện phía sơ cấp và thứ cấp của PT sẽ tăng cao gây hư hỏng thiết bị
+c. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực và có số vòng dây phía sơ cấp nhiều hơn rất nhiều so với phía thứ cấp nên khi ngắn mạch, dòng điện phía sơ cấp và thứ cấp sẽ tăng cao gây hư hỏng thiết bị
+*d. Là thiết bị có nguyên lý làm việc hoàn toàn giống MBA lực nên khi ngắn mạch phía thứ cấp thì điện áp phía sơ cấp của PT sẽ tăng cao gây hỏng thiết bị
 
 Giá trị của hệ số quá tải lúc bình thường của MBA là:
 *a. $K^{bt}_{qt} = 1 + (1 - K_{đk}) \text{x} 0.3$
@@ -177,7 +177,7 @@ c. Chân không
 Ở điều kiện làm việc bình thường của MBA theo IEC, quá tải sự cố của MBA:
 a. Phụ thuộc vào phụ tải trước khi sự cố xảy ra
 b. Phụ thuộc vào tuổi thọ MBA
-*c. Phụ thuộc đồ thị phụ tải, nhiệt độ môi trường xung quanh và sự non tải lúc thấp điểm trong ngày, tuần, tháng, mùa
+*c. Phụ thuộc đồ thị phụ tải, nhiệt độ môi trường xung quan và sự non tải lúc thấp điểm trong ngày, tuần, tháng, mùa
 d. Không phụ thuộc vào phụ tải trước sự cố của MBA
 
 MBA có vị trí chỉnh nấc điện áp sơ cấp (cấp 1, 2, 3, 4, 5; nấc 3 là 100% điện áp):
